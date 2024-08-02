@@ -4,13 +4,42 @@ project:
 
 website:
   title: "LANDFIRE 101"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: what-is-landfire.qmd
-        text: What is LANDFIRE?
-
+  sidebar: 
+    style: "docked"
+    search: true
+    contents: auto
+    
+    
+    # navbar:
+  #   left:
+  #     - text: Home
+  #       href: index.qmd
+  #     - text: What is LANDFIRE?
+  #       href: what-is-landfire.qmd
+  #     - text: LANDFIRE Data
+  #       href: lf-data.qmd
+  #       menu: 
+  #         - text: Biophysical Settings
+  #           href: bps.qmd
+  #         - text: Existing Vegetation
+  #           href: existing-veg.qmd
+  #           
+  # sidebar:
+  #   - title: "Biophysical Settings"
+  #     style: "docked"
+  #     contents:
+  #       - bps-spatial.qmd
+  #       - bps-descriptions.qmd
+  #       - bps-models.qmd
+  #   - title: "Existing Vegetation"
+  #     style: "docked"
+  #     contents:
+  #       - evt.qmd
+  #       - evc.qmd
+  #       - evh.qmd    
+        
+        
+        
 format:
   html:
     theme: cosmos
