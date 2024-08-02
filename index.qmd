@@ -1,0 +1,30 @@
+---
+title: "LANDFIRE 101"
+author: "Sarah Hagen"
+toc: true
+format: html
+---
+
+# Introduction to this site
+
+*Insert something here that ties into our prologue stuff. We can replace the text below or include the specific prologue/case study info before or after.*
+
+Welcome to LANDFIRE 101, an introduction to the essential elements of LANDFIRE - Landscape Fire and Resource Management Planning tools - a crucial resource for land management and conservation. Our platform is designed to familiarize you with the LANDFIRE Program, its comprehensive website ([landfire.gov](http://landfire.gov/)), and the invaluable datasets it provides.
+
+Throughout this site, you will gain knowledge on how to access and effectively utilize these datasets. We will guide you through the process of downloading each product and offer practical examples of their applications in real-world scenarios. Furthermore, we will introduce you to additional tools that can enhance your work, making this a comprehensive resource for all your LANDFIRE-related needs.
+
+Whether you are a novice or seeking to deepen your expertise, this training platform provides the insights and practical skills necessary for leveraging LANDFIRE data in your projects. We invite you to join us and discover how these powerful tools can support your endeavors in land management and beyond.
+
+## Goals
+
+-   Introduce the LANDFIRE Program
+-   Introduce the LANDFIRE Program website, landfire.gov
+-   Introduce LANDFIRE datasets and how to get them
+-   Introduce the ways to get data
+-   BONUS CONTENT: Introduce other tools we hope will help you in your work
+
+## What you will learn
+
+-   Basic background information about frequently used LANDFIRE datasets
+-   How and where to download each product
+-   Examples of how these products are commonly used
