@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "LANDFIRE 101",
+    "section": "",
+    "text": "Insert something here that ties into our prologue stuff. We can replace the text below or include the specific prologue/case study info before or after.\nWelcome to LANDFIRE 101, an introduction to the essential elements of LANDFIRE - Landscape Fire and Resource Management Planning tools - a crucial resource for land management and conservation. Our platform is designed to familiarize you with the LANDFIRE Program, its comprehensive website (landfire.gov), and the invaluable datasets it provides.\nThroughout this site, you will gain knowledge on how to access and effectively utilize these datasets. We will guide you through the process of downloading each product and offer practical examples of their applications in real-world scenarios. Furthermore, we will introduce you to additional tools that can enhance your work, making this a comprehensive resource for all your LANDFIRE-related needs.\nWhether you are a novice or seeking to deepen your expertise, this training platform provides the insights and practical skills necessary for leveraging LANDFIRE data in your projects. We invite you to join us and discover how these powerful tools can support your endeavors in land management and beyond.\n\n\n\nIntroduce the LANDFIRE Program\nIntroduce the LANDFIRE Program website, landfire.gov\nIntroduce LANDFIRE datasets and how to get them\nIntroduce the ways to get data\nBONUS CONTENT: Introduce other tools we hope will help you in your work\n\n\n\n\n\nBasic background information about frequently used LANDFIRE datasets\nHow and where to download each product\nExamples of how these products are commonly used"
+  },
+  {
+    "objectID": "index.html#goals",
+    "href": "index.html#goals",
+    "title": "LANDFIRE 101",
+    "section": "",
+    "text": "Introduce the LANDFIRE Program\nIntroduce the LANDFIRE Program website, landfire.gov\nIntroduce LANDFIRE datasets and how to get them\nIntroduce the ways to get data\nBONUS CONTENT: Introduce other tools we hope will help you in your work"
+  },
+  {
+    "objectID": "index.html#what-you-will-learn",
+    "href": "index.html#what-you-will-learn",
+    "title": "LANDFIRE 101",
+    "section": "",
+    "text": "Basic background information about frequently used LANDFIRE datasets\nHow and where to download each product\nExamples of how these products are commonly used"
+  },
+  {
+    "objectID": "what-is-landfire.html",
+    "href": "what-is-landfire.html",
+    "title": "What is LANDFIRE",
+    "section": "",
+    "text": "LANDFIRE, Landscape Fire and Resource Management Planning Tools, is a shared program between the wildland fire management programs of the U.S. Department of Agriculture Forest Service Fire and Aviation branch, and the U.S. Department of the Interior, that provides more than twenty landscape-scale geo-spatial products, 950 vegetation models, and a suite of tools that support all-lands planning, management, and operations. Learn more about the dynamic LANDFIRE Program.\n\n\nLANDFIRE’s mission is to provide agency leaders and managers with a common “all-lands” data set of vegetation and wildland fire/fuels information for strategic fire and resource management planning and analysis.\n\n\n\nThe LANDFIRE Program delivers current, consistent, comprehensive data for the entire United States, including Alaska, Hawai’i, and Puerto Rico and the US Virgin Islands.\nThis multi-partner program produces current, consistent, comprehensive, geospatial data and databases that describe vegetation, wildland fuel, and fire regimes across the United States and insular areas. Use the LANDFIRE Technical Documentation to learn how LF creates the data. Use the LANDFIRE Data Dictionary to help understand and locate LANDFIRE information.\nLF products are available by the following groupings:\n\nReference - contribute data or access databases containing contributed disturbance events\nDisturbance - a suite of products that categorizes annual and historical disturbance events\nVegetation - products that demonstrate vegetation change across the landscape and models of potential pre-European settlement vegetation systems\nFuel - products that demonstrate the composition and characteristics of surface and canopy fuels along with fuel vegetation\nHistorical Fire Regime - products that represent pre-European settlement fire frequency and severity\nTopographic - products that provide geospatial information describing the landscape\n\nThe table below shows a comprehensive list of all the datasets LANDFIRE provides in each category, with links to where you can learn more about each dataset, explore attribute tables, and download data.\n\n\n\nVegetation\nHistorical Fire Regime\nFuel\nDisturbance\nTopographic\nReference\n\n\n\n\nBiophysical Settings\nFire Regime Groups\n13 Anderson Fire Behavior Fuel Models\nAnnual Disturbance\nAspect\nPublic Events Geodatabase\n\n\nEnvironmental Site Potential\nFire Return Interval\n40 Scott and Burgan Fire Behavior Fuel Models\nFuel Disturbance\nElevation\nPublic Reference Database (LFRDB)\n\n\nExisting Vegetation Cover\nPercent of Low-severity Fire\nCanadian Forest Fire Danger Rating System\nHistorical Disturbance\nSlope\n\n\n\nExisting Vegetation Height\nPercent of Mixed-severity Fire\nFuel Characteristic Classification System Fuelbed\nVegetation Disturbance\n\n\n\n\nExisting Vegetation Type\nPercent of Replacement-severity Fire\nFuel Disturbance\nPublic Events Geodatabase\n\n\n\n\nSuccession Class\n\nFuel Loading Models\nForest Transitions Database\n\n\n\n\nVegetation Condition Class\n\nCanopy Base Height\nNon-forest Vegetation Transitions Database\n\n\n\n\nVegetation Departure\n\nCanopy Bulk Density\nVegetation Transition Magnitude\n\n\n\n\n\n\nForest Canopy Cover\n\n\n\n\n\n\n\nForest Canopy Height\n\n\n\n\n\n\n\nFuel Vegetation Cover\n\n\n\n\n\n\n\nFuel Vegetation Height\n\n\n\n\n\n\n\nFuel Vegetation Type"
+  },
+  {
+    "objectID": "what-is-landfire.html#landfires-mission",
+    "href": "what-is-landfire.html#landfires-mission",
+    "title": "What is LANDFIRE",
+    "section": "",
+    "text": "LANDFIRE’s mission is to provide agency leaders and managers with a common “all-lands” data set of vegetation and wildland fire/fuels information for strategic fire and resource management planning and analysis."
+  },
+  {
+    "objectID": "what-is-landfire.html#what-does-landfire-provide",
+    "href": "what-is-landfire.html#what-does-landfire-provide",
+    "title": "What is LANDFIRE",
+    "section": "",
+    "text": "The LANDFIRE Program delivers current, consistent, comprehensive data for the entire United States, including Alaska, Hawai’i, and Puerto Rico and the US Virgin Islands.\nThis multi-partner program produces current, consistent, comprehensive, geospatial data and databases that describe vegetation, wildland fuel, and fire regimes across the United States and insular areas. Use the LANDFIRE Technical Documentation to learn how LF creates the data. Use the LANDFIRE Data Dictionary to help understand and locate LANDFIRE information.\nLF products are available by the following groupings:\n\nReference - contribute data or access databases containing contributed disturbance events\nDisturbance - a suite of products that categorizes annual and historical disturbance events\nVegetation - products that demonstrate vegetation change across the landscape and models of potential pre-European settlement vegetation systems\nFuel - products that demonstrate the composition and characteristics of surface and canopy fuels along with fuel vegetation\nHistorical Fire Regime - products that represent pre-European settlement fire frequency and severity\nTopographic - products that provide geospatial information describing the landscape\n\nThe table below shows a comprehensive list of all the datasets LANDFIRE provides in each category, with links to where you can learn more about each dataset, explore attribute tables, and download data.\n\n\n\nVegetation\nHistorical Fire Regime\nFuel\nDisturbance\nTopographic\nReference\n\n\n\n\nBiophysical Settings\nFire Regime Groups\n13 Anderson Fire Behavior Fuel Models\nAnnual Disturbance\nAspect\nPublic Events Geodatabase\n\n\nEnvironmental Site Potential\nFire Return Interval\n40 Scott and Burgan Fire Behavior Fuel Models\nFuel Disturbance\nElevation\nPublic Reference Database (LFRDB)\n\n\nExisting Vegetation Cover\nPercent of Low-severity Fire\nCanadian Forest Fire Danger Rating System\nHistorical Disturbance\nSlope\n\n\n\nExisting Vegetation Height\nPercent of Mixed-severity Fire\nFuel Characteristic Classification System Fuelbed\nVegetation Disturbance\n\n\n\n\nExisting Vegetation Type\nPercent of Replacement-severity Fire\nFuel Disturbance\nPublic Events Geodatabase\n\n\n\n\nSuccession Class\n\nFuel Loading Models\nForest Transitions Database\n\n\n\n\nVegetation Condition Class\n\nCanopy Base Height\nNon-forest Vegetation Transitions Database\n\n\n\n\nVegetation Departure\n\nCanopy Bulk Density\nVegetation Transition Magnitude\n\n\n\n\n\n\nForest Canopy Cover\n\n\n\n\n\n\n\nForest Canopy Height\n\n\n\n\n\n\n\nFuel Vegetation Cover\n\n\n\n\n\n\n\nFuel Vegetation Height\n\n\n\n\n\n\n\nFuel Vegetation Type"
+  },
+  {
+    "objectID": "what-is-landfire.html#what-is-the-nature-conservancys-connection",
+    "href": "what-is-landfire.html#what-is-the-nature-conservancys-connection",
+    "title": "What is LANDFIRE",
+    "section": "What is The Nature Conservancy’s connection?",
+    "text": "What is The Nature Conservancy’s connection?\nThe Nature Conservancy (TNC) is a Major Partner in the LANDFIRE Program supported by a cooperative agreement. TNC’s LANDFIRE Team works closely with the LANDFIRE Business Leads, program staff, and other partners to provide user support through:\n\nhelping users understand the strengths, weaknesses, and appropriate uses of LANDFIRE products\nlocating, obtaining, and using geospatial data, tools, and models for fire and natural resource management, planning, and implementation\nidentifying and comparing management priorities, evaluating threats to ecosystems, and exploring outcomes under alternative management scenarios"
+  }
+]
