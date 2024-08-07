@@ -100,6 +100,18 @@
     ]
   },
   {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/bps.html",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/bps.html",
+    "title": "Biophysical Settings: An Overview",
+    "section": "",
+    "text": "What does BpS Mean?\nBiophysical Settings are a foundational concept for LANDFIRE defined on the LANDFIRE Program website as:\na modeled representation of the vegetation system that may have been dominant on the landscape prior to Euro-American settlement and is based on both the current biophysical environment and an approximation of modeled past disturbance regimes.\nWe like to think of the BpSs as “ecosystem habitats”, or “potential ecosystem footprints”. Essentially the BpS concept asks “where might an ecosystem occur” based on abiotic factors such as soils, surficial geology, slope and elevation. There are other ecological concepts that are worth contrasting the BpS concept to including:\n\nPotential Natural Vegetation: this concept might be best described by Hengl et al., (2018), “Potential natural vegetation (PNV) is the vegetation cover in equilibrium with climate, that would exist at a given location if not impacted by human activities”. The BpS concept differs from PNV in a couple key ways:\nBpS disturbances included indigenous management, which was extensive in some areas prior to European colonization\nPNVs are typically ‘static’, meaning they represent one “state” which is often the ‘climax’ state. BpSs almost always include multiple “states” representing a dynamic system.\nPre-settlement vegetation: these datasets rely on historical accounts, early land surveys and other methods such as sediment analysis to map ecosystems at a certain point in time. For example, land survey driven ecosystem maps often represent conditions as of ~ 1830s. The BpSs differ in that they 1) do not represent a specific point in time, rather the pre-European condition generally and 2) as with PNVs, they are systems with multiple classes.\n\nAs you will learn in the following sections, LANDFIRE maps, describes, and models each BpS.\n\n\nHow does BpS flow through the product suite?\n\n\n\nBpS is a key dataset that flows through the product suite, generating and contributing to other LANDFIRE datasets.",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings: An Overview"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "LANDFIRE 101",
@@ -121,15 +133,99 @@
     "text": "Basic background information about frequently used LANDFIRE datasets\nHow and where to download each product\nExamples of how these products are commonly used"
   },
   {
-    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/bps.html",
-    "href": "LANDFIRE_Datasets/Biophysical_Settings/bps.html",
-    "title": "Biophysical Settings: An Overview",
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/bps_documents.html",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/bps_documents.html",
+    "title": "Biophysical Settings Descriptions",
     "section": "",
-    "text": "What does BpS Mean?\nBiophysical Settings are a foundational concept for LANDFIRE defined on the LANDFIRE Program website as:\na modeled representation of the vegetation system that may have been dominant on the landscape prior to Euro-American settlement and is based on both the current biophysical environment and an approximation of modeled past disturbance regimes.\nWe like to think of the BpSs as “ecosystem habitats”, or “potential ecosystem footprints”. Essentially the BpS concept asks “where might an ecosystem occur” based on abiotic factors such as soils, surficial geology, slope and elevation. There are other ecological concepts that are worth contrasting the BpS concept to including:\n\nPotential Natural Vegetation: this concept might be best described by Hengl et al., (2018), “Potential natural vegetation (PNV) is the vegetation cover in equilibrium with climate, that would exist at a given location if not impacted by human activities”. The BpS concept differs from PNV in a couple key ways:\nBpS disturbances included indigenous management, which was extensive in some areas prior to European colonization\nPNVs are typically ‘static’, meaning they represent one “state” which is often the ‘climax’ state. BpSs almost always include multiple “states” representing a dynamic system.\nPre-settlement vegetation: these datasets rely on historical accounts, early land surveys and other methods such as sediment analysis to map ecosystems at a certain point in time. For example, land survey driven ecosystem maps often represent conditions as of ~ 1830s. The BpSs differ in that they 1) do not represent a specific point in time, rather the pre-European condition generally and 2) as with PNVs, they are systems with multiple classes.\n\nAs you will learn in the following sections, LANDFIRE maps, describes, and models each BpS.\n\n\nHow does BpS flow through the product suite?\n\n\n\nBpS is a key dataset that flows through the product suite, generating and contributing to other LANDFIRE datasets.",
+    "text": "The Biophysical Settings (BpS) Descriptions are a foundational LANDFIRE product. They set the stage for development of many other LANDFIRE products such as the Biophysical Settings and Succession Class spatial datasets. On this page you will:\n\nLearn how to download all of the BpS Descriptions\nLearn how to download one or a set of BpS Descriptions\nBecome familiar with:\n\nThe concept of BpS and succession class\nHow LANDFIRE documented ‘reference conditions’ (i.e., how our BpSs looked and functioned prior to European colonization)\nWhat is contained in the BpS descriptions",
     "crumbs": [
       "LANDFIRE Datasets",
       "Biophysical Settings",
-      "Biophysical Settings: An Overview"
+      "Biophysical Settings Descriptions"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/bps_documents.html#to-download-all-bps-descriptions",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/bps_documents.html#to-download-all-bps-descriptions",
+    "title": "Biophysical Settings Descriptions",
+    "section": "To download all BpS descriptions",
+    "text": "To download all BpS descriptions\n\nNavigate to the Biophysical Settings Models and Descriptions page of the LANDFIRE Program website (Vegetation→ Biophysical Settings Models and Descriptions).\nScroll down to the Download BpS Models and Descriptions Section near the bottom of the page.\nHere you will see two options: Revised CONUS and Hawaii models and Original Alaska models. Select whichever set you would like, then click on the “BpS Descriptions” which will trigger downloading of a .zip file named “LANDFIRE_CONUS-HI_BpS_Descriptions_Jan2023.zip” (for Revised CONUS and Hawaii) that has 819 Word documents or “Alaska_Original_BpS_Descriptions.zip” (for Alaska) that has 12 pdf documents. This file will most likely land in your “Downloads” directory.\nUse your extraction tool of choice to unzip and explore. One possible way if you are using Windows is to:\n\nright click the file\nselect ‘Extract all’ to access the Windows extraction tool.\n\n\n\n\nScreenshot for where to find the Biophysical Settings Models and Descriptions Page\n\n\n\n\n\n\n\nYou can find the Biophysical Settings Models and Descriptions page from the Vegetation page on the LANDFIRE Program website.\n\n\n\n\n\nScreenshot for downloading and unzipping all BpS descriptions\n\n\n\n\n\n\n\nWhere to click to download all BpS descriptions",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings Descriptions"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/bps_documents.html#first-select-your-bpss-of-interest",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/bps_documents.html#first-select-your-bpss-of-interest",
+    "title": "Biophysical Settings Descriptions",
+    "section": "First, select your BpSs of interest",
+    "text": "First, select your BpSs of interest\n\nGo to the search page.\nFrom here, there are multiple ways to select BpS documents to download:\n\nUse the filters on the left side of the page:\n\nUse the checkboxes under the “Vegetation Types” heading to select all BpS documents for one or more broad Vegetation Types (#1 on ‘Ways to select’ screenshot below)\nUse the checkboxes under the “Map Zone” heading to select all BpS documents for one or more LANDFIRE Map Zones (#2 on ‘Ways to select’ screenshot below).\n\nTo get a Map Zone map you can click the “View map of LANDFIRE Map Zones” text (highlighted with blue arrow on ‘Ways to download’ screenshot below), or access it directly (opens a .jpg file).\n\n\nSearch for a BpS of interest by typing in the ‘Search…’ box (#3 on ‘Ways to select’ screenshot below). A few things to keep in mind when searching:\n\nYou can search by genus and/or species or common name (e.g., ‘Fraxinus’, or ‘White Ash’ )\nMost text terms will work, numbers will not. For example, ‘hurricane’ will return BpSs, ‘1362’ (an actual BpS number) will not.\nYou can first filter by ‘Vegetation Types’ and/or ‘Map Zones’, then search to narrow results.",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings Descriptions"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/bps_documents.html#download-documents-of-interest",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/bps_documents.html#download-documents-of-interest",
+    "title": "Biophysical Settings Descriptions",
+    "section": "Download documents of interest",
+    "text": "Download documents of interest\nOnce you have selected the BpSs you want to get descriptions for you must take one more step to get your documents:\n\nIf you want all of the BpSs for selected ‘Vegetation Types’ and/or ‘Map Zones’ you will click the ‘Download All Search Results Documents’ button (indicated with arrow on ‘Download all’ screenshot below).\nIf you have checked specific BpSs for download, you will click the ‘Download All Selected Documents’ button (indicated with an arrow on ‘Download selected’ screenshot below).\n\n\n\n\n\n\n\nNote\n\n\n\n💡 Clicking either of the ‘Download’ buttons will initiate download of a .zip file that will most likely land in your ‘Downloads’ folder. Use your extraction tool of choice to unzip and explore.\n\n\n\n\n\n\n\n\nWarning\n\n\n\n⚠️ Beware when clicking the ‘Download All Search Results Documents’ button. If not careful you will end up with a huge download of many more documents than you want! Make sure to filter by ‘Vegetation Types’ and/or ‘Map Zones’ first.\n\n\n\n\nScreenshots showing how to select and download BpSs\n\n\n\n\n\n\n\nThree ways to select your BpS(s) of interest\n\n\n\n\n\n\n\n\n\nDownloading all BpSs from filtering by ‘Vegetation Types’ and/or ‘Map Zones’\n\n\n\n\n\n\n\n\n\nDownloading selected BpSs",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings Descriptions"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/bps_documents.html#file-name-map-zones-and-that-number-at-the-top",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/bps_documents.html#file-name-map-zones-and-that-number-at-the-top",
+    "title": "Biophysical Settings Descriptions",
+    "section": "File name, Map Zones and that number at the top",
+    "text": "File name, Map Zones and that number at the top\nThe BpS documents were saved with a numeric code such as “13700_60_63_64_65_66.docx”. This number represents three things:\n\nBpS code: this is the first 4 digits, e.g., “1370” in our example for the “Appalachian (Hemlock-)Northern Hardwood Forest”.\nBpS splits: this is the fifth digit, or “0” in our example. Occasionally an original BpS would be ‘split’ into multiple. For example, in the Great Lakes there is a “Boreal White Spruce-Fir-Hardwood Forest - Inland” (BpS code 13651), and a “Boreal White Spruce-Fir-Hardwood Forest - Coastal” (BpS code 13652), which have a “1” and a “2” in the file name, and BpS code.\nMap Zones: the string of numbers separated by an underscore represents the Map Zones that this particular document (and associated BpS state and transition model) apply to.",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings Descriptions"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/bps_documents.html#fire-frequency-table",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/bps_documents.html#fire-frequency-table",
+    "title": "Biophysical Settings Descriptions",
+    "section": "Fire Frequency Table",
+    "text": "Fire Frequency Table\nThe Fire Frequency Table can be confusing. A few things to keep in mind when viewing this table include:\n\nThe Severity, Avg FI (FI - Fire Interval), and Percent of All Fires values are imported from the Syncro Sim model\nThe values in the Avg FI and Percent of All Fires columns are essentially a ‘composite’ across all succession classes, which may include classes which have very short FIs, and classes with very long FIs.\nThe Min FI and Max FI columns are user populated, and may not necessarily correspond to the aforementioned columns\n\nAn example Fire Frequency table is replicated below.\n\n\n\nSeverity\nAvg FI\nPercent of All Fires\nMin FI\nMax FI\n\n\n\n\nReplacement\n1005\n53\n\n\n\n\nModerate (Mixed)\n1118\n47\n\n\n\n\nLow (Surface)\n\n\n\n\n\n\nAll Fires\n529\n100\n\n\n\n\n\nFire interval is expressed in years for each fire severity class and for all types of fire combined (All Fires). Average FI is the central tendency modeled. Percent of all fires is the percent of fires modeled in that severity class. Minimum and Maximum FIs show the relative range of fire intervals as estimated by model contributors, if known.",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings Descriptions"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/bps_documents.html#succession-classes-table",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/bps_documents.html#succession-classes-table",
+    "title": "Biophysical Settings Descriptions",
+    "section": "Succession Classes Table",
+    "text": "Succession Classes Table\nLANDFIRE did not attempt to map where succession classes were prior to European colonization, as they would have moved around. This table is used to map where succession classes are today. For example, in the ‘Succession Class Table’ below we have highlighted combinations of Existing Height and Cover (and lifeform) that would be mapped as Succession Class A.",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings Descriptions"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/bps_documents.html#model-parameters-table",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/bps_documents.html#model-parameters-table",
+    "title": "Biophysical Settings Descriptions",
+    "section": "Model Parameters Table",
+    "text": "Model Parameters Table\nThis table is essentially an ‘export’ of the SyncroSim model parameters. In other words, experts entered in all of the natural disturbances they knew about into the modeling software, and this table has all of those disturbances, numbers and the ‘results’ of those disturbances.\nIn the ‘Model Parameters Table’ below we have highlighted the top row that would read something like “the wind/weather/stress disturbance would impact the Early1:All succession class once every 1000 years on average (or 0.1% of the succession class yearly on average), and when that disturbance happened it would move the acre back to the beginning of the Early1: All succession class.”\n\n\n\n\n\n\n\n\n\n\n\n\nDisturbance Type\nDisturbance occurs in\nMoves vegetation to\nDisturbance Probability\nReturn Interval (yrs)\nReset Age to New Class Start Age after Disturbance?\nYears Since Last Disturbance\n\n\n\n\nWind or Weather Stress\nEarly1:ALL\nEarly1:ALL\n0.001\n1000\nNo\n0\n\n\nReplacement Fire\nEarly1:ALL\nEarly1:ALL\n0.001\n1000\nYes\n0\n\n\nAlternative Succession\nMid1:OPN\nLate1:CLS\n1\n1\nYes\n100\n\n\nMixed Fire\nMid1:OPN\nMid1:OPN\n0.001\n1000\nNo\n0",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings Descriptions"
     ]
   },
   {
