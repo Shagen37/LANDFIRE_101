@@ -52,7 +52,7 @@ LANDFIRE products provide data for landscape assessment, analysis, and managemen
 
 # Timeline
 
-[![A timeline of LANDFIRE Program milestones from 2002 to 2023. Source: landfire.gov](images/LF_timeline.png){fig-alt="LANDFIRE milestones from 2002 - 2023. In 2002 the LANDFIRE Project began. In 2004 rapid assessment began. In 2009 LANDFIRE released the first LANDFIRE version (LF National) and the LANDFIRE program was initiated. Between 2009 and 2022, five updates were completed as time allowed. In 2022, LANDFIRE began the annual update process with new versions released in 2022 and 2023."}](https://landfire.gov/about-landfire)
+[![A timeline of LANDFIRE Program milestones from 2002 to 2023. Source: landfire.gov](images/LF_timeline.png){fig-alt="LANDFIRE milestones from 2002 - 2023. In 2002 the LANDFIRE Project began. In 2004 rapid assessment began. In 2009 LANDFIRE released the first LANDFIRE version (LF National) and the LANDFIRE program was initiated. Between 2009 and 2022, five updates were completed as time allowed. In 2022, LANDFIRE began the annual update process with new versions released in 2022 and 2023." fig-align="center"}](https://landfire.gov/about-landfire)
 
 In 2004, the LANDFIRE Program was launched in response to growing concerns about the increasing number, severity, and size of wildland fires, as well as the need for consistent national biological and ecological inventory data.
 
