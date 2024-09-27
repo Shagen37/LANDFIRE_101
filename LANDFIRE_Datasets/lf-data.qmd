@@ -4,18 +4,16 @@ author: "Sarah Hagen"
 format: html
 ---
 
-# Frequently Used LANDFIRE Datasets
+# LANDFIRE Vegetation Products: An Overview
 
-***Insert prologuey/case study stuff here to talk about why we think it’s important that people know BpS, EVT, EVC, EVH, SClass, and VDEP***
-
-In our work, we often use different vegetation and fire regime datasets to better understand certain landscapes. Several of these datasets—like Biophysical Settings, Existing Vegetation, and Succession Class—come together to make the Vegetation Departure (VDEP) dataset. We’ll talk more about that specific dataset and what you can do with it in another training session. For now, this section of the website will give you an overview of these important datasets and provide links where you can find more information and download them for your own use.
+In our work, we frequently utilize various vegetation and fire regime datasets to gain a deeper understanding of certain landscapes. Key datasets such as Biophysical Settings, Existing Vegetation, and Succession Class are integrated to create the Vegetation Departure (VDEP) product. This section of the website will give you an overview of these essential datasets, along with links to additional information and download options for your use.
 
 Here, you’ll learn how to access and make good use of these datasets. We’ll walk you through how to download each one and share real-life examples of how they can be applied. We’ll also introduce you to other helpful tools that can improve your work, making this a complete resource for everything LANDFIRE-related.
 
-Whether you’re just starting out or want to expand your knowledge, our site provides the information and practical skills you need to use LANDFIRE data in your projects. Join us and see how these valuable tools can help with land management and more.
-
 # What you will learn in this section
 
-- A brief overview of some commonly used datasets
-- How to download and access LANDFIRE datasets
-- How these key LANDFIRE datasets are linked to one another
+-    A brief overview of some commonly used datasets
+
+-    How to download and access LANDFIRE datasets
+
+-    How these key LANDFIRE datasets are linked to one another

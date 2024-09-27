@@ -8,17 +8,40 @@ format: html
 
 Biophysical Settings are a foundational concept for LANDFIRE defined on the [LANDFIRE Program website](https://landfire.gov/vegetation/bps) as:
 
-*a modeled representation of the vegetation system that may have been dominant on the landscape prior to Euro-American settlement and is based on both the current biophysical environment and an approximation of modeled past disturbance regimes.*
+> *“…a modeled representation of the vegetation system that may have been dominant on the landscape prior to Euro-American settlement and is based on both the current biophysical environment and an approximation of modeled past disturbance regimes.”*
 
-We like to think of the BpSs as “ecosystem habitats”, or “potential ecosystem footprints”. Essentially the BpS concept asks “where might an ecosystem occur” based on abiotic factors such as soils, surficial geology, slope and elevation. There are other ecological concepts that are worth contrasting the BpS concept to including:
+We like to think of the BpSs as “ecosystem habitats”, or “potential ecosystem footprints”. The BpS concept asks “where might an ecosystem occur” based on abiotic factors such as soils, surficial geology, slope and elevation as well as natural disturbance regimes.
 
--   Potential Natural Vegetation: this concept might be best described by [Hengl et al., (2018),](https://peerj.com/articles/5457/?ref=https%3A%2F%2Fgithubhelp.com) “Potential natural vegetation (PNV) is the vegetation cover in equilibrium with climate, that would exist at a given location if not impacted by human activities”. The BpS concept differs from PNV in a couple key ways:
--   BpS disturbances included indigenous management, which was extensive in some areas prior to European colonization
+# Why consider a landscape’s BpS in current analysis?
+
+Placeholder for MD/RS text on landscape assessments
+
+For more, watch this quick guide on Biophysical Settings on YouTube (4 minute video) {{< video https://youtu.be/xjaWJCe7udQ >}}
+
+# Placeholder heading - potentially remove
+
+## Potential Natural Vegetation
+
+This concept might be best described by [Hengl et al., (2018),](https://peerj.com/articles/5457/?ref=https%3A%2F%2Fgithubhelp.com) “Potential natural vegetation (PNV) is the vegetation cover in equilibrium with climate, that would exist at a given location if not impacted by human activities”. The BpS concept differs from PNV in a couple key ways:
+
+-   The BpS concept includes both natural disturbances and indigenous management activities such as the use of fire, which was extensive in some areas prior to European colonization.
+
 -   PNVs are typically ‘static’, meaning they represent one “state” which is often the ‘climax’ state. BpSs almost always include multiple “states” representing a dynamic system.
--   Pre-settlement vegetation: these datasets rely on historical accounts, early land surveys and other methods such as sediment analysis to map ecosystems at a certain point in time. For example, land survey driven ecosystem maps often represent conditions as of \~ 1830s. The BpSs differ in that they 1) do not represent a specific point in time, rather the pre-European condition generally and 2) as with PNVs, they are systems with multiple classes.
+
+## Pre-colonization vegetation
+
+These datasets rely on historical accounts, early land surveys and other methods such as sediment analysis to map ecosystems at a certain point in time. For example, land survey driven ecosystem maps often represent conditions as of \~ 1830s. The BpSs differ in that they:
+
+-   do not represent a specific point in time, rather the pre-European condition generally
+
+-   are systems with multiple classes, just like PNVs.
 
 As you will learn in the following sections, LANDFIRE maps, describes, and models each BpS.
 
-# How does BpS flow through the product suite?
+# **How does BpS flow through the product suite?**
 
-![BpS is a key dataset that flows through the product suite, generating and contributing to other LANDFIRE datasets.](images/BpS_Flow.png){fig-alt="BpS Models and Descriptions contribute to Succession Class data, and the FBFM ruleset. They generate Fire Regime Attributes, Reference Conditions, and Historical Range of Variability. They support the creation of BpS Spatial data. In addition, Succession Class, Reference Conditions, and BpS Spatial data all combine to create LANDFIRE's vegetation departure and Vegetation Condition Class datasets."}
+Need text and/or a new graphic. Can we explain it in text? Is one of these better than the other?
+
+![*BpS is a key dataset that flows through the product suite, generating and contributing to other LANDFIRE datasets.*](images/BpS_Flow.png){fig-alt="BpS Models and Descriptions contribute to Succession Class data, and the FBFM ruleset. They generate Fire Regime Attributes, Reference Conditions, and Historical Range of Variability. They support the creation of BpS Spatial data. In addition, Succession Class, Reference Conditions, and BpS Spatial data all combine to create LANDFIRE's vegetation departure and Vegetation Condition Class datasets."}
+
+![*LANDFIRE Biophysical Settings Related Datasets*](https://www.landfire.gov/sites/default/files/inline-images/BpS_datasets.jpg){fig-alt="LANDFIRE BpS Related Datasets: BpS Descriptions Documents, BpS Descriptions Access Database, Historical Fire Regime Spatial Data, BpS Spatial Data, Vegetation Departure Spatial Data, Reference Condition Table, ST-Sim Reference Condition Models, Succession Class Mapping Rules. BpS code is the link."}

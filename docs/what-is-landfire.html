@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Sarah Hagen">
 
-<title>LANDFIRE 101 - What is LANDFIRE</title>
+<title>What is LANDFIRE – LANDFIRE 101</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -78,13 +78,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./what-is-landfire.html">What is LANDFIRE</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -108,15 +108,21 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./landfire-attributes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Explore LANDFIRE spatial data</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./what-is-landfire.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">What is LANDFIRE</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">LANDFIRE Datasets</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -129,9 +135,9 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
  <span class="menu-text">Biophysical Settings</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -171,14 +177,18 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#what-is-landfire" id="toc-what-is-landfire" class="nav-link active" data-scroll-target="#what-is-landfire">What is LANDFIRE?</a>
   <ul class="collapse">
   <li><a href="#landfires-mission" id="toc-landfires-mission" class="nav-link" data-scroll-target="#landfires-mission">LANDFIRE’s Mission</a></li>
-  <li><a href="#what-does-landfire-provide" id="toc-what-does-landfire-provide" class="nav-link" data-scroll-target="#what-does-landfire-provide">What does LANDFIRE provide?</a></li>
+  <li><a href="#what-does-landfire-provide" id="toc-what-does-landfire-provide" class="nav-link" data-scroll-target="#what-does-landfire-provide">What does LANDFIRE provide?</a>
+  <ul class="collapse">
+  <li><a href="#landfire-data-products-by-category" id="toc-landfire-data-products-by-category" class="nav-link" data-scroll-target="#landfire-data-products-by-category">LANDFIRE Data Products by Category</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#how-data-products-and-information-may-be-used" id="toc-how-data-products-and-information-may-be-used" class="nav-link" data-scroll-target="#how-data-products-and-information-may-be-used">How Data Products and Information may be used</a></li>
-  <li><a href="#timeline" id="toc-timeline" class="nav-link" data-scroll-target="#timeline">Timeline</a></li>
+  <li><a href="#product-developments-and-improvements" id="toc-product-developments-and-improvements" class="nav-link" data-scroll-target="#product-developments-and-improvements">Product Developments and Improvements</a></li>
   <li><a href="#landfire-versions" id="toc-landfire-versions" class="nav-link" data-scroll-target="#landfire-versions">LANDFIRE Versions</a>
   <ul class="collapse">
   <li><a href="#what-is-the-nature-conservancys-connection" id="toc-what-is-the-nature-conservancys-connection" class="nav-link" data-scroll-target="#what-is-the-nature-conservancys-connection">What is The Nature Conservancy’s connection?</a></li>
   </ul></li>
+  <li><a href="#helpful-resources" id="toc-helpful-resources" class="nav-link" data-scroll-target="#helpful-resources">Helpful Resources</a></li>
   </ul>
 </nav>
     </div>
@@ -230,6 +240,8 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://landfire.gov/fire-regime">Historical Fire Regime</a> - products that represent pre-European settlement fire frequency and severity</li>
 <li><a href="https://landfire.gov/topographic">Topographic</a> - products that provide geospatial information describing the landscape</li>
 </ul>
+<section id="landfire-data-products-by-category" class="level3">
+<h3 class="anchored" data-anchor-id="landfire-data-products-by-category">LANDFIRE Data Products by Category</h3>
 <p>The table below shows a comprehensive list of all the datasets LANDFIRE provides in each category, with links to where you can learn more about each dataset, explore attribute tables, and download data.</p>
 <table class="caption-top table">
 <thead>
@@ -351,26 +363,10 @@ ul.task-list li input[type="checkbox"] {
 </table>
 </section>
 </section>
+</section>
 <section id="how-data-products-and-information-may-be-used" class="level1">
 <h1>How Data Products and Information may be used</h1>
-<p>LANDFIRE products provide data for landscape assessment, analysis, and management. This information supports efforts such as identification of areas with similar characteristics, prioritization exercises, modeling capacity and potential, and improving collaboration between landowners with common data sets and analytics. Key applications that use LANDFIRE products are the <a href="https://wfdss.usgs.gov/">Wildland Fire Decision Support System (WFDSS)</a>, <a href="https://iftdss.firenet.gov/landing_page/">Interagency Fuels Treatment Decision Support System</a>, <a href="https://terrestrial-condition-assessment-usfs.hub.arcgis.com/">Terrestrial Condition Assessment</a>, and <a href="https://www.fs.usda.gov/naturalresources/watershed/condition_framework.shtml">Watershed Condition Class</a>.</p>
-</section>
-<section id="timeline" class="level1">
-<h1>Timeline</h1>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://landfire.gov/about-landfire"><img src="images/LF_timeline.png" class="img-fluid figure-img" alt="LANDFIRE milestones from 2002 - 2023. In 2002 the LANDFIRE Project began. In 2004 rapid assessment began. In 2009 LANDFIRE released the first LANDFIRE version (LF National) and the LANDFIRE program was initiated. Between 2009 and 2022, five updates were completed as time allowed. In 2022, LANDFIRE began the annual update process with new versions released in 2022 and 2023."></a></p>
-<figcaption>A timeline of LANDFIRE Program milestones from 2002 to 2023. Source: landfire.gov</figcaption>
-</figure>
-</div>
-<p>In 2004, the LANDFIRE Program was launched in response to growing concerns about the increasing number, severity, and size of wildland fires, as well as the need for consistent national biological and ecological inventory data.</p>
-<p>LANDFIRE produces national-scale spatial products that provide the best available data on vegetation, fuels, fire regimes, and disturbances. These products are widely used by land managers to set priorities, develop management strategies, and create action plans, extending beyond fire management to include climate change research, carbon sequestration planning, and habitat analysis.</p>
-<p>LANDFIRE’s collaborative nature, involving multiple agencies and organizations, has been key to its success. The program has improved relationships among scientists, managers, and the public, increased scientific capacity, and reduced barriers to implementation through a solid scientific foundation. Updates like the 2014 and 2016 Remap have incorporated landscape changes and disturbances, offering significant improvements and new products. LF’s Modeling Dynamic Fuels with an Index System (MoD-FIS) captures seasonal variability in fuels, enhancing fire behavior modeling, while the updated Biophysical Settings product suite provides detailed information about vegetation dynamics and fire regimes, supporting comprehensive land management and ecological decision-making.</p>
-</section>
-<section id="landfire-versions" class="level1">
-<h1>LANDFIRE Versions</h1>
-<p>Beginning in 2022, LANDFIRE is providing annual updates in which the landscape changes from the previous year are represented in the current year products. You can find the data delivery schedule on the <a href="https://landfire.gov/data#schedule">data page of the LANDFIRE Program website</a>.</p>
-<p>LANDFIRE’s version history can be found in the <a href="https://landfire.gov/data/comparison-table">Version Description table</a> on the LANDFIRE Program website. A <a href="https://landfire.gov/data/comparison-table">table comparing all LANDFIRE versions</a> from LANDFIRE National (LFc2001) through the current version is also available on the same page.</p>
+<p>LANDFIRE offers national-scale spatial products that provide the best available data on vegetation, fuels, fire regimes, and disturbances, supporting landscape assessment, analysis, and management. This data aids in identifying areas with similar characteristics, prioritizing tasks, modeling capacity and potential, and fostering collaboration between landowners through shared data sets and analytics. These products are extensively utilized by land managers for setting priorities, formulating management strategies, and devising action plans. Their applications extend beyond fire management to encompass climate change research, carbon sequestration planning, and habitat analysis. Key applications that use LANDFIRE products are the <a href="https://wfdss.usgs.gov/">Wildland Fire Decision Support System (WFDSS)</a>, <a href="https://iftdss.firenet.gov/landing_page/">Interagency Fuels Treatment Decision Support System</a>, <a href="https://terrestrial-condition-assessment-usfs.hub.arcgis.com/">Terrestrial Condition Assessment</a>, and <a href="https://www.fs.usda.gov/naturalresources/watershed/condition_framework.shtml">Watershed Condition Class</a>.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -378,6 +374,35 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-title-container flex-fill">
 Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>💡 <strong>A note on application scale</strong> Application scale in LANDFIRE refers to the minimum area size that the data creators aimed to represent accurately for specific applications. It’s not about detail or spatial resolution, but about the usefulness of the product when zoomed in. LANDFIRE provides data for the entire United States, but its application scale is large landscape, regional, national. This means the data is accurate for large geographies, but may not be precise for specific small areas within that geography. Therefore, understanding application scale is crucial when using LANDFIRE products, as it ensures the data represents the overall landscape faithfully for planning or analysis.</p>
+<p>For more on application scale, you can read Jim Smith’s <a href="https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Pages/landscape-scale-landfire.aspx">blog post</a> on the topic.</p>
+</div>
+</div>
+</section>
+<section id="product-developments-and-improvements" class="level1">
+<h1>Product Developments and Improvements</h1>
+<p>LANDFIRE’s collaborative nature, involving multiple agencies and organizations, has been key to its success. The program has improved relationships among scientists, managers, and the public; increased scientific capacity; and reduced barriers to implementation through a solid scientific foundation.</p>
+<p>LANDFIRE has made significant improvements over the years. For example:</p>
+<ul>
+<li><p>Updates like the 2014 and 2016 Remap have incorporated landscape changes.</p></li>
+<li><p>LANDFIRE’s Modeling Dynamic Fuels with an Index System (<a href="https://www.landfire.gov/fuel/lfmodfis/modfis">MoD-FIS</a>) captures seasonal variability in fuels, enhancing fire behavior modeling.</p></li>
+<li><p>The updated Biophysical Settings product suite provides detailed information about vegetation dynamics and fire regimes, supporting comprehensive land management and ecological decision making</p></li>
+</ul>
+</section>
+<section id="landfire-versions" class="level1">
+<h1>LANDFIRE Versions</h1>
+<p>Beginning in 2022, LANDFIRE is providing annual updates in which the landscape changes from the previous year are represented in the current year products. You can find the data delivery schedule on the <a href="https://landfire.gov/data#schedule">data page of the LANDFIRE Program website</a>.</p>
+<p>LANDFIRE’s version history can be found in the <a href="https://landfire.gov/data/comparison-table">Version Description table</a> on the LANDFIRE Program website. A <a href="https://landfire.gov/data/comparison-table">table comparing all LANDFIRE versions</a> from LANDFIRE National (LFc2001) through the current version is also available on the same page. LANDFIRE keeps three versions online for immediate download at all times. Versions not listed can be requested through the <a href="https://landfire.gov/contact">LANDFIRE Helpdesk</a>.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -393,15 +418,20 @@ Note
 </ul>
 <section id="what-is-the-nature-conservancys-connection" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-the-nature-conservancys-connection">What is The Nature Conservancy’s connection?</h2>
-<p>The Nature Conservancy (TNC) is a <a href="https://www.landfire.gov/about-landfire/lfpartners">Major Partner</a> in the LANDFIRE Program supported by a cooperative agreement. TNC’s LANDFIRE Team works closely with the LANDFIRE Business Leads, program staff, and other partners to provide user support through:</p>
+<p>The Nature Conservancy (TNC) is a <a href="https://www.landfire.gov/about-landfire/lfpartners">major partner</a> in the LANDFIRE Program supported by a cooperative agreement through the USDA Forest Service. TNC’s LANDFIRE Team works closely with the LANDFIRE Business Leads, program staff, and other partners to provide support to LANDFIRE users.</p>
+<p>LANDFIRE user support can take many forms. Providing this assistance can range from in-person and online workshops to monthly office hours, newsletters and data alerts to learning website development and technical, personalized assistance. TNC’s LANDFIRE team is dedicated to developing current, user-focused LANDFIRE resources that advance natural resource work, amplify the appropriate use of LANDFIRE products, and leverage the collective knowledge of the natural resource community.</p>
+<p><a href="https://www.landfire.gov">LANDFIRE’s website</a> offers a wealth of resources related to wildland fire and natural resource management. Users can access all LANDFIRE data, resources, applications, and update information on the <a href="https://www.landfire.gov">LANDFIRE Program website</a>.</p>
+</section>
+</section>
+<section id="helpful-resources" class="level1">
+<h1>Helpful Resources</h1>
 <ul>
-<li><p>helping users understand the strengths, weaknesses, and appropriate uses of LANDFIRE products</p></li>
-<li><p>locating, obtaining, and using geospatial data, tools, and models for fire and natural resource management, planning, and implementation</p></li>
-<li><p>identifying and comparing management priorities, evaluating threats to ecosystems, and exploring outcomes under alternative management scenarios</p></li>
+<li><p>Use the <a href="https://pubs.usgs.gov/publication/ofr20231045">LANDFIRE Technical Documentation</a> to learn how LANDFIRE creates the data.</p></li>
+<li><p>Use the <a href="https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf">LANDFIRE Data Dictionary</a> to help understand and locate LANDFIRE information.</p></li>
+<li><p>Use the <a href="mailto:helpdesk@landfire.gov">LANDFIRE Helpdesk</a> for any questions you have about LANDFIRE products.</p></li>
 </ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -440,18 +470,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -483,7 +502,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -491,7 +532,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

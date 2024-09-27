@@ -7,24 +7,24 @@ format: html
 
 # Introduction to this site
 
-*Insert something here that ties into our prologue stuff. We can replace the text below or include the specific prologue/case study info before or after.*
+Imagine you are Rhonda (District) Ranger. On your district are many land management challenges and opportunities including timber harvest, wildfire, fuels buildup, recreation, wildlife habitat alteration and climate change. Many of the broad goals and objectives are written in the forest plan, but you have flexibility at the project level and must decide what to do when. This is no easy task as there may be competing interests. Information alone will not solve the problem, but is necessary for documentation, trust building, and informed decision making. While LANDFIRE does not provide every single dataset, tool or model for every natural resource decision, the products typically provide a solid starting point.
 
-Welcome to LANDFIRE 101, an introduction to the essential elements of LANDFIRE - Landscape Fire and Resource Management Planning tools - a crucial resource for land management and conservation. Our platform is designed to familiarize you with the LANDFIRE Program, its comprehensive website ([landfire.gov](http://landfire.gov/)), and the invaluable datasets it provides.
+Welcome to LANDFIRE 101, an introduction to the essential elements of LANDFIRE - Landscape Fire and Resource Management Planning tools - a crucial resource for land management and conservation. This platform is designed to familiarize you with the LANDFIRE Program, its comprehensive website ([landfire.gov](http://landfire.gov/)), and some of the invaluable datasets it provides.
 
-Throughout this site, you will gain knowledge on how to access and effectively utilize these datasets. We will guide you through the process of downloading each product and offer practical examples of their applications in real-world scenarios. Furthermore, we will introduce you to additional tools that can enhance your work, making this a comprehensive resource for all your LANDFIRE-related needs.
+This LANDFIRE 101 learning website serves as a supporting addendum to the comprehensive [LANDFIRE Program website](https://www.landfire.gov). The LANDFIRE 101 learning website can be followed from start-to-finish and provides practical support for new LANDFIRE users. This supporting site should be used in conjunction to (not instead of) the [LANDFIRE Program website](https://www.landfire.gov). As such, we provide essentials for getting started with using and applying LANDFIRE products and each page provides multiple opportunities for exploring these data further on the comprehensive [LANDFIRE Program website](https://www.landfire.gov).
 
 Whether you are a novice or seeking to deepen your expertise, this training platform provides the insights and practical skills necessary for leveraging LANDFIRE data in your projects. We invite you to join us and discover how these powerful tools can support your endeavors in land management and beyond.
 
-## Goals
-
--   Introduce the LANDFIRE Program
--   Introduce the LANDFIRE Program website, landfire.gov
--   Introduce LANDFIRE datasets and how to get them
--   Introduce the ways to get data
--   BONUS CONTENT: Introduce other tools we hope will help you in your work
-
 ## What you will learn
 
--   Basic background information about frequently used LANDFIRE datasets
--   How and where to download each product
--   Examples of how these products are commonly used
+Our LANDFIRE 101 learning website provides a foundation for:
+
+-   Understanding each LANDFIRE vegetation product and selected fuels products
+
+-   Navigating the [LANDFIRE Program website](https://www.landfire.gov) to find and download LANDFIRE products
+
+-   Explaining important attributes of LANDFIRE vegetation and fuels products
+
+-   Learning about LANDFIRE use cases
+
+-   Avoiding common misapplications of the data, knowledge of frequently encountered issues, and overcoming potential data pitfalls

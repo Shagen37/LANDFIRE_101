@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -78,15 +78,15 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
       LANDFIRE 101
       </li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -110,15 +110,21 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./landfire-attributes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Explore LANDFIRE spatial data</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./what-is-landfire.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">What is LANDFIRE</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">LANDFIRE Datasets</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -131,9 +137,9 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
  <span class="menu-text">Biophysical Settings</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -172,7 +178,6 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#introduction-to-this-site" id="toc-introduction-to-this-site" class="nav-link active" data-scroll-target="#introduction-to-this-site">Introduction to this site</a>
   <ul class="collapse">
-  <li><a href="#goals" id="toc-goals" class="nav-link" data-scroll-target="#goals">Goals</a></li>
   <li><a href="#what-you-will-learn" id="toc-what-you-will-learn" class="nav-link" data-scroll-target="#what-you-will-learn">What you will learn</a></li>
   </ul></li>
   </ul>
@@ -208,26 +213,19 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introduction-to-this-site" class="level1">
 <h1>Introduction to this site</h1>
-<p><em>Insert something here that ties into our prologue stuff. We can replace the text below or include the specific prologue/case study info before or after.</em></p>
-<p>Welcome to LANDFIRE 101, an introduction to the essential elements of LANDFIRE - Landscape Fire and Resource Management Planning tools - a crucial resource for land management and conservation. Our platform is designed to familiarize you with the LANDFIRE Program, its comprehensive website (<a href="http://landfire.gov/">landfire.gov</a>), and the invaluable datasets it provides.</p>
-<p>Throughout this site, you will gain knowledge on how to access and effectively utilize these datasets. We will guide you through the process of downloading each product and offer practical examples of their applications in real-world scenarios. Furthermore, we will introduce you to additional tools that can enhance your work, making this a comprehensive resource for all your LANDFIRE-related needs.</p>
+<p>Imagine you are Rhonda (District) Ranger. On your district are many land management challenges and opportunities including timber harvest, wildfire, fuels buildup, recreation, wildlife habitat alteration and climate change. Many of the broad goals and objectives are written in the forest plan, but you have flexibility at the project level and must decide what to do when. This is no easy task as there may be competing interests. Information alone will not solve the problem, but is necessary for documentation, trust building, and informed decision making. While LANDFIRE does not provide every single dataset, tool or model for every natural resource decision, the products typically provide a solid starting point.</p>
+<p>Welcome to LANDFIRE 101, an introduction to the essential elements of LANDFIRE - Landscape Fire and Resource Management Planning tools - a crucial resource for land management and conservation. This platform is designed to familiarize you with the LANDFIRE Program, its comprehensive website (<a href="http://landfire.gov/">landfire.gov</a>), and some of the invaluable datasets it provides.</p>
+<p>This LANDFIRE 101 learning website serves as a supporting addendum to the comprehensive <a href="https://www.landfire.gov">LANDFIRE Program website</a>. The LANDFIRE 101 learning website can be followed from start-to-finish and provides practical support for new LANDFIRE users. This supporting site should be used in conjunction to (not instead of) the <a href="https://www.landfire.gov">LANDFIRE Program website</a>. As such, we provide essentials for getting started with using and applying LANDFIRE products and each page provides multiple opportunities for exploring these data further on the comprehensive <a href="https://www.landfire.gov">LANDFIRE Program website</a>.</p>
 <p>Whether you are a novice or seeking to deepen your expertise, this training platform provides the insights and practical skills necessary for leveraging LANDFIRE data in your projects. We invite you to join us and discover how these powerful tools can support your endeavors in land management and beyond.</p>
-<section id="goals" class="level2">
-<h2 class="anchored" data-anchor-id="goals">Goals</h2>
-<ul>
-<li>Introduce the LANDFIRE Program</li>
-<li>Introduce the LANDFIRE Program website, landfire.gov</li>
-<li>Introduce LANDFIRE datasets and how to get them</li>
-<li>Introduce the ways to get data</li>
-<li>BONUS CONTENT: Introduce other tools we hope will help you in your work</li>
-</ul>
-</section>
 <section id="what-you-will-learn" class="level2">
 <h2 class="anchored" data-anchor-id="what-you-will-learn">What you will learn</h2>
+<p>Our LANDFIRE 101 learning website provides a foundation for:</p>
 <ul>
-<li>Basic background information about frequently used LANDFIRE datasets</li>
-<li>How and where to download each product</li>
-<li>Examples of how these products are commonly used</li>
+<li><p>Understanding each LANDFIRE vegetation product and selected fuels products</p></li>
+<li><p>Navigating the <a href="https://www.landfire.gov">LANDFIRE Program website</a> to find and download LANDFIRE products</p></li>
+<li><p>Explaining important attributes of LANDFIRE vegetation and fuels products</p></li>
+<li><p>Learning about LANDFIRE use cases</p></li>
+<li><p>Avoiding common misapplications of the data, knowledge of frequently encountered issues, and overcoming potential data pitfalls</p></li>
 </ul>
 
 
@@ -270,18 +268,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -313,7 +300,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -321,7 +330,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
