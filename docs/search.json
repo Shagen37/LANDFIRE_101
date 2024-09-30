@@ -867,5 +867,29 @@
       "Existing Vegetation",
       "Existing Vegetation Type"
     ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Existing_Vegetation/1_existing-vegetation-type.html",
+    "href": "LANDFIRE_Datasets/Existing_Vegetation/1_existing-vegetation-type.html",
+    "title": "Existing Vegetation Type",
+    "section": "",
+    "text": "An overview of the Existing Vegetation Type data\nKey attributes of the EVT data\nWhere to find EVT data",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Existing Vegetation",
+      "Existing Vegetation Type"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Existing_Vegetation/1_existing-vegetation-type.html#comparing-evt-versions-created-before-and-after-2016",
+    "href": "LANDFIRE_Datasets/Existing_Vegetation/1_existing-vegetation-type.html#comparing-evt-versions-created-before-and-after-2016",
+    "title": "Existing Vegetation Type",
+    "section": "Comparing EVT versions created before and after 2016",
+    "text": "Comparing EVT versions created before and after 2016",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Existing Vegetation",
+      "Existing Vegetation Type"
+    ]
   }
 ]
