@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../LANDFIRE_Datasets/lf-data.html">LANDFIRE Datasets</a></li><li class="breadcrumb-item"><a href="../../LANDFIRE_Datasets/Biophysical_Settings/1-bps.html">Biophysical Settings</a></li><li class="breadcrumb-item"><a href="../../LANDFIRE_Datasets/Biophysical_Settings/5-refcon-table.html">The Reference Conditions Table</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../LANDFIRE_Datasets/1_lf-data.html">LANDFIRE Datasets</a></li><li class="breadcrumb-item"><a href="../../LANDFIRE_Datasets/Biophysical_Settings/1-bps.html">Biophysical Settings</a></li><li class="breadcrumb-item"><a href="../../LANDFIRE_Datasets/Biophysical_Settings/5-refcon-table.html">The Reference Conditions Table</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../LANDFIRE_Datasets/lf-data.html" class="sidebar-item-text sidebar-link">
+  <a href="../../LANDFIRE_Datasets/1_lf-data.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">LANDFIRE Datasets: An Overview</span></a>
   </div>
 </li>
@@ -174,6 +174,23 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Existing Vegetation</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../LANDFIRE_Datasets/Existing Vegetation/1_existing-vegetation-type.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Existing Vegetation Type</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
       </ul>
   </li>
     </ul>
@@ -196,7 +213,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../LANDFIRE_Datasets/lf-data.html">LANDFIRE Datasets</a></li><li class="breadcrumb-item"><a href="../../LANDFIRE_Datasets/Biophysical_Settings/1-bps.html">Biophysical Settings</a></li><li class="breadcrumb-item"><a href="../../LANDFIRE_Datasets/Biophysical_Settings/5-refcon-table.html">The Reference Conditions Table</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../LANDFIRE_Datasets/1_lf-data.html">LANDFIRE Datasets</a></li><li class="breadcrumb-item"><a href="../../LANDFIRE_Datasets/Biophysical_Settings/1-bps.html">Biophysical Settings</a></li><li class="breadcrumb-item"><a href="../../LANDFIRE_Datasets/Biophysical_Settings/5-refcon-table.html">The Reference Conditions Table</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">The Reference Conditions Table</h1>
 </div>
@@ -274,23 +291,21 @@ Note
 </figure>
 </div>
 <ul>
-<li>Quickly calculate estimated historical annual acres burned.</li>
+<li><p>Quickly calculate estimated historical annual acres burned.</p></li>
+<li><p><strong>Quantify the amount of a BpS on the landscape</strong>: Let ( A ) represent the acres of the landscape. For example, ( A = 200,000 ) acres.</p></li>
+<li><p><strong>Quantify the return interval:</strong> Let ( R ) be the return interval. For this example, ( R = 25 ), so the annual probability ( P ) is given by: P = 1/R = 1/25 = 0.04</p></li>
+<li><p><strong>Calculate the Area Affected by Surface Fire</strong>: You multiply the acres on the landscape by the return interval. The area affected ( S ) can be calculated as:</p>
+<p>S=A×P</p></li>
+<li><p>Putting it all together, the equation becomes:</p>
+<p>S=200,000×(0.04)=8,000 acres of surface fire</p></li>
+<li><p>The following chart depicts annual acres burned, all fire types, for the most dominant BpSs of the Southern Rockies.</p></li>
 </ul>
-<pre><code>-   **Quantify the amount of a BpS on the landscape**: Let ( A ) represent the acres of the landscape. For example, ( A = 200,000 ) acres.
-
--   **Quantify the return interval:** Let ( R ) be the return interval. For this example, ( R = 25 ), so the annual probability ( P ) is given by: P = 1/R = 1/25 = 0.04
-
--   **Calculate the Area Affected by Surface Fire**: You multiply the acres on the landscape by the return interval. The area affected ( S ) can be calculated as:
-
-    S=A×P
-
--   Putting it all together, the equation becomes:
-
-    S=200,000×(0.04)=8,000 acres of surface fire</code></pre>
-<ul>
-<li>The following chart depicts annual acres burned, all fire types, for the most dominant BpSs of the Southern Rockies.</li>
-</ul>
-<pre><code>![Annual acres burned for all fire types in the Southern Rockies biophysical settings.](images/RCT_AcresBurned.png)</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/RCT_AcresBurned.png" class="img-fluid figure-img"></p>
+<figcaption>Annual acres burned for all fire types in the Southern Rockies biophysical settings.</figcaption>
+</figure>
+</div>
 <p>The reference conditions table is important in landscape assessments and LANDFIRE’s vegetation departure, both of which we will discuss more in-depth in future sections of this learning website.</p>
 </section>
 <section id="where-to-find-the-reference-conditions-table" class="level1">

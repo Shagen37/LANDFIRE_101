@@ -1,7 +1,8 @@
 ---
 title: "Biophysical Settings Descriptions"
 author: "Randy Swaty, Sarah Hagen"
-
+toc: true
+format: html
 ---
 
 # Biophysical Settings Descriptions

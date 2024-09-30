@@ -1,6 +1,8 @@
 ---
 title: "Existing Vegetation Type"
 author: "Sarah Hagen"
+toc: true
+format: html
 ---
 
 # What you will learn here

@@ -1,6 +1,8 @@
 ---
 title: "The Reference Conditions Table"
 author: "Randy Swaty, Sarah Hagen"
+toc: true
+format: html
 ---
 
 # What you will learn here
