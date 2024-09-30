@@ -1,8 +1,7 @@
 ---
 title: "Biophysical Settings Spatial Data"
 author: "Sarah Hagen"
-toc: true
-format: html
+
 ---
 
 # Biophysical Settings Spatial Data

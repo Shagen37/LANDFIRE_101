@@ -1,8 +1,7 @@
 ---
 title: "LANDFIRE Datasets: An Overview"
 author: "Sarah Hagen"
-toc: true
-format: html
+
 ---
 
 # LANDFIRE Vegetation Products: An Overview
