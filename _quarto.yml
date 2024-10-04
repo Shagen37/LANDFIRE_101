@@ -44,7 +44,7 @@ format:
   html:
     theme: cosmos
     css: styles.css
-    toc: true
+    toc: false
     page-layout: full
 
 editor: source
