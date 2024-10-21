@@ -19,13 +19,13 @@ Here are three main reasons to understand the attributes of LANDFIRE data before
 
 # What you will learn here
 
--    How to explore the attribute tables of LANDFIRE datasets
+How to explore the attribute tables of LANDFIRE datasets:
 
-    -    From the LANDFIRE Program website
+-   From the LANDFIRE Program website
 
-    -    In the .csv files for each layer
+-   In the .csv files for each layer
 
-    -    With ArcGIS Pro
+-   With ArcGIS Pro
 
 # How to explore the attributes of LANDFIRE datasets
 
@@ -49,7 +49,7 @@ The LANDFIRE program website is the most comprehensive resource for exploring an
 
 3.  On each individual product page, you will find a section on Key Attributes, which provides more information on the attributes of that specific dataset.
 
-### **Screenshots for where to find attributes on the LANDFIRE website**
+### Screenshots for where to find attributes on the LANDFIRE website
 
 ![*Where to find the data dictionary*](images/data_dictionary.bmp){fig-alt="Arrows pointing to the LF Dictionary link at the bottom of the LANDFIRE Program website main page under the Data Details category in the site footer."}
 
@@ -101,7 +101,7 @@ You can also use ArcGIS Pro to view the attribute tables of each dataset in tand
 
 2.  To explore where a particular attribute value occurs on the landscape, click on the corresponding row number in the attribute table and ArcGIS Pro will highlight those pixels in the map display.
 
-::: {callout-note}
+::: {callout-warning}
 💡 Be sure to use the selection tools in the Map section at the top of the ribbon bar to unselect any rows before doing any data processing. By default, ArcGIS Pro will run all tools on only the selected data and you may end up needing to re-run tools or processes because they were only run on a subset of your full area of interest.
 :::
 
@@ -111,4 +111,6 @@ You can also use ArcGIS Pro to view the attribute tables of each dataset in tand
 
 ![*Highlighting a BpS in the attribute table and the map*](images/4_HighlightAttribute.png){fig-alt="An ArcGIS Pro window with the attribute table open in the bottom half and a map window open in the top half. A row is highlighted in the attribute table with the corresponding pixels highlighted in the map. An arrow is pointing to the row number, showing where to click to highlight the row in the table."}
 
-![*Unselecting attributes*](images/5_UnselectAttribute.png){fig-alt="An ArcGIS Pro window showing the Clear button highlighted in the ribbon bar at the top of the map window under the Selection heading."}
+![Unselecting attributes](images/5_UnselectAttribute.png){fig-alt="An ArcGIS Pro window showing the Clear button highlighted in the ribbon bar at the top of the map window under the Selection heading."} \# Helpful Links
+
+-   Use the [LANDFIRE Data Dictionary](https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf) to help understand and locate LANDFIRE information.
