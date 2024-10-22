@@ -208,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#working-with-the-biophysical-settings-models" id="toc-working-with-the-biophysical-settings-models" class="nav-link" data-scroll-target="#working-with-the-biophysical-settings-models">Working with the Biophysical Settings Models</a>
   <ul class="collapse">
   <li><a href="#download-and-install-syncrosim" id="toc-download-and-install-syncrosim" class="nav-link" data-scroll-target="#download-and-install-syncrosim">Download and Install SyncroSim</a></li>
-  <li><a href="#load-all-landfire-bps-models-using-the-landfire-package" id="toc-load-all-landfire-bps-models-using-the-landfire-package" class="nav-link" data-scroll-target="#load-all-landfire-bps-models-using-the-landfire-package">Load all LANDFIRE BpS models using the LANDFIRE Package</a>
+  <li><a href="#load-all-landfire-bps-models-using-the-landfire-package" id="toc-load-all-landfire-bps-models-using-the-landfire-package" class="nav-link" data-scroll-target="#load-all-landfire-bps-models-using-the-landfire-package"><strong>Load all LANDFIRE BpS models using the LANDFIRE Package</strong></a>
   <ul class="collapse">
   <li><a href="#screenshots-of-loading-landfire-package-and-reference-conditions-library" id="toc-screenshots-of-loading-landfire-package-and-reference-conditions-library" class="nav-link" data-scroll-target="#screenshots-of-loading-landfire-package-and-reference-conditions-library">Screenshots of loading LANDFIRE Package and Reference Conditions Library</a></li>
   </ul></li>
@@ -221,8 +221,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#screenshots-of-running-a-model-and-making-a-chart" id="toc-screenshots-of-running-a-model-and-making-a-chart" class="nav-link" data-scroll-target="#screenshots-of-running-a-model-and-making-a-chart">Screenshots of Running a Model and Making a Chart</a></li>
   </ul></li>
   </ul></li>
-  <li><a href="#common-challenges-with-installing-and-running-syncrosim" id="toc-common-challenges-with-installing-and-running-syncrosim" class="nav-link" data-scroll-target="#common-challenges-with-installing-and-running-syncrosim">Common Challenges With Installing and Running SyncroSim</a></li>
-  <li><a href="#helpful-resources" id="toc-helpful-resources" class="nav-link" data-scroll-target="#helpful-resources">Helpful Resources</a></li>
+  <li><a href="#other-things-you-might-want-to-do-with-biophysical-settings-models" id="toc-other-things-you-might-want-to-do-with-biophysical-settings-models" class="nav-link" data-scroll-target="#other-things-you-might-want-to-do-with-biophysical-settings-models">Other things you might want to do with Biophysical Settings Models</a></li>
+  <li><a href="#helpful-resources" id="toc-helpful-resources" class="nav-link" data-scroll-target="#helpful-resources"><strong>Helpful Resources</strong></a></li>
   </ul>
 </nav>
     </div>
@@ -256,7 +256,6 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="what-you-will-learn-here" class="level1">
 <h1>What you will learn here</h1>
-<p>On this page you will find guidance on:</p>
 <ul>
 <li><p>The basics of Biophysical Settings models</p></li>
 <li><p>Downloading and installing SyncroSim, the software we use for LANDFIRE’s models</p></li>
@@ -264,6 +263,45 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Isolating a subset of BpS models</p></li>
 <li><p>Exploring the models you are interested in</p></li>
 </ul>
+</section>
+<section id="what-are-biophysical-settings-models-and-how-were-they-created" class="level1">
+<h1>What are Biophysical Settings Models, and how were they created?</h1>
+<p>The LANDFIRE Program, in collaboration with hundreds of experts around the country, created a set of over 900 state-and-transition simulation models (STSMs, hereafter referred to as “BpS Models”) for ecosystems in the United States. Each LANDFIRE BpS model represents a Biophysical Setting (BpS). The BpS models, originally created in Vegetation Dynamics Development Tool (aka ‘VDDT’), now updated and manipulated in <a href="http://syncrosim/">SyncroSim</a>, essentially capture historical disturbance regimes and succession of each BpS, and estimate how much of each succession class would have been on the landscape historically. Further, they are now a platform for:</p>
+<ul>
+<li><p>Understanding historical dynamics</p></li>
+<li><p>Exploring how LANDFIRE got to ‘reference conditions’</p></li>
+<li><p>Adding, subtracting, and modifying disturbances and succession classes to not only better understand today’s landscape, but also to look forward</p></li>
+</ul>
+<p>To learn more about the creation of the models, see <a href="https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484">Blankenship et al., (2021).</a></p>
+</section>
+<section id="working-with-the-biophysical-settings-models" class="level1">
+<h1>Working with the Biophysical Settings Models</h1>
+<section id="download-and-install-syncrosim" class="level2">
+<h2 class="anchored" data-anchor-id="download-and-install-syncrosim">Download and Install SyncroSim</h2>
+<p>Installing SyncroSim is similar to installing most software, i.e., you download the application, then click to start an installer, etc. You can find the software on the <a href="https://syncrosim.com/">SyncroSim website</a> - we typically accept all defaults when installing.</p>
+<div class="{callout-tip}">
+<p>Installing on a governmental machine may present challenges, but approval and updates are in the works.</p>
+<p>Running SyncroSim on a Mac is generally not recommended. For more information on this, see the <a href="https://docs.syncrosim.com/getting_started/inst_lin.html">getting started documentation</a> on the SyncroSim website.</p>
+</div>
+</section>
+<section id="load-all-landfire-bps-models-using-the-landfire-package" class="level2">
+<h2 class="anchored" data-anchor-id="load-all-landfire-bps-models-using-the-landfire-package"><strong>Load all LANDFIRE BpS models using the LANDFIRE Package</strong></h2>
+<p>💡<em>Note: Screenshots of the process are included below the written instructions for those who find them useful.</em></p>
+<p>While SyncroSim is powerful as downloaded, adding ‘packages’ will bring even more functionality. For our work you will need to add in the ST-Sim and landfirevegmodels packages. In SyncroSim:</p>
+<ol type="1">
+<li><p>Go to File -&gt; Packages. Click the “Install” button.</p></li>
+<li><p>From the list check the “St-Sim” and “landfirevegmodels” packages, when click “OK”. The install will happen automatically.</p></li>
+<li><p>Close the “Packages” window.</p></li>
+</ol>
+<p>Once you have those packages installed, you are ready to bring in the LANDFIRE vegetation models. To do that will take a few steps:</p>
+<div class="{callout-note}">
+<p>Note: you will need internet for this section.</p>
+</div>
+<ol type="1">
+<li><p>Go to File -&gt; New… This will bring up a “New Library” window.</p></li>
+<li><p>In the New Library window highlight “landfirevegmodels” at the top of the window, <em>then</em> select “Reference Models” near the bottom.</p></li>
+<li><p>Note where the “Reference Models” library will be saved. Change the location if needed. Hit “OK”, then grab a beverage or go for a walk as this will take a few minutes.</p></li>
+</ol>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -274,61 +312,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Note, there are many resources for these steps on the internet, so this page will cover the highlights, and point to those resources at the bottom.</p>
-</div>
-</div>
-</section>
-<section id="what-are-biophysical-settings-models-and-how-were-they-created" class="level1">
-<h1>What are Biophysical Settings Models, and how were they created?</h1>
-<p>The LANDFIRE Program, in collaboration with hundreds of experts around the country, created a set of over 900 state-and-transition simulation models (STSMs, hereafter referred to as “BpS Models”) for ecosystems in the United States. Each LANDFIRE BpS model represents a Biophysical Setting (BpS). The BpS models, originally created in Vegetation Dynamics Development Tool (aka ‘VDDT’), now updated and manipulated in <a href="http://syncrosim/">SyncroSim</a>, essentially capture historical disturbance regimes and succession of each BpS, and estimate how much of each succession class would have been on the landscape historically. Further, they are now a platform for:</p>
-<ul>
-<li><p>Understanding historical dynamics</p></li>
-<li><p>Exploring how LANDFIRE got to ‘reference conditions’</p></li>
-<li><p>Adding, subtracting, and modifying disturbances and succession classes to not only better understand today’s landscape, but also to look forward</p></li>
-<li><p>To learn more about the creation of the models, see <a href="https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484">Blankenship et al., (2021).</a></p></li>
-</ul>
-</section>
-<section id="working-with-the-biophysical-settings-models" class="level1">
-<h1>Working with the Biophysical Settings Models</h1>
-<section id="download-and-install-syncrosim" class="level2">
-<h2 class="anchored" data-anchor-id="download-and-install-syncrosim">Download and Install SyncroSim</h2>
-<p>Installing SyncroSim is similar to installing most software, i.e., you download the application, then click to start an installer, etc. You can find the software on the <a href="https://syncrosim.com/">SyncroSim website</a> - we typically accept all defaults when installing.</p>
-<p>Installing on a governmental machine may present challenges, but approval and updates are in the works.</p>
-<p>Running SyncroSim on a Mac is generally not recommended. For more information on this, see the <a href="https://docs.syncrosim.com/getting_started/inst_lin.html">getting started documentation</a> on the SyncroSim website.</p>
-</section>
-<section id="load-all-landfire-bps-models-using-the-landfire-package" class="level2">
-<h2 class="anchored" data-anchor-id="load-all-landfire-bps-models-using-the-landfire-package">Load all LANDFIRE BpS models using the LANDFIRE Package</h2>
-<div class="callout callout-style-simple callout-none no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><em>Note: Screenshots of the process are included below the written instructions for those who find them useful.</em></p>
-</div>
-</div>
-</div>
-<p>While SyncroSim is powerful as downloaded, adding ‘packages’ will bring even more functionality. For our work you will need to add in the ST-Sim and landfirevegmodels packages. In SyncroSim:</p>
-<ol type="1">
-<li><p>Go to File -&gt; Packages. Click the “Install” button.</p></li>
-<li><p>From the list check the “St-Sim” and “landfirevegmodels” packages, when click “OK”. The install will happen automatically.</p></li>
-<li><p>Close the “Packages” window.</p></li>
-<li><p>Once you have those packages installed, you are ready to bring in the LANDFIRE vegetation models. To do that will take a few steps:</p></li>
-</ol>
-<p>Note: you will need internet for this section.</p>
-<ol type="1">
-<li><p>Go to File -&gt; New… This will bring up a “New Library” window.</p></li>
-<li><p>In the New Library window highlight “landfirevegmodels” at the top of the window, <em>then</em> select “Reference Models” near the bottom.</p></li>
-<li><p>Note where the “Reference Models” library will be saved. Change the location if needed. Hit “OK”, then grab a beverage or go for a walk as this will take a few minutes.</p></li>
-</ol>
-<div class="callout callout-style-simple callout-none no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><em>Note: an “Update Library” window may open once the Reference Models library is downloaded. Click “Apply” at the bottom of that window to proceed.</em></p>
-</div>
+<p>An “Update Library” window may open once the Reference Models library is downloaded. Click “Apply” at the bottom of that window to proceed.</p>
 </div>
 </div>
 <p>Once you complete these steps, SyncroSim will have downloaded and loaded the LANDFIRE BpS Reference Condition Models library into your “Library Explorer” window.</p>
@@ -350,7 +334,6 @@ Note
 </section>
 <section id="isolate-a-subset-of-bps-model" class="level2">
 <h2 class="anchored" data-anchor-id="isolate-a-subset-of-bps-model">Isolate a subset of BpS model</h2>
-<p>You can access a set of <a href="https://thenatureconservancy.github.io/landfiremodels/isolateLoadModel.pdf">downloadable instructions</a> (pdf) and much more information on Biophysical Settings models on the LANDFIRE Vegetation Modeling website.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -361,9 +344,10 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><em>Screenshots of the process are included below the written instructions for those who find them useful.</em></p>
+<p>You can access a set of <a href="https://thenatureconservancy.github.io/landfiremodels/isolateLoadModel.pdf">downloadable instructions</a> (pdf) and much more information on Biophysical Settings models on the LANDFIRE Vegetation Modeling website.</p>
 </div>
 </div>
+<p>💡<em>Note: Screenshots of the process are included below the written instructions for those who find them useful.</em></p>
 <p>We assume you will not want to explore all 900+ LANDFIRE models, so we outline how to subset one or more individual models below.</p>
 <ol type="1">
 <li><p>For good luck close and re-open SyncroSim. Seriously, after installing packages and libraries some of the functions just work better if you do so.</p></li>
@@ -383,7 +367,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><em>Note: we do not suggest selecting many strata at once until you are familiar with the modeling process. Stick to 1-3 initially.</em></p>
+<p>We do not suggest selecting many strata at once until you are familiar with the modeling process. Stick to 1-3 initially.</p>
 </div>
 </div>
 <section id="screenshots-of-isolating-a-model" class="level3">
@@ -410,19 +394,7 @@ Note
 </section>
 <section id="explore-the-models-you-are-interested-in" class="level2">
 <h2 class="anchored" data-anchor-id="explore-the-models-you-are-interested-in">Explore the models you are interested in</h2>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><em>Note: Screenshots of the process are included below the written instructions for those who find them useful.</em></p>
-</div>
-</div>
+<p>💡<em>Note: Screenshots of the process are included below the written instructions for those who find them useful.</em></p>
 <p>OK you are doing a great job. Now you have a library with a subset of strata (i.e., BpSs in this case) that you care about. Now what?</p>
 <p>By exploring the BpS models you can learn how the modeling experts parameterized them, and more interactively see how the disturbances and states all fit together.</p>
 <p>Start exploring:</p>
@@ -471,17 +443,28 @@ Note
 </section>
 </section>
 </section>
-<section id="common-challenges-with-installing-and-running-syncrosim" class="level1">
-<h1>Common Challenges With Installing and Running SyncroSim</h1>
+<section id="other-things-you-might-want-to-do-with-biophysical-settings-models" class="level1">
+<h1>Other things you might want to do with Biophysical Settings Models</h1>
+<ol type="1">
+<li><p><a href="https://thenatureconservancy.github.io/landfiremodels/scripts/video1oneDist.pdf">Modify a BpS Model</a> (opens a pdf)</p></li>
+<li><p><a href="https://thenatureconservancy.github.io/landfiremodels/scripts/video2changeTransAcrossBpS.pdf">Change the probability of a disturbance</a> (opens a pdf)</p></li>
+<li><p><a href="https://thenatureconservancy.github.io/landfiremodels/scripts/video3newdisturbance.pdf">Introduce a new disturbance</a> (opens a pdf)</p></li>
+<li><p><a href="https://thenatureconservancy.github.io/landfiremodels/scripts/video4newState.pdf">Add a new state</a> (opens a pdf)</p></li>
+<li><p><a href="https://thenatureconservancy.github.io/landfiremodels/scripts/video5deleteState.pdf">Delete a state</a> (opens a pdf)</p></li>
+</ol>
 </section>
 <section id="helpful-resources" class="level1">
-<h1>Helpful Resources</h1>
+<h1><strong>Helpful Resources</strong></h1>
 <ul>
-<li><p><a href="https://thenatureconservancy.github.io/landfiremodels/">LANDFIRE’s Vegetation Modeling website:</a> Learn more about BpS models and how to modify and apply hem</p></li>
-<li><p><a href="https://apexrms.com/tools/">SyncroSim website:</a> Learn about SyncroSim and related products</p></li>
-<li><p><a href="https://apexrms.com/training/">SyncroSim Training:</a> Learn about training resources provided by ApexRMS</p></li>
-<li><p><a href="https://docs.stsim.net/getting_started/tutorials.html">State-and-transition simulation model (STSM) Tutorials</a></p></li>
-<li><p><a href="https://www.landfire.gov/vegetation/bps-models">LANDFIRE</a>: Learn about how BpS is used by LANDFIRE</p></li>
+<li><a href="https://thenatureconservancy.github.io/landfiremodels/">LANDFIRE’s Vegetation Modeling website:</a> Learn more about BpS models and how to modify and apply them</li>
+<li><a href="https://www.landfirereview.org/">LANDFIRE BpS Models and Descriptions support website</a>: Learn more about BpS models and descriptions and download the BpS description documents.</li>
+<li><a href="https://www.landfire.gov/sites/default/files/zip/LANDFIRE_BpS-model-description_metadata.zip">LANDFIRE BpS Models and Descriptions metadata</a></li>
+<li><a href="https://apexrms.com/tools/">SyncroSim website:</a> Learn about SyncroSim and related products</li>
+<li><a href="https://apexrms.com/training/">SyncroSim Training:</a> Learn about training resources provided by ApexRMS</li>
+<li><a href="https://docs.stsim.net/getting_started/tutorials.html">State-and-transition simulation model (STSM) Tutorials</a></li>
+<li><a href="https://www.landfire.gov/vegetation/bps-models">LANDFIRE</a>: Learn about how BpS is used by LANDFIRE</li>
+<li><a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3484">Blankenship (2021)</a>: Vegetation dynamics models: a comprehensive set for natural resource assessment and planning in the United States.</li>
+<li><a href="https://www.mdpi.com/2073-445X/11/1/28">Swaty et al (2022)</a>: Assessing Ecosystem Condition: Use and Customization of the Vegetation Departure Metric</li>
 </ul>
 
 

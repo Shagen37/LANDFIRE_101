@@ -205,8 +205,13 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#what-you-will-learn-here" id="toc-what-you-will-learn-here" class="nav-link active" data-scroll-target="#what-you-will-learn-here">What you will learn here</a></li>
   <li><a href="#the-reference-conditions-table" id="toc-the-reference-conditions-table" class="nav-link" data-scroll-target="#the-reference-conditions-table">The Reference Conditions Table</a></li>
+  <li><a href="#linking-the-succession-class-letter-with-the-bps-description-document" id="toc-linking-the-succession-class-letter-with-the-bps-description-document" class="nav-link" data-scroll-target="#linking-the-succession-class-letter-with-the-bps-description-document">Linking the Succession Class Letter with the BpS Description Document</a>
+  <ul class="collapse">
+  <li><a href="#how-succession-class-letters-are-linked-to-bps-description-documents" id="toc-how-succession-class-letters-are-linked-to-bps-description-documents" class="nav-link" data-scroll-target="#how-succession-class-letters-are-linked-to-bps-description-documents">How Succession Class Letters are Linked to BpS Description Documents</a></li>
+  </ul></li>
   <li><a href="#some-common-uses-of-the-reference-conditions-table" id="toc-some-common-uses-of-the-reference-conditions-table" class="nav-link" data-scroll-target="#some-common-uses-of-the-reference-conditions-table">Some common uses of the Reference Conditions Table</a></li>
   <li><a href="#where-to-find-the-reference-conditions-table" id="toc-where-to-find-the-reference-conditions-table" class="nav-link" data-scroll-target="#where-to-find-the-reference-conditions-table">Where to find the Reference Conditions Table</a></li>
+  <li><a href="#helpful-resources" id="toc-helpful-resources" class="nav-link" data-scroll-target="#helpful-resources">Helpful Resources</a></li>
   </ul>
 </nav>
     </div>
@@ -243,7 +248,8 @@ ul.task-list li input[type="checkbox"] {
 <p>The Reference Conditions Table (RCT) is essentially an output from the Biophysical Settings Models that focuses specifically on succession class and fire regime. In this section we will:</p>
 <ul>
 <li><p>Explore the fields in the RCT</p></li>
-<li><p>Discuss RCT use cases</p></li>
+<li><p>Discuss how the RCT is linked to BpS through SClass</p></li>
+<li><p>Consider RCT use cases</p></li>
 <li><p>Explain where to get the table</p></li>
 </ul>
 </section>
@@ -276,13 +282,25 @@ Note
 <li><p>Fire Regime Group: FRG_New</p></li>
 </ol>
 </section>
+<section id="linking-the-succession-class-letter-with-the-bps-description-document" class="level1">
+<h1>Linking the Succession Class Letter with the BpS Description Document</h1>
+<p>The LANDFIRE Succession Class (SClass) product characterizes current vegetation conditions based on existing vegetation cover, height, and species composition within each Biophysical Setting (BpS). It is used to display the current location of reference vegetation states and uncharacteristic states. Reference states are identified by a letter (A-E) and represent different stages of vegetation development. Non-reference states are represented by the codes UE, uncharacteristic exotic, and UN, Uncharacteristic Native. The uncharacteristic classes are not found within the reference condition defined for a BpS, but they may be present on the current landscape. The BpS description document describes the reference states and provides a set of mapping rules for the reference and uncharacteristic native states.</p>
+<section id="how-succession-class-letters-are-linked-to-bps-description-documents" class="level2">
+<h2 class="anchored" data-anchor-id="how-succession-class-letters-are-linked-to-bps-description-documents">How Succession Class Letters are Linked to BpS Description Documents</h2>
+<ol type="1">
+<li><strong>Succession Class Definition</strong>: Each Succession Class letter corresponds to a specific combination of vegetation cover type and structural stage within a BpS. These combinations are detailed in the BpS description documents in the “Succession Classes” section.</li>
+<li><strong>Mapping Rules:</strong> The BpS description documents include mapping rules that define how current vegetation conditions are classified into Succession Classes. These rules consider factors such as vegetation height, canopy cover, and species composition. The rules are applied to geospatial layers of existing vegetation to map the current extent of each Succession Class. More detailed rule sets are available in the <a href="https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip">Succession Class mapping rules spreadsheet</a> (downloads a zip file).</li>
+<li><strong>Reference Conditions:</strong> The BpS description documents also provide the reference amount for each Succession Class, which can be compared to current vegetation conditions. This comparison helps in assessing vegetation departure and condition class. Reference conditions are also available in the <a href="https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip">reference conditions table</a> (downloads a zip file).</li>
+<li><strong>State-and-Transition Models:</strong> The Succession Class letters are linked to state-and-transition models that simulate the growth and disturbance dynamics within each BpS. The parameters for the models are in the “Model Parameters” section of the BpS Description and in the BpS Model library. These models provide a quantitative representation of how vegetation transitions between different Succession Classes over time.</li>
+</ol>
+<p>By linking the Succession Class letters to the detailed descriptions and mapping rules in the BpS documents, LANDFIRE ensures that the classification of vegetation conditions is both accurate and consistent with ecological principles.</p>
+</section>
+</section>
 <section id="some-common-uses-of-the-reference-conditions-table" class="level1">
 <h1>Some common uses of the Reference Conditions Table</h1>
 <p>This table can be a quick way to get reference percentages and to understand overall historical fire dynamics of BpSs. We use the RCT to:</p>
 <ul>
-<li><p>Get reference succession class percentages when making charts such as the demo figure inserted below. This figure depicts reference vs.&nbsp;current succession classes for the Southern Rockies ecoregion and could be helpful when thinking about the major Biophysical Settings on a landscape and how their succession classes may (or may not) have changed over time.</p></li>
-<li><p>Understand the relative proportion of surface, mixed, and replacement fire severity for a given Biophysical Setting.</p></li>
-<li><p>Compare fire frequency, severity, and fire regime between Biophysical Settings.</p></li>
+<li>Get reference succession class percentages when making charts such as the demo figure inserted below. This figure depicts reference vs.&nbsp;current succession classes for the Southern Rockies ecoregion and could be helpful when thinking about the major Biophysical Settings on a landscape and how their succession classes may (or may not) have changed over time.</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -291,15 +309,16 @@ Note
 </figure>
 </div>
 <ul>
+<li><p>Understand the relative proportion of surface, mixed, and replacement fire severity for a given Biophysical Setting.</p></li>
+<li><p>Compare fire frequency, severity, and fire regime between Biophysical Settings.</p></li>
 <li><p>Quickly calculate estimated historical annual acres burned.</p></li>
 <li><p><strong>Quantify the amount of a BpS on the landscape</strong>: Let ( A ) represent the acres of the landscape. For example, ( A = 200,000 ) acres.</p></li>
 <li><p><strong>Quantify the return interval:</strong> Let ( R ) be the return interval. For this example, ( R = 25 ), so the annual probability ( P ) is given by: P = 1/R = 1/25 = 0.04</p></li>
-<li><p><strong>Calculate the Area Affected by Surface Fire</strong>: You multiply the acres on the landscape by the return interval. The area affected ( S ) can be calculated as:</p>
-<p>S=A×P</p></li>
+<li><p><strong>Calculate the Area Affected by Surface Fire</strong>: You multiply the acres on the landscape by the return interval. The area affected ( S ) can be calculated as: S=A×P</p></li>
 <li><p>Putting it all together, the equation becomes:</p>
 <p>S=200,000×(0.04)=8,000 acres of surface fire</p></li>
-<li><p>The following chart depicts annual acres burned, all fire types, for the most dominant BpSs of the Southern Rockies.</p></li>
 </ul>
+<p>The following chart depicts annual acres burned, all fire types, for the most dominant BpSs of the Southern Rockies.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/RCT_AcresBurned.png" class="img-fluid figure-img"></p>
@@ -318,6 +337,14 @@ Note
 <figcaption><em>Where to download the Reference Conditions Table</em></figcaption>
 </figure>
 </div>
+</section>
+<section id="helpful-resources" class="level1">
+<h1>Helpful Resources</h1>
+<ul>
+<li><a href="https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip">The Reference Condition Table</a> (downloads a zip file)</li>
+<li><a href="https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip">Succession Class mapping rules spreadsheet</a> (downloads a zip file)</li>
+<li><a href="https://www.landfire.gov/sites/default/files/documents/Succession_Class_Mapping_Rules_Readme.pdf">SClass Readme file</a></li>
+</ul>
 
 
 </section>

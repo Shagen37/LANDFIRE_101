@@ -5,20 +5,13 @@ toc: true
 format: html
 ---
 
-# Biophysical Settings Descriptions
-
 The Biophysical Settings (BpS) Descriptions are a foundational LANDFIRE product. They set the stage for development of many other LANDFIRE products such as the Biophysical Settings and Succession Class spatial datasets.
 
 # What you will learn here:
 
 -   How to download all (or some) of the BpS Descriptions
-
--   The importance of map zones
-
 -   The concept of BpS and succession class
-
 -   How LANDFIRE documented ‘reference conditions’ (i.e., how our BpSs looked and functioned prior to European colonization)
-
 -   What is contained in the BpS descriptions
 
 # Downloading all of the BpS descriptions
@@ -61,6 +54,10 @@ While we typically work with one or a small set of BpSs, there are times when do
 
 In support of a BpS review process we completed recently, we created a [BpS Models and Descriptions Support](https://landfirereview.org/)website, which has a page that allows for searching for, and downloading a single or a set of BpS Descriptions.
 
+::: {callout-note}
+We recommend using a browser other than Google Chrome to access this site, as some users have reported issues with downloading BpS documents while using Chrome.
+:::
+
 ## First, select your BpSs of interest
 
 -   Go to [the search page](https://landfirereview.org/search.php).
@@ -92,11 +89,11 @@ Once you have selected the BpSs you want to get descriptions for you must take o
 2.  If you have checked specific BpSs for download, you will click the ‘Download All Selected Documents’ button (indicated with an arrow on ‘Download selected’ screenshot below).
 
 ::: callout-note
-💡 Clicking either of the ‘Download’ buttons will initiate download of a .zip file that will most likely land in your ‘Downloads’ folder. Use your extraction tool of choice to unzip and explore.
+Clicking either of the ‘Download’ buttons will initiate download of a .zip file that will most likely land in your ‘Downloads’ folder. Use your extraction tool of choice to unzip and explore.
 :::
 
 ::: callout-warning
-⚠️ Beware when clicking the ‘Download All Search Results Documents’ button. If not careful you will end up with a huge download of many more documents than you want! Make sure to filter by ‘Vegetation Types’ and/or ‘Map Zones’ first.
+Beware when clicking the ‘Download All Search Results Documents’ button. If not careful you will end up with a huge download of many more documents than you want! Make sure to filter by ‘Vegetation Types’ and/or ‘Map Zones’ first.
 :::
 
 ------------------------------------------------------------------------
@@ -125,10 +122,8 @@ The BpS documents were saved with a numeric code such as “13700_60_63_64_65_66
 
 3.  Map Zones: the string of numbers separated by an underscore represents the Map Zones that this particular document (and associated BpS state and transition model) apply to.
 
-:::callout
-💡 **Why are Map Zones important?**
-
-Map zones in LANDFIRE are created through a collaborative effort involving multiple organizations including USGS, US DOI, USDA Forest Service and TNC. Map zones are important for LANDFIRE because they divide the landscape into manageable sections, ensuring consistent data collection and analysis including modeling vegetation and fire and fuels behavior. Each map zone represents distinct ecological regions, helping to depict reference conditions and natural plant communities that existed historically.
+::: callout-note
+You are able to rename the files once downloaded, but please be cautious about deleting the BpS code in the document, as this is the code that will link the document to all other Biophysical Settings products
 :::
 
 ## Fire Frequency Table
@@ -164,8 +159,16 @@ This table is essentially an ‘export’ of the SyncroSim model parameters. In 
 
 In the ‘Model Parameters Table’ below the top row that would read something like “the wind/weather/stress disturbance would impact the Early1:All succession class once every 1000 years on average (or 0.1% of the succession class yearly on average), and when that disturbance happened, the vegetation would respond by returning back to the beginning of the Early1: All succession class.”
 
+**Reset Age Class Start After Disturbance**
+
+In ST-Sim, the “Age Reset” field indicates whether a transition resets the age of a simulation cell to the “Age Min” of the destination class. If the value is “yes,” the age is reset; if “no,” the age remains unchanged. According to LANDFIRE standards, probabilistic transitions that do not change the class do not reset the age (Age Reset = No), except for class A to A replacement disturbances. Transitions that result in a state change do reset the age (Age Reset = Yes).
+
+**Years Since Last Disturbance**
+
+In ST-Sim, the “TST Min” (time-since-transition minimum) field specifies the minimum number of years that must pass before a transition can occur. In LANDFIRE models, this is used only with Alternative Succession transitions and is related to fire disturbances (surface, mixed, and replacement). For example, if an Alternative Succession transition has a TST Min value of 20, it means that this transition can only happen if 20 years have passed since the last fire.
+
 | Disturbance Type | Disturbance occurs in | Moves vegetation to | Disturbance Probability | Return Interval (yrs) | Reset Age to New Class Start Age after Disturbance? | Years Since Last Disturbance |
-|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|-----------|-----------|----------|-----------|--------|------------|-----------|
 | Wind or Weather Stress | Early1:ALL | Early1:ALL | 0.001 | 1000 | No | 0 |
 | Replacement Fire | Early1:ALL | Early1:ALL | 0.001 | 1000 | Yes | 0 |
 | Alternative Succession | Mid1:OPN | Late1:CLS | 1 | 1 | Yes | 100 |
@@ -173,8 +176,9 @@ In the ‘Model Parameters Table’ below the top row that would read something 
 
 ------------------------------------------------------------------------
 
-# Additional resources
+# Helpful resources
 
 -   Blankenship, K., Swaty, R., Hall, K.R., Hagen, S., Pohl, K., Shlisky Hunt, A., Patton, J., Frid, L. and Smith, J., 2021. Vegetation dynamics models: a comprehensive set for natural resource assessment and planning in the United States. Ecosphere, 12(4), p.e03484. [Link to paper](https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484)
 -   [LANDFIRE Vegetation Modeling website](https://thenatureconservancy.github.io/landfiremodels/)
 -   [BpS Models Page](https://landfire.gov/vegetation/bps-models) on the LANDFIRE Program Website
+-   [BpS Models and Descriptions Support website](https://www.landfirereview.org)

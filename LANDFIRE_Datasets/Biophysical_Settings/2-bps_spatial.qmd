@@ -13,8 +13,6 @@ format: html
 
 -   Where to find Biophysical Settings data on the LANDFIRE Program website
 
-------------------------------------------------------------------------
-
 [![LANDFIRE delivers Biophysical Settings data and models for the entire United States, including Alaska and Hawaii. Puerto Rico and the US Virgin Islands do not have BpS data developed. 950 Biophysical Settings are grouped into seven major vegetation classes and displayed using one color family for each class.](images/BpS_map.bmp){fig-alt="A map of the Biophysical Settings data for the Contiguous United States, Alaska, and Hawaii." fig-align="center"}](https://landfire.gov/vegetation/bps-models)
 
 # About Biophysical Settings Spatial Products
@@ -57,7 +55,6 @@ Note, there will be a separate row, and VALUE for each BPS_CODE/MapZone combinat
     -   *PRC_SURFAC*: Percent of historic fires with surface severity for the BpS
     -   *FRG_NEW*: The fire regime group this BpS is found in. Fire regime groups are based on a combination of fire return interval and fire severity. The current Fire Regime Groups were updated in 2016 and have been modified from a previous classification. You can find the new breakdown of fire regime groups in the [Attribute Data Dictionary](https://landfire.gov/sites/default/files/DataDictionary/LF2020/LF20_BPSADD_220.pdf)for the BpS spatial data.
 
-
 # Where to find BpS data
 
 The Biophysical Settings data is included in the [Vegetation section](https://landfire.gov/vegetation/bps) of the LANDFIRE Program Website on the [Biophysical Settings page](https://landfire.gov/vegetation/bps). Here you will find an overview, including the information above along with further details and links to other important documents. Perhaps of most interest are the download links - via the LANDFIRE Map Viewer, full extent downloads, and a variety of ways to stream data into your maps. The page also includes resources such as attribute tables, metadata, and supplemental information.
@@ -68,7 +65,7 @@ NOTE: In a later section of this site, you will learn more about the differences
 
 ![Screenshot of Data Access and Resources on the Biophysical Settings data page](images/BpSSpatial_lfgov.bmp){fig-alt="Location on landfire.gov, the LANDFIRE Program website, of where to find the Data Access and Resources sections of the Biophysical Settings data page. When you browse to landfire.gov/vegetation/bps, these resources are near the bottom of the page under the Data Access and Biophysical Settings Resources headings."}
 
-## Helpful Resources
+# Helpful Resources
 
 -   Bps [Attribute Data Dictionary](https://landfire.gov/sites/default/files/DataDictionary/LF2020/LF20_BPSADD_220.pdf)
 
