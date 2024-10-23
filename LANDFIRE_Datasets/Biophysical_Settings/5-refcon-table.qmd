@@ -48,8 +48,11 @@ The LANDFIRE Succession Class (SClass) product characterizes current vegetation 
 ## How Succession Class Letters are Linked to BpS Description Documents
 
 1.  **Succession Class Definition**: Each Succession Class letter corresponds to a specific combination of vegetation cover type and structural stage within a BpS. These combinations are detailed in the BpS description documents in the “Succession Classes” section.
+
 2.  **Mapping Rules:** The BpS description documents include mapping rules that define how current vegetation conditions are classified into Succession Classes. These rules consider factors such as vegetation height, canopy cover, and species composition. The rules are applied to geospatial layers of existing vegetation to map the current extent of each Succession Class. More detailed rule sets are available in the [Succession Class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads a zip file).
+
 3.  **Reference Conditions:** The BpS description documents also provide the reference amount for each Succession Class, which can be compared to current vegetation conditions. This comparison helps in assessing vegetation departure and condition class. Reference conditions are also available in the [reference conditions table](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip) (downloads a zip file).
+
 4.  **State-and-Transition Models:** The Succession Class letters are linked to state-and-transition models that simulate the growth and disturbance dynamics within each BpS. The parameters for the models are in the “Model Parameters” section of the BpS Description and in the BpS Model library. These models provide a quantitative representation of how vegetation transitions between different Succession Classes over time.
 
 By linking the Succession Class letters to the detailed descriptions and mapping rules in the BpS documents, LANDFIRE ensures that the classification of vegetation conditions is both accurate and consistent with ecological principles.
@@ -95,5 +98,7 @@ To access the file, open the .csv in Excel, R, or any other program you use to v
 # Helpful Resources
 
 -   [The Reference Condition Table](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip) (downloads a zip file)
+
 -   [Succession Class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads a zip file)
+
 -   [SClass Readme file](https://www.landfire.gov/sites/default/files/documents/Succession_Class_Mapping_Rules_Readme.pdf)

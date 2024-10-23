@@ -189,6 +189,35 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Existing Vegetation Type</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../LANDFIRE_Datasets/Existing_Vegetation/2_existing-vegetation-cover.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Existing Vegetation Cover</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../LANDFIRE_Datasets/Existing_Vegetation/3_existing-vegetation-height.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Existing Vegetation Height</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Succession Class</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../LANDFIRE_Datasets/Succession_Class/1_succession-class.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Succession Class</span></a>
+  </div>
+</li>
       </ul>
   </li>
       </ul>
@@ -204,7 +233,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#what-you-will-learn-here" id="toc-what-you-will-learn-here" class="nav-link active" data-scroll-target="#what-you-will-learn-here">What you will learn here</a></li>
-  <li><a href="#existing-vegetation-type" id="toc-existing-vegetation-type" class="nav-link" data-scroll-target="#existing-vegetation-type">Existing Vegetation Type</a></li>
+  <li><a href="#existing-vegetation-type" id="toc-existing-vegetation-type" class="nav-link" data-scroll-target="#existing-vegetation-type">Existing Vegetation Type</a>
+  <ul class="collapse">
+  <li><a href="#key-evt-attributes-include" id="toc-key-evt-attributes-include" class="nav-link" data-scroll-target="#key-evt-attributes-include">Key EVT Attributes include:</a></li>
+  </ul></li>
   <li><a href="#where-to-find-existing-vegetation-type-data" id="toc-where-to-find-existing-vegetation-type-data" class="nav-link" data-scroll-target="#where-to-find-existing-vegetation-type-data">Where to find Existing Vegetation Type data</a>
   <ul class="collapse">
   <li><a href="#screenshot-of-data-access-and-resources-on-the-existing-vegetation-type-page" id="toc-screenshot-of-data-access-and-resources-on-the-existing-vegetation-type-page" class="nav-link" data-scroll-target="#screenshot-of-data-access-and-resources-on-the-existing-vegetation-type-page">Screenshot of Data Access and Resources on the Existing Vegetation Type page</a></li>
@@ -261,10 +293,21 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>LANDFIRE’s (LF) Existing Vegetation Type (EVT-ES) represents the current distribution of the terrestrial ecological systems classification, developed by NatureServe for the western hemisphere, through 2016. A terrestrial ecological system is defined as a group of plant community types (associations) that tend to co-occur within landscapes with similar ecological processes, substrates, and/or environmental gradients. EVT data were created by field plots that were labeled by Auto Keys or expert opinion.</p>
 <p>EVT also includes ruderal or semi-natural vegetation types within the U.S. National Vegetation Classification. The <a href="https://landfire.gov/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf">LANDFIRE Ruderal NVC Groups Descriptions for CONUS</a>provides info for each ruderal NVC Group, including species, distribution, and classification details. At this time, EVT (and other LANDFIRE vegetation layers) extend 90km past the United States border into Mexico and Canada, allowing some crosswalk of EVT and other vegetation systems.</p>
-<div class="/callout-note">
-<p>💡 Prior to LANDFIRE 2016, EVT were created based on the NatureServe terrestrial ecosystems classification. You can still find information on these data under <a href="https://landfire.gov/vegetation/evt">Existing Vegetation Type - Ecological Systems</a>. You can learn more about each of these ecological systems classifications on the separate product pages on the <a href="https://landfire.gov/vegetation">LANDFIRE Program Website</a>. Due to the differences in classification, users should not compare EVT versions created from 2016 onward with those created before 2016.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<p><strong>Key BpS Attributes include:</strong></p>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Prior to LANDFIRE 2016, EVT were created based on the NatureServe terrestrial ecosystems classification. You can still find information on these data under <a href="https://landfire.gov/vegetation/evt">Existing Vegetation Type - Ecological Systems</a>. You can learn more about each of these ecological systems classifications on the separate product pages on the <a href="https://landfire.gov/vegetation">LANDFIRE Program Website</a>. Due to the differences in classification, users should not compare EVT versions created from 2016 onward with those created before 2016.</p>
+</div>
+</div>
+<section id="key-evt-attributes-include" class="level2">
+<h2 class="anchored" data-anchor-id="key-evt-attributes-include">Key EVT Attributes include:</h2>
 <ul>
 <li><p><em>EVT_Name</em>: Ecological Systems names</p></li>
 <li><p><em>EVT_Fuel</em>: The Ecological Systems code used for LANDFIRE fuels product development</p></li>
@@ -278,9 +321,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p><em>EVT_SBCLS</em>: FGDC Vegetation subclass (lowest level/most specific, e.g.&nbsp;Deciduous closed tree canopy)</p></li>
 </ul>
 </section>
+</section>
 <section id="where-to-find-existing-vegetation-type-data" class="level1">
 <h1>Where to find Existing Vegetation Type data</h1>
-<p>The Existing Vegetation Type data is included in the <a href="https://landfire.gov/vegetation/bps">Vegetation section</a> of the LANDFIRE Program Website on the <a href="https://landfire.gov/vegetation/evt">Existing Vegetation Type - Ecological Systems</a> page.</p>
+<p>The Existing Vegetation Type data is included in the <a href="https://landfire.gov/vegetation">Vegetation section</a> of the LANDFIRE Program Website on the <a href="https://landfire.gov/vegetation/evt">Existing Vegetation Type - Ecological Systems</a> page.</p>
 <p>On that page you will find an overview, including the information above along with further details and links to other important documents. Perhaps of most interest are the download links - via the LANDFIRE Map Viewer, full extent downloads, and a variety of ways to stream data into your maps. The page also includes resources such as attribute tables, metadata, and supplemental information.</p>
 <section id="screenshot-of-data-access-and-resources-on-the-existing-vegetation-type-page" class="level2">
 <h2 class="anchored" data-anchor-id="screenshot-of-data-access-and-resources-on-the-existing-vegetation-type-page">Screenshot of Data Access and Resources on the Existing Vegetation Type page</h2>
@@ -316,11 +360,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="helpful-resources" class="level1">
 <h1>Helpful resources</h1>
 <ul>
-<li><a href="https://landfire.gov/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf">LANDFIRE Ruderal NVC Groups Descriptions for CONUS</a></li>
-<li>Wildfire Exposure Risk mapping - <a href="https://link.springer.com/article/10.1007/s10980-020-01173-8">Beverly et al., 2021</a></li>
-<li><a href="https://conservation-data-lab.github.io/cup_assessment/fire.html">Central Upper Peninsula Vegetation Assessment</a>.</li>
-<li>Changes in ecosystems over time - <a href="https://link.springer.com/article/10.1186/s42408-019-0061-9#Abs1">Morgan et al., 2020</a></li>
-<li>Limiting an analysis to ecosystems of interest - <a href="https://link.springer.com/article/10.1186/s42408-024-00264-0">Crockett and Hurteau 2024</a></li>
+<li><p><a href="https://landfire.gov/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf">LANDFIRE Ruderal NVC Groups Descriptions for CONUS</a></p></li>
+<li><p>Wildfire Exposure Risk mapping - <a href="https://link.springer.com/article/10.1007/s10980-020-01173-8">Beverly et al., 2021</a></p></li>
+<li><p><a href="https://conservation-data-lab.github.io/cup_assessment/fire.html">Central Upper Peninsula Vegetation Assessment</a></p></li>
+<li><p>Changes in ecosystems over time - <a href="https://link.springer.com/article/10.1186/s42408-019-0061-9#Abs1">Morgan et al., 2020</a></p></li>
+<li><p>Limiting an analysis to ecosystems of interest - <a href="https://link.springer.com/article/10.1186/s42408-024-00264-0">Crockett and Hurteau 2024</a></p></li>
 </ul>
 
 

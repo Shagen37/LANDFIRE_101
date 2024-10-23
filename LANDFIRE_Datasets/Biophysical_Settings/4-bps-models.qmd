@@ -41,7 +41,7 @@ Installing on a governmental machine may present challenges, but approval and up
 Running SyncroSim on a Mac is generally not recommended. For more information on this, see the [getting started documentation](https://docs.syncrosim.com/getting_started/inst_lin.html) on the SyncroSim website.
 :::
 
-## **Load all LANDFIRE BpS models using the LANDFIRE Package**
+## Load all LANDFIRE BpS models using the LANDFIRE Package
 
 💡*Note: Screenshots of the process are included below the written instructions for those who find them useful.*
 
@@ -173,14 +173,22 @@ Start exploring:
 
 5.  [Delete a state](https://thenatureconservancy.github.io/landfiremodels/scripts/video5deleteState.pdf) (opens a pdf)
 
-# **Helpful Resources**
+# Helpful Resources
 
 -   [LANDFIRE’s Vegetation Modeling website:](https://thenatureconservancy.github.io/landfiremodels/) Learn more about BpS models and how to modify and apply them
--   [LANDFIRE BpS Models and Descriptions support website](https://www.landfirereview.org/): Learn more about BpS models and descriptions and download the BpS description documents.
+
+-   [LANDFIRE BpS Models and Descriptions support website](https://www.landfirereview.org/): Learn more about BpS models and descriptions and download the BpS description documents
+
 -   [LANDFIRE BpS Models and Descriptions metadata](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_BpS-model-description_metadata.zip)
+
 -   [SyncroSim website:](https://apexrms.com/tools/) Learn about SyncroSim and related products
+
 -   [SyncroSim Training:](https://apexrms.com/training/) Learn about training resources provided by ApexRMS
+
 -   [State-and-transition simulation model (STSM) Tutorials](https://docs.stsim.net/getting_started/tutorials.html)
+
 -   [LANDFIRE](https://www.landfire.gov/vegetation/bps-models): Learn about how BpS is used by LANDFIRE
--   [Blankenship (2021)](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3484): Vegetation dynamics models: a comprehensive set for natural resource assessment and planning in the United States.
+
+-   [Blankenship (2021)](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3484): Vegetation dynamics models: a comprehensive set for natural resource assessment and planning in the United States
+
 -   [Swaty et al (2022)](https://www.mdpi.com/2073-445X/11/1/28): Assessing Ecosystem Condition: Use and Customization of the Vegetation Departure Metric

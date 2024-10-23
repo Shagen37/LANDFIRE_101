@@ -22,7 +22,9 @@ The spatial data, state and transition models and descriptions contained in LAND
 Three quick reasons to use BpS:
 
 1.  BpS represent historic patterns and functions, however when used with Succession class data, current vegetation patterns can be explored. (Resource: [Swaty et al., 2021](https://www.mdpi.com/2073-445X/11/1/28))
+
 2.  Coupled with local knowledge, BpS descriptions and models can augment current vegetation information to understand a landscape’s potential. (Resource: [Provencher. et al., 2021](https://www.mdpi.com/2225-1154/9/5/79/pdf))
+
 3.  BpS models can be modified to represent current and future scenarios given predicted changes possible under future climate scenarios. (Resource: [LANDFIRE Vegetation Modeling website](https://thenatureconservancy.github.io/landfiremodels/index.html)).
 
 For more, watch this [quick guide on Biophysical Settings](https://youtu.be/xjaWJCe7udQ) on YouTube (4 minute video). {{< video https://youtu.be/xjaWJCe7udQ >}}
@@ -34,6 +36,7 @@ For more, watch this [quick guide on Biophysical Settings](https://youtu.be/xjaW
 Potential natural vegetation (PNV) refers to the type of vegetation that would naturally grow in a specific area, balanced with the local climate, if there were no human interference. ([Hengl et al., 2018](https://peerj.com/articles/5457/?ref=https%3A%2F%2Fgithubhelp.com)) “Potential natural vegetation (PNV) is the vegetation cover in equilibrium with climate, that would exist at a given location if not impacted by human activities”. The BpS concept differs from PNV in two key ways:
 
 -   PNVs examine vegetation that might exist without any human intervention. The BpS concept includes natural disturbances and indigenous management activities prior to European colonization.
+
 -   PNVs are typically ‘static’, meaning they represent one “state” which is often the ‘climax’ state. BpS almost always includes multiple “states” representing a dynamic system.
 
 ## Pre-colonization vegetation
@@ -41,6 +44,7 @@ Potential natural vegetation (PNV) refers to the type of vegetation that would n
 These datasets rely on historical accounts, early land surveys and other methods such as sediment analysis to map ecosystems at a certain point in time. For example, land survey driven ecosystem maps often represent conditions as of \~ 1830s. The BpSs differ in that they:
 
 -   do not represent a specific point in time, rather the pre-European condition generally, and
+
 -   are systems with multiple classes.
 
 ## Environmental Site Potential
@@ -74,6 +78,9 @@ Map zones in LANDFIRE are created through a collaborative effort involving multi
 # Helpful Links
 
 - Using Biophysical Settings to explore vegetation departure. ([Swaty et al., 2021](https://www.mdpi.com/2073-445X/11/1/28))
+
 - Using BpS and local knowledge to understand a landscape’s potential. ([Provencher. et al., 2021](https://www.mdpi.com/2225-1154/9/5/79/pdf))
-- Modifying BpS models to represent current and future scenarios. ([LANDFIRE Vegetation Modeling website](https://thenatureconservancy.github.io/landfiremodels/index.html)).
+
+- Modifying BpS models to represent current and future scenarios. ([LANDFIRE Vegetation Modeling website](https://thenatureconservancy.github.io/landfiremodels/index.html))
+
 - [Quick guide on Biophysical Settings](https://youtu.be/xjaWJCe7udQ) on YouTube (4 minute video)

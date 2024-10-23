@@ -21,11 +21,11 @@ LANDFIRE's (LF) Existing Vegetation Type (EVT-ES) represents the current distrib
 
 EVT also includes ruderal or semi-natural vegetation types within the U.S. National Vegetation Classification. The [LANDFIRE Ruderal NVC Groups Descriptions for CONUS](https://landfire.gov/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf)provides info for each ruderal NVC Group, including species, distribution, and classification details. At this time, EVT (and other LANDFIRE vegetation layers) extend 90km past the United States border into Mexico and Canada, allowing some crosswalk of EVT and other vegetation systems.
 
-:::/callout-note
-💡 Prior to LANDFIRE 2016, EVT were created based on the NatureServe terrestrial ecosystems classification. You can still find information on these data under [Existing Vegetation Type - Ecological Systems](https://landfire.gov/vegetation/evt). You can learn more about each of these ecological systems classifications on the separate product pages on the [LANDFIRE Program Website](https://landfire.gov/vegetation). Due to the differences in classification, users should not compare EVT versions created from 2016 onward with those created before 2016.
+::: callout-important
+Prior to LANDFIRE 2016, EVT were created based on the NatureServe terrestrial ecosystems classification. You can still find information on these data under [Existing Vegetation Type - Ecological Systems](https://landfire.gov/vegetation/evt). You can learn more about each of these ecological systems classifications on the separate product pages on the [LANDFIRE Program Website](https://landfire.gov/vegetation). Due to the differences in classification, users should not compare EVT versions created from 2016 onward with those created before 2016.
 :::
 
-**Key BpS Attributes include:**
+## Key EVT Attributes include:
 
 -   *EVT_Name*: Ecological Systems names
 
@@ -49,11 +49,12 @@ EVT also includes ruderal or semi-natural vegetation types within the U.S. Natio
 
 # Where to find Existing Vegetation Type data
 
-The Existing Vegetation Type data is included in the [Vegetation section](https://landfire.gov/vegetation/bps) of the LANDFIRE Program Website on the [Existing Vegetation Type - Ecological Systems](https://landfire.gov/vegetation/evt) page.
+The Existing Vegetation Type data is included in the [Vegetation section](https://landfire.gov/vegetation) of the LANDFIRE Program Website on the [Existing Vegetation Type - Ecological Systems](https://landfire.gov/vegetation/evt) page.
 
 On that page you will find an overview, including the information above along with further details and links to other important documents. Perhaps of most interest are the download links - via the LANDFIRE Map Viewer, full extent downloads, and a variety of ways to stream data into your maps. The page also includes resources such as attribute tables, metadata, and supplemental information.
 
 ## Screenshot of Data Access and Resources on the Existing Vegetation Type page
+
 ![Screenshot of where to locate the Existing Vegetation Type data page on the LANDFIRE Program website](images/EVT_lfgov.bmp){fig-alt="Arrow pointing to the Existing Vegetation Type - Ecological Systems link on the Vegetation page of the LANDFIRE Program website main page under the Current Vegetation section."}
 
 ![Screenshot of Data Access and Resources on the Existing Vegetation Type data page ](images/EVT_page.bmp){fig-alt="Location on landfire.gov, the LANDFIRE Program website, of where to find the Data Access and Resources sections of the Existing Vegetation Type data page. When you browse to landfire.gov/vegetation/evt, these resources are near the bottom of the page under the Data Access and Existing Vegetation Type Resources headings."}
@@ -79,7 +80,11 @@ Caution should be taken when comparing LANDFIRE versions as attribute tables are
 # Helpful resources
 
 - [LANDFIRE Ruderal NVC Groups Descriptions for CONUS](https://landfire.gov/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf)
+
 - Wildfire Exposure Risk mapping - [Beverly et al., 2021](https://link.springer.com/article/10.1007/s10980-020-01173-8)
-- [Central Upper Peninsula Vegetation Assessment](https://conservation-data-lab.github.io/cup_assessment/fire.html).
+
+- [Central Upper Peninsula Vegetation Assessment](https://conservation-data-lab.github.io/cup_assessment/fire.html)
+
 - Changes in ecosystems over time - [Morgan et al., 2020](https://link.springer.com/article/10.1186/s42408-019-0061-9#Abs1)
+
 - Limiting an analysis to ecosystems of interest  - [Crockett and Hurteau 2024](https://link.springer.com/article/10.1186/s42408-024-00264-0)

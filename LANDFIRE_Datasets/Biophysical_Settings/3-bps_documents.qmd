@@ -10,8 +10,11 @@ The Biophysical Settings (BpS) Descriptions are a foundational LANDFIRE product.
 # What you will learn here:
 
 -   How to download all (or some) of the BpS Descriptions
+
 -   The concept of BpS and succession class
+
 -   How LANDFIRE documented ‘reference conditions’ (i.e., how our BpSs looked and functioned prior to European colonization)
+
 -   What is contained in the BpS descriptions
 
 # Downloading all of the BpS descriptions
@@ -179,6 +182,9 @@ In ST-Sim, the “TST Min” (time-since-transition minimum) field specifies the
 # Helpful resources
 
 -   Blankenship, K., Swaty, R., Hall, K.R., Hagen, S., Pohl, K., Shlisky Hunt, A., Patton, J., Frid, L. and Smith, J., 2021. Vegetation dynamics models: a comprehensive set for natural resource assessment and planning in the United States. Ecosphere, 12(4), p.e03484. [Link to paper](https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484)
+
 -   [LANDFIRE Vegetation Modeling website](https://thenatureconservancy.github.io/landfiremodels/)
+
 -   [BpS Models Page](https://landfire.gov/vegetation/bps-models) on the LANDFIRE Program Website
+
 -   [BpS Models and Descriptions Support website](https://www.landfirereview.org)

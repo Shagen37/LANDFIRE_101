@@ -16,5 +16,7 @@ LANDFIRE adopted NatureServe’s [Ecological Systems](https://www.natureserve.or
 # What you will learn in this section
 
 - A brief overview of some commonly used datasets
+
 - How to download and access LANDFIRE datasets
+
 - How these key LANDFIRE datasets are linked to one another

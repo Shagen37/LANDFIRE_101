@@ -1,236 +1,158 @@
 [
   {
-    "objectID": "LANDFIRE_Datasets/Existing_Vegetation/1_existing-vegetation-type.html",
-    "href": "LANDFIRE_Datasets/Existing_Vegetation/1_existing-vegetation-type.html",
-    "title": "Existing Vegetation Type",
+    "objectID": "LANDFIRE_Datasets/Succession_Class/1_succession-class.html",
+    "href": "LANDFIRE_Datasets/Succession_Class/1_succession-class.html",
+    "title": "Succession Class",
     "section": "",
-    "text": "An overview of the Existing Vegetation Type data\nKey attributes of the EVT data\nWhere to find EVT data",
+    "text": "An overview of the Succession Class data\nKey attributes of the SClass data\nWhere to find SClass data\nCommon uses of SClass data",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Succession Class",
+      "Succession Class"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Succession_Class/1_succession-class.html#key-succession-class-attributes-include",
+    "href": "LANDFIRE_Datasets/Succession_Class/1_succession-class.html#key-succession-class-attributes-include",
+    "title": "Succession Class",
+    "section": "Key Succession Class attributes include:",
+    "text": "Key Succession Class attributes include:\n\nDescription: LANDFIRE’s Succession Classes categorized into up to five succession classes, with each succession class defined in the corresponding Biophysical Settings model. There are two additional classes – UN for uncharacteristic native vegetation type, cover, or height; and UE for uncharacteristic species (invasive or exotic vegetation types).",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Succession Class",
+      "Succession Class"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Succession_Class/1_succession-class.html#screenshots-of-data-access-and-resources-on-the-succession-class-page",
+    "href": "LANDFIRE_Datasets/Succession_Class/1_succession-class.html#screenshots-of-data-access-and-resources-on-the-succession-class-page",
+    "title": "Succession Class",
+    "section": "Screenshots of Data Access and Resources on the Succession Class page",
+    "text": "Screenshots of Data Access and Resources on the Succession Class page\n\n\n\nScreenshot of where to locate the Succession Class data page on the LANDFIRE Program website\n\n\n\n\n\nScreenshot of Data Access and Resources on the Succession Class data page",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Succession Class",
+      "Succession Class"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Succession_Class/1_succession-class.html#how-to-map-successional-stages-guide",
+    "href": "LANDFIRE_Datasets/Succession_Class/1_succession-class.html#how-to-map-successional-stages-guide",
+    "title": "Succession Class",
+    "section": "How to Map Successional Stages Guide",
+    "text": "How to Map Successional Stages Guide\nThe “How to Map Successional Stages” guide provides detailed steps for mapping S-Classes and adjusting existing SClass data for local use including:\n\nData Preparation: Assembling and pre-processing datasets.\nCombining Datasets: Using spatial overlays to combine BpS, existing vegetation type, cover, and height layers.\nSClass Assignments: Applying rules to assign SClasses based on canopy cover, height, and indicator species",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Succession Class",
+      "Succession Class"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Succession_Class/1_succession-class.html#visual-representation",
+    "href": "LANDFIRE_Datasets/Succession_Class/1_succession-class.html#visual-representation",
+    "title": "Succession Class",
+    "section": "Visual Representation",
+    "text": "Visual Representation\n\n\n\nThis figure illustrates the distribution of various succession classes within the Northern Hardwoods Biophysical Setting. Succession classes represent different stages of vegetation development, from early to late stages, indicating the progression and health of ecosystems. From Swaty, et al., 2021.\n\n\nSwaty et al., 2021 provides a visual representation of LANDFIRE succession class data by displaying the distribution of different succession classes across an ecosystem. Showing the proportion of each succession class within different ecosystems helps us understand the current state and progression of vegetation in these areas. This visual representation allows for easy comparison and identification of ecosystems that may be in early, mid, or late stages of succession, highlighting areas that might need conservation or restoration efforts.",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Succession Class",
+      "Succession Class"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Succession_Class/1_succession-class.html#modifying-landfire-data-guide",
+    "href": "LANDFIRE_Datasets/Succession_Class/1_succession-class.html#modifying-landfire-data-guide",
+    "title": "Succession Class",
+    "section": "Modifying LANDFIRE Data Guide",
+    "text": "Modifying LANDFIRE Data Guide\nThe “Modifying LANDFIRE Geospatial Data for Local Applications” guide emphasizes the importance of adapting LANDFIRE data for local contexts. Key points include:\n\nData Critique and Modification: Steps for critiquing and modifying LANDFIRE data to better fit local conditions.\nApplication Examples: Practical examples of how modified data can be used for specific land management objectives.\n\nBy integrating these additional insights and visual aids, the Succession Classes section can provide a more comprehensive and accessible overview for users.\nFor any questions or suggestions regarding the succession class mapping rules, contact helpdesk@landfire.gov.",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Succession Class",
+      "Succession Class"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Existing_Vegetation/2_existing-vegetation-cover.html",
+    "href": "LANDFIRE_Datasets/Existing_Vegetation/2_existing-vegetation-cover.html",
+    "title": "Existing Vegetation Cover",
+    "section": "",
+    "text": "An overview of the Existing Vegetation Cover data\nKey attributes of the EVC data\nWhere to find EVC data\nCommon uses for EVC data",
     "crumbs": [
       "LANDFIRE Datasets",
       "Existing Vegetation",
-      "Existing Vegetation Type"
+      "Existing Vegetation Cover"
     ]
   },
   {
-    "objectID": "LANDFIRE_Datasets/Existing_Vegetation/1_existing-vegetation-type.html#screenshot-of-data-access-and-resources-on-the-existing-vegetation-type-page",
-    "href": "LANDFIRE_Datasets/Existing_Vegetation/1_existing-vegetation-type.html#screenshot-of-data-access-and-resources-on-the-existing-vegetation-type-page",
-    "title": "Existing Vegetation Type",
-    "section": "Screenshot of Data Access and Resources on the Existing Vegetation Type page",
-    "text": "Screenshot of Data Access and Resources on the Existing Vegetation Type page\n\n\n\nScreenshot of where to locate the Existing Vegetation Type data page on the LANDFIRE Program website\n\n\n\n\n\nScreenshot of Data Access and Resources on the Existing Vegetation Type data page",
+    "objectID": "LANDFIRE_Datasets/Existing_Vegetation/2_existing-vegetation-cover.html#key-evc-attributes-include",
+    "href": "LANDFIRE_Datasets/Existing_Vegetation/2_existing-vegetation-cover.html#key-evc-attributes-include",
+    "title": "Existing Vegetation Cover",
+    "section": "Key EVC Attributes include:",
+    "text": "Key EVC Attributes include:\n\nCLASSNAMES: The main attribute of EVC. This combines the EVT lifeform with the percent canopy cover of that lifeform. Key lifeforms are described below. As with all LANDFIRE layers, you can get more information about individual attributes from the EVC Attribute Data Dictionary (opens a pdf).\nTree Cover: percent tree cover\nShrub Cover: percent shrub cover\nHerb Cover: percent herbaceous/grassland cover\nDeveloped-Upland Forest/Shrub: Five classes of developed upland vegetation\nDeveloped: Three classes of developed landscapes\nDeveloped-Roads: Pixels identified as roads\nNASS Crops: Six classes of National Agricultural Statistics Service defined cropland",
     "crumbs": [
       "LANDFIRE Datasets",
       "Existing Vegetation",
-      "Existing Vegetation Type"
+      "Existing Vegetation Cover"
     ]
   },
   {
-    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html",
-    "href": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html",
-    "title": "Biophysical Settings Models",
+    "objectID": "LANDFIRE_Datasets/Existing_Vegetation/2_existing-vegetation-cover.html#screenshot-of-data-access-and-resources-on-the-existing-vegetation-cover-page",
+    "href": "LANDFIRE_Datasets/Existing_Vegetation/2_existing-vegetation-cover.html#screenshot-of-data-access-and-resources-on-the-existing-vegetation-cover-page",
+    "title": "Existing Vegetation Cover",
+    "section": "Screenshot of Data Access and Resources on the Existing Vegetation Cover page",
+    "text": "Screenshot of Data Access and Resources on the Existing Vegetation Cover page\n\n\n\nScreenshot of where to locate the Existing Vegetation Cover data page on the LANDFIRE Program website\n\n\n\n\n\nScreenshot of Data Access and Resources on the Existing Vegetation Cover data page",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Existing Vegetation",
+      "Existing Vegetation Cover"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Existing_Vegetation/2_existing-vegetation-cover.html#landscape-assessments",
+    "href": "LANDFIRE_Datasets/Existing_Vegetation/2_existing-vegetation-cover.html#landscape-assessments",
+    "title": "Existing Vegetation Cover",
+    "section": "Landscape Assessments",
+    "text": "Landscape Assessments\nWe often use LANDFIRE EVC in combination with Existing Vegetation Type (EVT) and Height (EVH) to better understand landscapes using something we call landscape assessments. These assessments are created using GIS and R code and examine historical and current vegetation patterns across landscapes of various sizes. For examples of what we can do with landscape assessments, please see the LANDFIRE in Landscape Assessments page of the LANDFIRE Portfolio.",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Existing Vegetation",
+      "Existing Vegetation Cover"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Existing_Vegetation/2_existing-vegetation-cover.html#sucession-class",
+    "href": "LANDFIRE_Datasets/Existing_Vegetation/2_existing-vegetation-cover.html#sucession-class",
+    "title": "Existing Vegetation Cover",
+    "section": "Sucession Class",
+    "text": "Sucession Class\nEVC, once again in combination with EVT and EVH, is a key component in the way LANDFIRE creates and maps succession class. Through succession class, EVC contributes to the calculation of Vegetation Departure and Vegetation Condition class. We will discuss succession class and vegetation departure in more detail in subsequent sections of this website.",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Existing Vegetation",
+      "Existing Vegetation Cover"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/5-refcon-table.html",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/5-refcon-table.html",
+    "title": "The Reference Conditions Table",
     "section": "",
-    "text": "The basics of Biophysical Settings models\nDownloading and installing SyncroSim, the software we use for LANDFIRE’s models\nLoading all LANDFIRE BpS models using the LANDFIRE Package\nIsolating a subset of BpS models\nExploring the models you are interested in",
+    "text": "The Reference Conditions Table (RCT) is essentially an output from the Biophysical Settings Models that focuses specifically on succession class and fire regime. In this section we will:\n\nExplore the fields in the RCT\nDiscuss how the RCT is linked to BpS through SClass\nConsider RCT use cases\nExplain where to get the table",
     "crumbs": [
       "LANDFIRE Datasets",
       "Biophysical Settings",
-      "Biophysical Settings Models"
+      "The Reference Conditions Table"
     ]
   },
   {
-    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html#download-and-install-syncrosim",
-    "href": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html#download-and-install-syncrosim",
-    "title": "Biophysical Settings Models",
-    "section": "Download and Install SyncroSim",
-    "text": "Download and Install SyncroSim\nInstalling SyncroSim is similar to installing most software, i.e., you download the application, then click to start an installer, etc. You can find the software on the SyncroSim website - we typically accept all defaults when installing.\n\nInstalling on a governmental machine may present challenges, but approval and updates are in the works.\nRunning SyncroSim on a Mac is generally not recommended. For more information on this, see the getting started documentation on the SyncroSim website.",
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/5-refcon-table.html#how-succession-class-letters-are-linked-to-bps-description-documents",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/5-refcon-table.html#how-succession-class-letters-are-linked-to-bps-description-documents",
+    "title": "The Reference Conditions Table",
+    "section": "How Succession Class Letters are Linked to BpS Description Documents",
+    "text": "How Succession Class Letters are Linked to BpS Description Documents\n\nSuccession Class Definition: Each Succession Class letter corresponds to a specific combination of vegetation cover type and structural stage within a BpS. These combinations are detailed in the BpS description documents in the “Succession Classes” section.\nMapping Rules: The BpS description documents include mapping rules that define how current vegetation conditions are classified into Succession Classes. These rules consider factors such as vegetation height, canopy cover, and species composition. The rules are applied to geospatial layers of existing vegetation to map the current extent of each Succession Class. More detailed rule sets are available in the Succession Class mapping rules spreadsheet (downloads a zip file).\nReference Conditions: The BpS description documents also provide the reference amount for each Succession Class, which can be compared to current vegetation conditions. This comparison helps in assessing vegetation departure and condition class. Reference conditions are also available in the reference conditions table (downloads a zip file).\nState-and-Transition Models: The Succession Class letters are linked to state-and-transition models that simulate the growth and disturbance dynamics within each BpS. The parameters for the models are in the “Model Parameters” section of the BpS Description and in the BpS Model library. These models provide a quantitative representation of how vegetation transitions between different Succession Classes over time.\n\nBy linking the Succession Class letters to the detailed descriptions and mapping rules in the BpS documents, LANDFIRE ensures that the classification of vegetation conditions is both accurate and consistent with ecological principles.",
     "crumbs": [
       "LANDFIRE Datasets",
       "Biophysical Settings",
-      "Biophysical Settings Models"
-    ]
-  },
-  {
-    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html#load-all-landfire-bps-models-using-the-landfire-package",
-    "href": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html#load-all-landfire-bps-models-using-the-landfire-package",
-    "title": "Biophysical Settings Models",
-    "section": "Load all LANDFIRE BpS models using the LANDFIRE Package",
-    "text": "Load all LANDFIRE BpS models using the LANDFIRE Package\n💡Note: Screenshots of the process are included below the written instructions for those who find them useful.\nWhile SyncroSim is powerful as downloaded, adding ‘packages’ will bring even more functionality. For our work you will need to add in the ST-Sim and landfirevegmodels packages. In SyncroSim:\n\nGo to File -&gt; Packages. Click the “Install” button.\nFrom the list check the “St-Sim” and “landfirevegmodels” packages, when click “OK”. The install will happen automatically.\nClose the “Packages” window.\n\nOnce you have those packages installed, you are ready to bring in the LANDFIRE vegetation models. To do that will take a few steps:\n\nNote: you will need internet for this section.\n\n\nGo to File -&gt; New… This will bring up a “New Library” window.\nIn the New Library window highlight “landfirevegmodels” at the top of the window, then select “Reference Models” near the bottom.\nNote where the “Reference Models” library will be saved. Change the location if needed. Hit “OK”, then grab a beverage or go for a walk as this will take a few minutes.\n\n\n\n\n\n\n\nNote\n\n\n\nAn “Update Library” window may open once the Reference Models library is downloaded. Click “Apply” at the bottom of that window to proceed.\n\n\nOnce you complete these steps, SyncroSim will have downloaded and loaded the LANDFIRE BpS Reference Condition Models library into your “Library Explorer” window.\n\nScreenshots of loading LANDFIRE Package and Reference Conditions Library\n\n\n\nPackages Pane\n\n\n\n\n\nSelect packages",
-    "crumbs": [
-      "LANDFIRE Datasets",
-      "Biophysical Settings",
-      "Biophysical Settings Models"
-    ]
-  },
-  {
-    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html#isolate-a-subset-of-bps-model",
-    "href": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html#isolate-a-subset-of-bps-model",
-    "title": "Biophysical Settings Models",
-    "section": "Isolate a subset of BpS model",
-    "text": "Isolate a subset of BpS model\n\n\n\n\n\n\nNote\n\n\n\nYou can access a set of downloadable instructions (pdf) and much more information on Biophysical Settings models on the LANDFIRE Vegetation Modeling website.\n\n\n💡Note: Screenshots of the process are included below the written instructions for those who find them useful.\nWe assume you will not want to explore all 900+ LANDFIRE models, so we outline how to subset one or more individual models below.\n\nFor good luck close and re-open SyncroSim. Seriously, after installing packages and libraries some of the functions just work better if you do so.\nIf it is not there, open the LANDFIRE BpS Reference Condition Models library by going to File -&gt; Open then navigating to the “Reference-Condition-Models.ssim” file, likely in your SyncroSim directory. You will then click “Open”.\nOnce opened, the LANDFIRE BpS Reference Condition Models will be in the Library Explorer pane. You will also see, within the library, a “project” named “Definitions” and a “Scenaro” named “Reference Condition Models”.\nClick the “Reference Condition Models” scenario once to highlight it.\nGo to Edit -&gt; Export LFVM Strata to bring up the selection window.\nOnce at the Export LFVM Strata window, you will check the BpSs of interest, give a file name for the new library and assign a folder that it will be saved to.\n\n\n\n\n\n\n\nNote\n\n\n\nWe do not suggest selecting many strata at once until you are familiar with the modeling process. Stick to 1-3 initially.\n\n\n\nScreenshots of Isolating a model\n\n\n\nSelect scenario\n\n\n\n\n\nExport strata\n\n\n\n\n\nCreate a new library with selected strata",
-    "crumbs": [
-      "LANDFIRE Datasets",
-      "Biophysical Settings",
-      "Biophysical Settings Models"
-    ]
-  },
-  {
-    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html#explore-the-models-you-are-interested-in",
-    "href": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html#explore-the-models-you-are-interested-in",
-    "title": "Biophysical Settings Models",
-    "section": "Explore the models you are interested in",
-    "text": "Explore the models you are interested in\n💡Note: Screenshots of the process are included below the written instructions for those who find them useful.\nOK you are doing a great job. Now you have a library with a subset of strata (i.e., BpSs in this case) that you care about. Now what?\nBy exploring the BpS models you can learn how the modeling experts parameterized them, and more interactively see how the disturbances and states all fit together.\nStart exploring:\n\nDouble click on “Reference Condition Models” then the Transition Pathways tab.\nTo make viewing easier go to Window -&gt; Arrange All.\nAt the bottom will be tabs of all of the BpSs that are in this library. Click any one. See “Transitions Pane”.\nClick on any box to see the pathways associated with that state (i.e., succession class).\nIf you want to run the scenario:\n\nGo to “Output Options” tab within the scenario, make sure that the “State classes every” box is set to 100 (i.e., not “1”).\nGo to “Run Control tab” and set the ‘Total iterations’ to 2.\nIn the “Initial Conditions” tab, insure that the “Total Acres”and “Number of Simulation cells” boxes both have “1,000” For exploring we recommend these three steps as it will speed up your runs.\nIn the Library Explorer highlight the scenario, then click the small green triangle at the top of the screen.\n\nMake a chart by clicking the “New” icon in the “Charts” pane, then name it appropriately. You will change some settings to get your first chart:\n\nChange Line Chart to Column Chart (top left of window)\nUnder “State Classes” select “Proportion”\nUnder “Disaggregate by” check the “State Class” box\nUnder “Include Data For”, click “State Class” then select the appropriate state classes\nNote: if you have multiple BpSs, you will also want to go to and select one “Model” under the “Include Data For” dropdown\nClick “Apply”\n\n\n\nScreenshots of Running a Model and Making a Chart\n\n\n\nState class outputs\n\n\n\n\n\nRun your model\n\n\n\n\n\nSet up your column chart",
-    "crumbs": [
-      "LANDFIRE Datasets",
-      "Biophysical Settings",
-      "Biophysical Settings Models"
-    ]
-  },
-  {
-    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/2-bps_spatial.html",
-    "href": "LANDFIRE_Datasets/Biophysical_Settings/2-bps_spatial.html",
-    "title": "Biophysical Settings Spatial Data",
-    "section": "",
-    "text": "An overview of the Biophysical Settings spatial data\nKey attributes of the Biophysical Settings spatial data\nWhere to find Biophysical Settings data on the LANDFIRE Program website\n\n\n\n\n\n\n\n\nLANDFIRE delivers Biophysical Settings data and models for the entire United States, including Alaska and Hawaii. Puerto Rico and the US Virgin Islands do not have BpS data developed. 950 Biophysical Settings are grouped into seven major vegetation classes and displayed using one color family for each class.",
-    "crumbs": [
-      "LANDFIRE Datasets",
-      "Biophysical Settings",
-      "Biophysical Settings Spatial Data"
-    ]
-  },
-  {
-    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/2-bps_spatial.html#key-bps-attributes-include",
-    "href": "LANDFIRE_Datasets/Biophysical_Settings/2-bps_spatial.html#key-bps-attributes-include",
-    "title": "Biophysical Settings Spatial Data",
-    "section": "Key BpS Attributes include",
-    "text": "Key BpS Attributes include\n\nBPS_CODE: The unique code LANDFIRE uses for each Biophysical Setting\nZone: The NLCD map zone(s) the Bps is located in or relates to\nBPS_MODEL: The unique BpS Model code. This combines the BpS code with the zone(s) the model is located in. In some cases, a BpS with the same name and BpS Code may be split among map zones because the vegetation or disturbance regimes vary enough that the descriptions differ. An example of this is the ‘Laurentian-Acadian Northern Hardwoods forest’ BpS (13020), which has four different BpS Models, although it is mapped as one BpS type:\n\n13020_40 (BpS 13020, Map Zone 40)\n13020_63 (BpS 13020, Map Zone 40)\n13020_65_66 (BpS 13020, Map Zone 65 and 66)\n13020_65_66 (BpS 13020, Map Zone 65 and 66)\n\n\nNote, there will be a separate row, and VALUE for each BPS_CODE/MapZone combination, such as presented in the above example where there are two rows for 13020_65_66.\n\nBPS_NAME: The name of the Biophysical Setting. The name is matched to the BpS Code, not the BpS model number.\nGROUPVEG: Coarse vegetation type groupings highlighting the high-level dominant vegetation within that BpS. Note that if a BpS is listed as ‘Hardwood’ it may actually be a mix of hardwood, herbaceous, savannah, and more, but LANDFIRE’s mapping identified hardwoods as dominating most of the landscape.\nPre-European Colonization Fire Regime Attributes:\n\nFRI_REPLAC: Average historic replacement-severity fire frequency for the BpS\nFRI_MIXED: Average historic mixed-severity fire frequency for the BpS\nFRI_SURFAC: Average historic surface-severity fire frequency for the BpS\nFRI_ALLFIR: Average historic fire frequency for all fires within the BpS.\nPRC_REPLAC: Percent of historic fires with replacement severity for the BpS\nPRC_MIXED: Percent of historic fires with mixed serverity for the BpS\nPRC_SURFAC: Percent of historic fires with surface severity for the BpS\nFRG_NEW: The fire regime group this BpS is found in. Fire regime groups are based on a combination of fire return interval and fire severity. The current Fire Regime Groups were updated in 2016 and have been modified from a previous classification. You can find the new breakdown of fire regime groups in the Attribute Data Dictionaryfor the BpS spatial data.",
-    "crumbs": [
-      "LANDFIRE Datasets",
-      "Biophysical Settings",
-      "Biophysical Settings Spatial Data"
-    ]
-  },
-  {
-    "objectID": "LANDFIRE_Datasets/1_lf-data.html",
-    "href": "LANDFIRE_Datasets/1_lf-data.html",
-    "title": "LANDFIRE Datasets: An Overview",
-    "section": "",
-    "text": "In our work, we frequently utilize various vegetation and fire regime datasets to gain a deeper understanding of certain landscapes. Key datasets such as Biophysical Settings, Existing Vegetation, and Succession Class are integrated to create the Vegetation Departure (VDEP) product. This section of the website will give you an overview of these essential datasets, along with links to additional information and download options for your use.\nHere, you’ll learn how to access and make good use of these datasets. We’ll walk you through how to download each one and share real-life examples of how they can be applied. We’ll also introduce you to other helpful tools that can improve your work, making this a complete resource for everything LANDFIRE-related.\n\nA Word About Vegetation Classifications\nLANDFIRE adopted NatureServe’s Ecological Systems (ES) classification in 2004. At that time, it was the only consistent classification available continent-wide, and its ecological foundation fit the needs of the project as designed. Ecological Systems is currently used in the Existing Vegetation Type (EVT) and Biophysical Settings (BpS) spatial layers, the Biophysical Settings Models and Descriptions products and Historic Fire Regime. Three other classifications are provided as attributes of the EVT layer: National Vegetation Classification Group (NVCG), National Vegetation Classification Macrogroup (NVCM) and Society of American Foresters/Society of Range Management (SAF/SRM) Cover Type. The only classification that is directly mapped by LANDFIRE at the present time is Ecological Systems. NVCG is provided as a separate spatial layer in LF2016 but it and SAF/SRM attributes are created using a crosswalk with ES. Since the National Vegetation Classification is hierarchical, NVCM is created by rolling-up NVCG into the next highest level of the classification.\n\n\nWhat you will learn in this section\n\nA brief overview of some commonly used datasets\nHow to download and access LANDFIRE datasets\nHow these key LANDFIRE datasets are linked to one another\n\n\n\n\n\n\nStill have questions? LANDFIRE is here to help.\n\nAsk the LANDFIRE Helpdesk (email link).\nSearch the LANDFIRE Helpdesk Dashboard to see what others are asking and find solutions to common problems.\nSearch and subscribe to the LANDFIRE YouTube Channel (see tutorials, Office Hours, quick demonstrations).\nJoin an Office Hour (monthly meeting with open format Q & A with LANDFIRE experts).\nSchedule a meeting (email link) with TNC’s LANDFIRE Team.",
-    "crumbs": [
-      "LANDFIRE Datasets",
-      "LANDFIRE Datasets: An Overview"
-    ]
-  },
-  {
-    "objectID": "2_landfire-attributes.html",
-    "href": "2_landfire-attributes.html",
-    "title": "Explore LANDFIRE spatial data",
-    "section": "",
-    "text": "Exploring the attributes of any dataset is a fundamental step in the data analysis process. It lays the foundation for accurate analyses, informed decision-making, and successful outcomes in various fields, from scientific research to business intelligence.\nHere are three main reasons to understand the attributes of LANDFIRE data before any analysis in GIS or R:\n\nData Familiarity: Exploring attributes provides a deep understanding of the dataset’s structure, format, and content. This familiarity is essential for making informed decisions about data manipulation, analysis, and visualization.\nUnderstanding Data Quality: Examining data attributes helps assess the quality and reliability of the dataset. Identifying missing or inaccurate information early on can prevent errors in analyses and decision-making processes.\nEffective Data Visualization: Exploring attributes aids in creating effective data visualizations. Understanding the range and distribution of variables helps you choose appropriate visualization techniques that convey the intended message and insights.",
-    "crumbs": [
-      "Explore LANDFIRE spatial data"
-    ]
-  },
-  {
-    "objectID": "2_landfire-attributes.html#from-the-landfire-program-website",
-    "href": "2_landfire-attributes.html#from-the-landfire-program-website",
-    "title": "Explore LANDFIRE spatial data",
-    "section": "From the LANDFIRE Program website",
-    "text": "From the LANDFIRE Program website\n💡 Screenshots of where to find the datasets and attributes are below for those who find them useful.\nThe LANDFIRE program website is the most comprehensive resource for exploring and understanding the suite of LANDFIRE data. Here we highlight where you can find information and resources related to attributes of some key datasets.\n\nNavigate to the LANDFIRE Program website\nYou will find yourself on the main page, where you’ll see several icons across the top, as well as three images in the main body of the page and links to several key resources at the bottom.\n\nOne useful link for exploring the attributes of each dataset is the LANDFIRE Data Dictionary, under the Data Details heading at the bottom of the page. The data dictionary provides a comprehensive look at LANDFIRE data and serves as a guide to direct users to information about products, attributes, and metadata.\n\nWithin the data dictionary table of contents, click the layer you’re interested in and jump to the section of the document that shows the attributes and descriptions of that layer\n\nAnother way to explore datasets and their attributes is to navigate to the layer via the buttons across the top of the page. Most of the datasets we will discuss on this website can be found underneath the Vegetation category. If you need a refresher, check out which datasets are available where in the What is LANDFIRE? section of this site.\n\nOn each individual product page, you will find a section on Key Attributes, which provides more information on the attributes of that specific dataset.\n\n\nScreenshots for where to find attributes on the LANDFIRE website\n\n\n\nWhere to find the data dictionary\n\n\n\n\n\nWhere to find more information on individual datasets\n\n\n\n\n\nWhere to download datasets",
-    "crumbs": [
-      "Explore LANDFIRE spatial data"
-    ]
-  },
-  {
-    "objectID": "2_landfire-attributes.html#with-the-.csv-file-for-each-layer",
-    "href": "2_landfire-attributes.html#with-the-.csv-file-for-each-layer",
-    "title": "Explore LANDFIRE spatial data",
-    "section": "With the .csv file for each layer",
-    "text": "With the .csv file for each layer\n💡 Screenshots of where to find the datasets and attributes are below for those who find them useful.\nWhenever you download a LANDFIRE dataset, it will be packaged in a .zip file that includes not only the spatial data in .tif format, but also general metadata, spatial metadata, and a .csv data file. .csv stands for ‘Comma Separated Values’ and is a convenient way to display and work with the attributes of a spatial data layer in a non-spatial way (R, Excel, etc.). This enables you to examine your data and understand landscape trends without even opening GIS software. It also helps you understand the attributes you may want to map and explore spatially.\nThe .csv files can be found on the individual dataset web pages under the “Attribute Tables (CSV, ADD) sections at the bottom of each product page.\n\nExploring the .csv files of a LANDFIRE spatial layer\n\nNavigate to the folder where your spatial dataset is stored.\nYour data may be stored as a .zip file. Unzip the files and store them in a meaningful location so you can find and access them throughout this tutorial.\nWithin the dataset folder or zip file, you should have a folder titled ‘CSV_Data’. Click on this folder to access the .csv file.\nDouble click on the Microsoft Excel Comma Separated Values File to open it in Microsoft Excel.\n\nIf you don’t use Microsoft Excel or you aren’t working in a Microsoft Windows environment, this file may not default to opening in Excel. In that case, right click, navigate to ‘open with’, and choose the spreadsheet program of your choice to view the file.\n\nHere you can explore the attributes and values of the datasets. We recommend using the metadata and/or data dictionary as a guide to better understand what each of the field names means and what data are being reported under that field.\n\n\n\nScreenshots for where to find the .csv file\n\n\n\nLocation of the CSV_Data folder inside the data download\n\n\n\n\n\nLocation of the .csv file within the CSV_Data folder\n\n\n\n\n\nLocation of the .csv file on the EVT product page",
-    "crumbs": [
-      "Explore LANDFIRE spatial data"
-    ]
-  },
-  {
-    "objectID": "2_landfire-attributes.html#within-arcgis-pro",
-    "href": "2_landfire-attributes.html#within-arcgis-pro",
-    "title": "Explore LANDFIRE spatial data",
-    "section": "Within ArcGIS Pro",
-    "text": "Within ArcGIS Pro\n💡 Screenshots of where to find the attributes are below for those who find them useful.\nYou can also use ArcGIS Pro to view the attribute tables of each dataset in tandem with the spatial data. This may provide additional benefit, as you can select attributes of interest (a particular vegetation type, for example) and ArcGIS Pro will highlight where that attribute appears in the landscape. You can also use ArcGIS Pro’s built-in tools to generate some basic summary statistics that will allow you to explore the data on a high level.\n\nExploring attribute tables in ArcGIS Pro\n\nRight click on the layer name in the table of contents to open the layer properties menu, then browse to ‘Attribute Table’. This option can be found near the top of the menu.\n\nThis will open the attribute table for the layer. Here you can examine and edit the attributes of the layer.\n\nTo explore where a particular attribute value occurs on the landscape, click on the corresponding row number in the attribute table and ArcGIS Pro will highlight those pixels in the map display.\n\n\n💡 Be sure to use the selection tools in the Map section at the top of the ribbon bar to unselect any rows before doing any data processing. By default, ArcGIS Pro will run all tools on only the selected data and you may end up needing to re-run tools or processes because they were only run on a subset of your full area of interest.\n\n\n\nScreenshots for finding and working with the attribute tables in ArcGIS Pro\n\n\n\nHow to open the attribute table of a layer\n\n\n\n\n\nHighlighting a BpS in the attribute table and the map\n\n\n # Helpful Links\n\nUse the LANDFIRE Data Dictionary to help understand and locate LANDFIRE information.",
-    "crumbs": [
-      "Explore LANDFIRE spatial data"
-    ]
-  },
-  {
-    "objectID": "1_what-is-landfire.html",
-    "href": "1_what-is-landfire.html",
-    "title": "An Overview of LANDFIRE Products",
-    "section": "",
-    "text": "The LANDFIRE Program produces current, consistent, and comprehensive geospatial data sets and databases that describe vegetation, wildland fuels, and fire regimes for the entire United States, including Alaska, Hawai’i, and Puerto Rico and the US Virgin Islands. Most LANDFIRE products are delivered as geospatial data layers with 30-meter cell resolution, although not all products are spatial layers. Read the LANDFIRE Technical Documentation to learn how LANDFIRE creates these products. Use the LANDFIRE Data Dictionary to help understand and locate LANDFIRE product information.\n\n\nThe table below shows a comprehensive list of all the datasets LANDFIRE provides in each of six categories, with links to where you can learn more about each dataset, explore attribute tables, and download data.\n\n\n\nVegetation\nHistorical Fire Regime\nFuel\nDisturbance\nTopographic\nReference\n\n\n\n\nBiophysical Settings\nFire Regime Groups\n13 Anderson Fire Behavior Fuel Models\nAnnual Disturbance\nAspect\nPublic Events Geodatabase\n\n\nEnvironmental Site Potential\nFire Return Interval\n40 Scott and Burgan Fire Behavior Fuel Models\nFuel Disturbance\nElevation\nPublic Reference Database (LFRDB)\n\n\nExisting Vegetation Cover\nPercent of Low-severity Fire\nCanadian Forest Fire Danger Rating System\nHistorical Disturbance\nSlope\n\n\n\nExisting Vegetation Height\nPercent of Mixed-severity Fire\nFuel Characteristic Classification System Fuelbed\nVegetation Disturbance\n\n\n\n\nExisting Vegetation Type\nPercent of Replacement-severity Fire\nFuel Disturbance\nPublic Events Geodatabase\n\n\n\n\nSuccession Class\n\nFuel Loading Models\nForest Transitions Database\n\n\n\n\nVegetation Condition Class\n\nCanopy Base Height\nNon-forest Vegetation Transitions Database\n\n\n\n\nVegetation Departure\n\nCanopy Bulk Density\nVegetation Transition Magnitude\n\n\n\n\n\n\nForest Canopy Cover\n\n\n\n\n\n\n\nForest Canopy Height\n\n\n\n\n\n\n\nFuel Vegetation Cover\n\n\n\n\n\n\n\nFuel Vegetation Height\n\n\n\n\n\n\n\nFuel Vegetation Type",
-    "crumbs": [
-      "An Overview of LANDFIRE Products"
-    ]
-  },
-  {
-    "objectID": "1_what-is-landfire.html#landfire-data-products-by-category",
-    "href": "1_what-is-landfire.html#landfire-data-products-by-category",
-    "title": "An Overview of LANDFIRE Products",
-    "section": "",
-    "text": "The table below shows a comprehensive list of all the datasets LANDFIRE provides in each of six categories, with links to where you can learn more about each dataset, explore attribute tables, and download data.\n\n\n\nVegetation\nHistorical Fire Regime\nFuel\nDisturbance\nTopographic\nReference\n\n\n\n\nBiophysical Settings\nFire Regime Groups\n13 Anderson Fire Behavior Fuel Models\nAnnual Disturbance\nAspect\nPublic Events Geodatabase\n\n\nEnvironmental Site Potential\nFire Return Interval\n40 Scott and Burgan Fire Behavior Fuel Models\nFuel Disturbance\nElevation\nPublic Reference Database (LFRDB)\n\n\nExisting Vegetation Cover\nPercent of Low-severity Fire\nCanadian Forest Fire Danger Rating System\nHistorical Disturbance\nSlope\n\n\n\nExisting Vegetation Height\nPercent of Mixed-severity Fire\nFuel Characteristic Classification System Fuelbed\nVegetation Disturbance\n\n\n\n\nExisting Vegetation Type\nPercent of Replacement-severity Fire\nFuel Disturbance\nPublic Events Geodatabase\n\n\n\n\nSuccession Class\n\nFuel Loading Models\nForest Transitions Database\n\n\n\n\nVegetation Condition Class\n\nCanopy Base Height\nNon-forest Vegetation Transitions Database\n\n\n\n\nVegetation Departure\n\nCanopy Bulk Density\nVegetation Transition Magnitude\n\n\n\n\n\n\nForest Canopy Cover\n\n\n\n\n\n\n\nForest Canopy Height\n\n\n\n\n\n\n\nFuel Vegetation Cover\n\n\n\n\n\n\n\nFuel Vegetation Height\n\n\n\n\n\n\n\nFuel Vegetation Type",
-    "crumbs": [
-      "An Overview of LANDFIRE Products"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "LANDFIRE: an introduction",
-    "section": "",
-    "text": "What is LANDFIRE?\nLANDFIRE, Landscape Fire and Resource Management Planning Tools, is a shared program between the wildland fire management programs of the U.S. Department of Agriculture Forest Service Fire and Aviation branch, and the U.S. Department of the Interior, that provides more than twenty landscape-scale geo-spatial products, 950 vegetation models, and a suite of tools that support all-lands planning, management, and operations.\nLANDFIRE’s mission is to provide agency leaders and managers with a common “all-lands” data set of vegetation and wildland fire/fuels information for strategic fire and resource management planning and analysis. Learn more about LANDFIRE’s mission on the LANDFIRE Program website.\n\n\nWhat is The Nature Conservancy’s connection?\nThe Nature Conservancy (TNC) is a major partnerin the LANDFIRE Program supported by a cooperative agreement through the USDA Forest Service. TNC’s LANDFIRE Team works closely with the LANDFIRE Business Leads, program staff, and other partners to provide support to LANDFIRE users.\nLANDFIRE user support can take many forms. Providing this assistance can range from in-person and online workshops to monthly office hours, newsletters and data alerts to learning website development and technical, personalized assistance. TNC’s LANDFIRE team is dedicated to developing current, user-focused LANDFIRE resources that advance natural resource work, amplify the appropriate use of LANDFIRE products, and leverage the collective knowledge of the natural resource community.\nLANDFIRE’s website offers a wealth of resources related to wildland fire and natural resource management. Users can access all LANDFIRE data, resources, applications, and update information on the LANDFIRE Program website.\n\n\nWhat is the LANDFIRE 101 Learning Website?\nWelcome to LANDFIRE 101, an introduction to the essential elements of LANDFIRE a crucial resource for land management and conservation. This platform is designed to familiarize you with the LANDFIRE Program, its comprehensive website, and some of the invaluable datasets it provides.\nLANDFIRE users often include district rangers, managers and natural resource specialists who may be tasked with a variety of objectives ranging from managing fuels, wildfires, multiple use requirements, wildlife habitat and climate change. LANDFIRE products, while not all encompassing, provide a solid foundation from which to build from. The products are consistent, (most are) updated annually, and serve as key inputs for programs such as Wildland Fire Decision Support System (WFDSS), the Cohesive Strategy Initiative and Wildfire Risk to Communities. Getting started with LANDFIRE may feel daunting, but we have a suite of tools to support anyone getting started with (or diving deeper into) the broad LANDFIRE suite.\n\n\n\n\n\n\nNote\n\n\n\n💡 This LANDFIRE 101 learning website serves as a supporting addendum to the comprehensive LANDFIRE Program website. The LANDFIRE 101 learning website can be followed from start-to-finish and provides practical support for LANDFIRE users. This supporting site should be used in conjunction with (not instead of) the LANDFIRE Program website. As such, we provide essentials for getting started with using and applying LANDFIRE products. Each page provides multiple opportunities for understanding and exploring these data further on the LANDFIRE Program website.\n\n\n\n\nWhat you will learn\nOur LANDFIRE 101 learning website provides a foundation for:\n\nBasic background information about LANDFIRE vegetation and fuels datasets\nImportant attributes of each dataset\nHow and where to download each product\nExamples of how these products are commonly used\nHow to properly use and apply LANDFIRE Products and avoid common misapplications of the data\nAvoiding common misapplications of the data, knowledge of frequently encountered issues, and overcoming potential data pitfalls\n\nWhether you are a novice or seeking to deepen your expertise, this training platform provides the insights and practical skills necessary for leveraging LANDFIRE data in your projects. We invite you to join us and discover how these powerful tools can support your endeavors in land management and beyond.\n\n\n\n\n\nStill have questions? LANDFIRE is here to help.\n\nAsk the LANDFIRE Helpdesk (email link).\nSearch the LANDFIRE Helpdesk Dashboard to see what others are asking and find solutions to common problems.\nSearch and subscribe to the LANDFIRE YouTube Channel (see tutorials, Office Hours, quick demonstrations).\nJoin an Office Hour (monthly meeting with open format Q & A with LANDFIRE experts).\nSchedule a meeting (email link) with TNC’s LANDFIRE Team."
-  },
-  {
-    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/1-bps.html",
-    "href": "LANDFIRE_Datasets/Biophysical_Settings/1-bps.html",
-    "title": "Biophysical Settings: An Overview",
-    "section": "",
-    "text": "Biophysical Settings are a foundational concept for LANDFIRE defined on the LANDFIRE Program website as:\n\n“…a modeled representation of the vegetation system that may have been dominant on the landscape prior to Euro-American settlement and is based on both the current biophysical environment and an approximation of modeled past disturbance regimes.”\n\nWe like to think of the BpSs as “ecosystem habitats”, or “potential ecosystem footprints”. The BpS concept asks “where might an ecosystem occur” based on abiotic factors such as soils, surficial geology, slope and elevation as well as natural disturbance regimes.\nFor more information on ecological systems in LANDFIRE, see the LANDFIRE Vegetation Products Overview section of this website.",
-    "crumbs": [
-      "LANDFIRE Datasets",
-      "Biophysical Settings",
-      "Biophysical Settings: An Overview"
-    ]
-  },
-  {
-    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/1-bps.html#potential-natural-vegetation",
-    "href": "LANDFIRE_Datasets/Biophysical_Settings/1-bps.html#potential-natural-vegetation",
-    "title": "Biophysical Settings: An Overview",
-    "section": "Potential Natural Vegetation",
-    "text": "Potential Natural Vegetation\nPotential natural vegetation (PNV) refers to the type of vegetation that would naturally grow in a specific area, balanced with the local climate, if there were no human interference. (Hengl et al., 2018) “Potential natural vegetation (PNV) is the vegetation cover in equilibrium with climate, that would exist at a given location if not impacted by human activities”. The BpS concept differs from PNV in two key ways:\n\nPNVs examine vegetation that might exist without any human intervention. The BpS concept includes natural disturbances and indigenous management activities prior to European colonization.\nPNVs are typically ‘static’, meaning they represent one “state” which is often the ‘climax’ state. BpS almost always includes multiple “states” representing a dynamic system.",
-    "crumbs": [
-      "LANDFIRE Datasets",
-      "Biophysical Settings",
-      "Biophysical Settings: An Overview"
-    ]
-  },
-  {
-    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/1-bps.html#pre-colonization-vegetation",
-    "href": "LANDFIRE_Datasets/Biophysical_Settings/1-bps.html#pre-colonization-vegetation",
-    "title": "Biophysical Settings: An Overview",
-    "section": "Pre-colonization vegetation",
-    "text": "Pre-colonization vegetation\nThese datasets rely on historical accounts, early land surveys and other methods such as sediment analysis to map ecosystems at a certain point in time. For example, land survey driven ecosystem maps often represent conditions as of ~ 1830s. The BpSs differ in that they:\n\ndo not represent a specific point in time, rather the pre-European condition generally, and\nare systems with multiple classes.",
-    "crumbs": [
-      "LANDFIRE Datasets",
-      "Biophysical Settings",
-      "Biophysical Settings: An Overview"
-    ]
-  },
-  {
-    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/1-bps.html#environmental-site-potential",
-    "href": "LANDFIRE_Datasets/Biophysical_Settings/1-bps.html#environmental-site-potential",
-    "title": "Biophysical Settings: An Overview",
-    "section": "Environmental Site Potential",
-    "text": "Environmental Site Potential\nSometimes, people use LANDFIRE’s Environmental Site Potential (ESP) dataset when they should probably use BpS.\nWe realize that there is a natural confusion here, as often people are looking for what they view as “potential vegetation” or “vegetation that was once present at a site and hopefully could be again”. However, LANDFIRE created the Environmental Site Potential as a precursor to BpS data to represent “the vegetation that could be supported at a given site based on the biophysical environment”.\nWhile ESP is useful for some situations, the documentation for BpS is much more developed, and this concept is now thought of as artificial, as it represents conditions without disturbance, whereas the BpS data include natural disturbances.",
-    "crumbs": [
-      "LANDFIRE Datasets",
-      "Biophysical Settings",
-      "Biophysical Settings: An Overview"
+      "The Reference Conditions Table"
     ]
   },
   {
@@ -330,27 +252,285 @@
     ]
   },
   {
-    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/5-refcon-table.html",
-    "href": "LANDFIRE_Datasets/Biophysical_Settings/5-refcon-table.html",
-    "title": "The Reference Conditions Table",
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/1-bps.html",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/1-bps.html",
+    "title": "Biophysical Settings: An Overview",
     "section": "",
-    "text": "The Reference Conditions Table (RCT) is essentially an output from the Biophysical Settings Models that focuses specifically on succession class and fire regime. In this section we will:\n\nExplore the fields in the RCT\nDiscuss how the RCT is linked to BpS through SClass\nConsider RCT use cases\nExplain where to get the table",
+    "text": "Biophysical Settings are a foundational concept for LANDFIRE defined on the LANDFIRE Program website as:\n\n“…a modeled representation of the vegetation system that may have been dominant on the landscape prior to Euro-American settlement and is based on both the current biophysical environment and an approximation of modeled past disturbance regimes.”\n\nWe like to think of the BpSs as “ecosystem habitats”, or “potential ecosystem footprints”. The BpS concept asks “where might an ecosystem occur” based on abiotic factors such as soils, surficial geology, slope and elevation as well as natural disturbance regimes.\nFor more information on ecological systems in LANDFIRE, see the LANDFIRE Vegetation Products Overview section of this website.",
     "crumbs": [
       "LANDFIRE Datasets",
       "Biophysical Settings",
-      "The Reference Conditions Table"
+      "Biophysical Settings: An Overview"
     ]
   },
   {
-    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/5-refcon-table.html#how-succession-class-letters-are-linked-to-bps-description-documents",
-    "href": "LANDFIRE_Datasets/Biophysical_Settings/5-refcon-table.html#how-succession-class-letters-are-linked-to-bps-description-documents",
-    "title": "The Reference Conditions Table",
-    "section": "How Succession Class Letters are Linked to BpS Description Documents",
-    "text": "How Succession Class Letters are Linked to BpS Description Documents\n\nSuccession Class Definition: Each Succession Class letter corresponds to a specific combination of vegetation cover type and structural stage within a BpS. These combinations are detailed in the BpS description documents in the “Succession Classes” section.\nMapping Rules: The BpS description documents include mapping rules that define how current vegetation conditions are classified into Succession Classes. These rules consider factors such as vegetation height, canopy cover, and species composition. The rules are applied to geospatial layers of existing vegetation to map the current extent of each Succession Class. More detailed rule sets are available in the Succession Class mapping rules spreadsheet (downloads a zip file).\nReference Conditions: The BpS description documents also provide the reference amount for each Succession Class, which can be compared to current vegetation conditions. This comparison helps in assessing vegetation departure and condition class. Reference conditions are also available in the reference conditions table (downloads a zip file).\nState-and-Transition Models: The Succession Class letters are linked to state-and-transition models that simulate the growth and disturbance dynamics within each BpS. The parameters for the models are in the “Model Parameters” section of the BpS Description and in the BpS Model library. These models provide a quantitative representation of how vegetation transitions between different Succession Classes over time.\n\nBy linking the Succession Class letters to the detailed descriptions and mapping rules in the BpS documents, LANDFIRE ensures that the classification of vegetation conditions is both accurate and consistent with ecological principles.",
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/1-bps.html#potential-natural-vegetation",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/1-bps.html#potential-natural-vegetation",
+    "title": "Biophysical Settings: An Overview",
+    "section": "Potential Natural Vegetation",
+    "text": "Potential Natural Vegetation\nPotential natural vegetation (PNV) refers to the type of vegetation that would naturally grow in a specific area, balanced with the local climate, if there were no human interference. (Hengl et al., 2018) “Potential natural vegetation (PNV) is the vegetation cover in equilibrium with climate, that would exist at a given location if not impacted by human activities”. The BpS concept differs from PNV in two key ways:\n\nPNVs examine vegetation that might exist without any human intervention. The BpS concept includes natural disturbances and indigenous management activities prior to European colonization.\nPNVs are typically ‘static’, meaning they represent one “state” which is often the ‘climax’ state. BpS almost always includes multiple “states” representing a dynamic system.",
     "crumbs": [
       "LANDFIRE Datasets",
       "Biophysical Settings",
-      "The Reference Conditions Table"
+      "Biophysical Settings: An Overview"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/1-bps.html#pre-colonization-vegetation",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/1-bps.html#pre-colonization-vegetation",
+    "title": "Biophysical Settings: An Overview",
+    "section": "Pre-colonization vegetation",
+    "text": "Pre-colonization vegetation\nThese datasets rely on historical accounts, early land surveys and other methods such as sediment analysis to map ecosystems at a certain point in time. For example, land survey driven ecosystem maps often represent conditions as of ~ 1830s. The BpSs differ in that they:\n\ndo not represent a specific point in time, rather the pre-European condition generally, and\nare systems with multiple classes.",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings: An Overview"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/1-bps.html#environmental-site-potential",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/1-bps.html#environmental-site-potential",
+    "title": "Biophysical Settings: An Overview",
+    "section": "Environmental Site Potential",
+    "text": "Environmental Site Potential\nSometimes, people use LANDFIRE’s Environmental Site Potential (ESP) dataset when they should probably use BpS.\nWe realize that there is a natural confusion here, as often people are looking for what they view as “potential vegetation” or “vegetation that was once present at a site and hopefully could be again”. However, LANDFIRE created the Environmental Site Potential as a precursor to BpS data to represent “the vegetation that could be supported at a given site based on the biophysical environment”.\nWhile ESP is useful for some situations, the documentation for BpS is much more developed, and this concept is now thought of as artificial, as it represents conditions without disturbance, whereas the BpS data include natural disturbances.",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings: An Overview"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "LANDFIRE: an introduction",
+    "section": "",
+    "text": "What is LANDFIRE?\nLANDFIRE, Landscape Fire and Resource Management Planning Tools, is a shared program between the wildland fire management programs of the U.S. Department of Agriculture Forest Service Fire and Aviation branch, and the U.S. Department of the Interior, that provides more than twenty landscape-scale geo-spatial products, 950 vegetation models, and a suite of tools that support all-lands planning, management, and operations.\nLANDFIRE’s mission is to provide agency leaders and managers with a common “all-lands” data set of vegetation and wildland fire/fuels information for strategic fire and resource management planning and analysis. Learn more about LANDFIRE’s mission on the LANDFIRE Program website.\n\n\nWhat is The Nature Conservancy’s connection?\nThe Nature Conservancy (TNC) is a major partnerin the LANDFIRE Program supported by a cooperative agreement through the USDA Forest Service. TNC’s LANDFIRE Team works closely with the LANDFIRE Business Leads, program staff, and other partners to provide support to LANDFIRE users.\nLANDFIRE user support can take many forms. Providing this assistance can range from in-person and online workshops to monthly office hours, newsletters and data alerts to learning website development and technical, personalized assistance. TNC’s LANDFIRE team is dedicated to developing current, user-focused LANDFIRE resources that advance natural resource work, amplify the appropriate use of LANDFIRE products, and leverage the collective knowledge of the natural resource community.\nLANDFIRE’s website offers a wealth of resources related to wildland fire and natural resource management. Users can access all LANDFIRE data, resources, applications, and update information on the LANDFIRE Program website.\n\n\nWhat is the LANDFIRE 101 Learning Website?\nWelcome to LANDFIRE 101, an introduction to the essential elements of LANDFIRE a crucial resource for land management and conservation. This platform is designed to familiarize you with the LANDFIRE Program, its comprehensive website, and some of the invaluable datasets it provides.\nLANDFIRE users often include district rangers, managers and natural resource specialists who may be tasked with a variety of objectives ranging from managing fuels, wildfires, multiple use requirements, wildlife habitat and climate change. LANDFIRE products, while not all encompassing, provide a solid foundation from which to build from. The products are consistent, (most are) updated annually, and serve as key inputs for programs such as Wildland Fire Decision Support System (WFDSS), the Cohesive Strategy Initiative and Wildfire Risk to Communities. Getting started with LANDFIRE may feel daunting, but we have a suite of tools to support anyone getting started with (or diving deeper into) the broad LANDFIRE suite.\n\n\n\n\n\n\nNote\n\n\n\n💡 This LANDFIRE 101 learning website serves as a supporting addendum to the comprehensive LANDFIRE Program website. The LANDFIRE 101 learning website can be followed from start-to-finish and provides practical support for LANDFIRE users. This supporting site should be used in conjunction with (not instead of) the LANDFIRE Program website. As such, we provide essentials for getting started with using and applying LANDFIRE products. Each page provides multiple opportunities for understanding and exploring these data further on the LANDFIRE Program website.\n\n\n\n\nWhat you will learn\nOur LANDFIRE 101 learning website provides a foundation for:\n\nBasic background information about LANDFIRE vegetation and fuels datasets\nImportant attributes of each dataset\nHow and where to download each product\nExamples of how these products are commonly used\nHow to properly use and apply LANDFIRE Products and avoid common misapplications of the data\nAvoiding common misapplications of the data, knowledge of frequently encountered issues, and overcoming potential data pitfalls\n\nWhether you are a novice or seeking to deepen your expertise, this training platform provides the insights and practical skills necessary for leveraging LANDFIRE data in your projects. We invite you to join us and discover how these powerful tools can support your endeavors in land management and beyond.\n\n\n\n\n\nStill have questions? LANDFIRE is here to help.\n\nAsk the LANDFIRE Helpdesk (email link).\nSearch the LANDFIRE Helpdesk Dashboard to see what others are asking and find solutions to common problems.\nSearch and subscribe to the LANDFIRE YouTube Channel (see tutorials, Office Hours, quick demonstrations).\nJoin an Office Hour (monthly meeting with open format Q & A with LANDFIRE experts).\nSchedule a meeting (email link) with TNC’s LANDFIRE Team."
+  },
+  {
+    "objectID": "1_what-is-landfire.html",
+    "href": "1_what-is-landfire.html",
+    "title": "An Overview of LANDFIRE Products",
+    "section": "",
+    "text": "The LANDFIRE Program produces current, consistent, and comprehensive geospatial data sets and databases that describe vegetation, wildland fuels, and fire regimes for the entire United States, including Alaska, Hawai’i, and Puerto Rico and the US Virgin Islands. Most LANDFIRE products are delivered as geospatial data layers with 30-meter cell resolution, although not all products are spatial layers. Read the LANDFIRE Technical Documentation to learn how LANDFIRE creates these products. Use the LANDFIRE Data Dictionary to help understand and locate LANDFIRE product information.\n\n\nThe table below shows a comprehensive list of all the datasets LANDFIRE provides in each of six categories, with links to where you can learn more about each dataset, explore attribute tables, and download data.\n\n\n\nVegetation\nHistorical Fire Regime\nFuel\nDisturbance\nTopographic\nReference\n\n\n\n\nBiophysical Settings\nFire Regime Groups\n13 Anderson Fire Behavior Fuel Models\nAnnual Disturbance\nAspect\nPublic Events Geodatabase\n\n\nEnvironmental Site Potential\nFire Return Interval\n40 Scott and Burgan Fire Behavior Fuel Models\nFuel Disturbance\nElevation\nPublic Reference Database (LFRDB)\n\n\nExisting Vegetation Cover\nPercent of Low-severity Fire\nCanadian Forest Fire Danger Rating System\nHistorical Disturbance\nSlope\n\n\n\nExisting Vegetation Height\nPercent of Mixed-severity Fire\nFuel Characteristic Classification System Fuelbed\nVegetation Disturbance\n\n\n\n\nExisting Vegetation Type\nPercent of Replacement-severity Fire\nFuel Disturbance\nPublic Events Geodatabase\n\n\n\n\nSuccession Class\n\nFuel Loading Models\nForest Transitions Database\n\n\n\n\nVegetation Condition Class\n\nCanopy Base Height\nNon-forest Vegetation Transitions Database\n\n\n\n\nVegetation Departure\n\nCanopy Bulk Density\nVegetation Transition Magnitude\n\n\n\n\n\n\nForest Canopy Cover\n\n\n\n\n\n\n\nForest Canopy Height\n\n\n\n\n\n\n\nFuel Vegetation Cover\n\n\n\n\n\n\n\nFuel Vegetation Height\n\n\n\n\n\n\n\nFuel Vegetation Type",
+    "crumbs": [
+      "An Overview of LANDFIRE Products"
+    ]
+  },
+  {
+    "objectID": "1_what-is-landfire.html#landfire-data-products-by-category",
+    "href": "1_what-is-landfire.html#landfire-data-products-by-category",
+    "title": "An Overview of LANDFIRE Products",
+    "section": "",
+    "text": "The table below shows a comprehensive list of all the datasets LANDFIRE provides in each of six categories, with links to where you can learn more about each dataset, explore attribute tables, and download data.\n\n\n\nVegetation\nHistorical Fire Regime\nFuel\nDisturbance\nTopographic\nReference\n\n\n\n\nBiophysical Settings\nFire Regime Groups\n13 Anderson Fire Behavior Fuel Models\nAnnual Disturbance\nAspect\nPublic Events Geodatabase\n\n\nEnvironmental Site Potential\nFire Return Interval\n40 Scott and Burgan Fire Behavior Fuel Models\nFuel Disturbance\nElevation\nPublic Reference Database (LFRDB)\n\n\nExisting Vegetation Cover\nPercent of Low-severity Fire\nCanadian Forest Fire Danger Rating System\nHistorical Disturbance\nSlope\n\n\n\nExisting Vegetation Height\nPercent of Mixed-severity Fire\nFuel Characteristic Classification System Fuelbed\nVegetation Disturbance\n\n\n\n\nExisting Vegetation Type\nPercent of Replacement-severity Fire\nFuel Disturbance\nPublic Events Geodatabase\n\n\n\n\nSuccession Class\n\nFuel Loading Models\nForest Transitions Database\n\n\n\n\nVegetation Condition Class\n\nCanopy Base Height\nNon-forest Vegetation Transitions Database\n\n\n\n\nVegetation Departure\n\nCanopy Bulk Density\nVegetation Transition Magnitude\n\n\n\n\n\n\nForest Canopy Cover\n\n\n\n\n\n\n\nForest Canopy Height\n\n\n\n\n\n\n\nFuel Vegetation Cover\n\n\n\n\n\n\n\nFuel Vegetation Height\n\n\n\n\n\n\n\nFuel Vegetation Type",
+    "crumbs": [
+      "An Overview of LANDFIRE Products"
+    ]
+  },
+  {
+    "objectID": "2_landfire-attributes.html",
+    "href": "2_landfire-attributes.html",
+    "title": "Explore LANDFIRE spatial data",
+    "section": "",
+    "text": "Exploring the attributes of any dataset is a fundamental step in the data analysis process. It lays the foundation for accurate analyses, informed decision-making, and successful outcomes in various fields, from scientific research to business intelligence.\nHere are three main reasons to understand the attributes of LANDFIRE data before any analysis in GIS or R:\n\nData Familiarity: Exploring attributes provides a deep understanding of the dataset’s structure, format, and content. This familiarity is essential for making informed decisions about data manipulation, analysis, and visualization.\nUnderstanding Data Quality: Examining data attributes helps assess the quality and reliability of the dataset. Identifying missing or inaccurate information early on can prevent errors in analyses and decision-making processes.\nEffective Data Visualization: Exploring attributes aids in creating effective data visualizations. Understanding the range and distribution of variables helps you choose appropriate visualization techniques that convey the intended message and insights.",
+    "crumbs": [
+      "Explore LANDFIRE spatial data"
+    ]
+  },
+  {
+    "objectID": "2_landfire-attributes.html#from-the-landfire-program-website",
+    "href": "2_landfire-attributes.html#from-the-landfire-program-website",
+    "title": "Explore LANDFIRE spatial data",
+    "section": "From the LANDFIRE Program website",
+    "text": "From the LANDFIRE Program website\n💡 Screenshots of where to find the datasets and attributes are below for those who find them useful.\nThe LANDFIRE program website is the most comprehensive resource for exploring and understanding the suite of LANDFIRE data. Here we highlight where you can find information and resources related to attributes of some key datasets.\n\nNavigate to the LANDFIRE Program website\nYou will find yourself on the main page, where you’ll see several icons across the top, as well as three images in the main body of the page and links to several key resources at the bottom.\n\nOne useful link for exploring the attributes of each dataset is the LANDFIRE Data Dictionary, under the Data Details heading at the bottom of the page. The data dictionary provides a comprehensive look at LANDFIRE data and serves as a guide to direct users to information about products, attributes, and metadata.\n\nWithin the data dictionary table of contents, click the layer you’re interested in and jump to the section of the document that shows the attributes and descriptions of that layer\n\nAnother way to explore datasets and their attributes is to navigate to the layer via the buttons across the top of the page. Most of the datasets we will discuss on this website can be found underneath the Vegetation category. If you need a refresher, check out which datasets are available where in the What is LANDFIRE? section of this site.\n\nOn each individual product page, you will find a section on Key Attributes, which provides more information on the attributes of that specific dataset.\n\n\nScreenshots for where to find attributes on the LANDFIRE website\n\n\n\nWhere to find the data dictionary\n\n\n\n\n\nWhere to find more information on individual datasets\n\n\n\n\n\nWhere to download datasets",
+    "crumbs": [
+      "Explore LANDFIRE spatial data"
+    ]
+  },
+  {
+    "objectID": "2_landfire-attributes.html#with-the-.csv-file-for-each-layer",
+    "href": "2_landfire-attributes.html#with-the-.csv-file-for-each-layer",
+    "title": "Explore LANDFIRE spatial data",
+    "section": "With the .csv file for each layer",
+    "text": "With the .csv file for each layer\n💡 Screenshots of where to find the datasets and attributes are below for those who find them useful.\nWhenever you download a LANDFIRE dataset, it will be packaged in a .zip file that includes not only the spatial data in .tif format, but also general metadata, spatial metadata, and a .csv data file. .csv stands for ‘Comma Separated Values’ and is a convenient way to display and work with the attributes of a spatial data layer in a non-spatial way (R, Excel, etc.). This enables you to examine your data and understand landscape trends without even opening GIS software. It also helps you understand the attributes you may want to map and explore spatially.\nThe .csv files can be found on the individual dataset web pages under the “Attribute Tables (CSV, ADD) sections at the bottom of each product page.\n\nExploring the .csv files of a LANDFIRE spatial layer\n\nNavigate to the folder where your spatial dataset is stored.\nYour data may be stored as a .zip file. Unzip the files and store them in a meaningful location so you can find and access them throughout this tutorial.\nWithin the dataset folder or zip file, you should have a folder titled ‘CSV_Data’. Click on this folder to access the .csv file.\nDouble click on the Microsoft Excel Comma Separated Values File to open it in Microsoft Excel.\n\nIf you don’t use Microsoft Excel or you aren’t working in a Microsoft Windows environment, this file may not default to opening in Excel. In that case, right click, navigate to ‘open with’, and choose the spreadsheet program of your choice to view the file.\n\nHere you can explore the attributes and values of the datasets. We recommend using the metadata and/or data dictionary as a guide to better understand what each of the field names means and what data are being reported under that field.\n\n\n\nScreenshots for where to find the .csv file\n\n\n\nLocation of the CSV_Data folder inside the data download\n\n\n\n\n\nLocation of the .csv file within the CSV_Data folder\n\n\n\n\n\nLocation of the .csv file on the EVT product page",
+    "crumbs": [
+      "Explore LANDFIRE spatial data"
+    ]
+  },
+  {
+    "objectID": "2_landfire-attributes.html#within-arcgis-pro",
+    "href": "2_landfire-attributes.html#within-arcgis-pro",
+    "title": "Explore LANDFIRE spatial data",
+    "section": "Within ArcGIS Pro",
+    "text": "Within ArcGIS Pro\n💡 Screenshots of where to find the attributes are below for those who find them useful.\nYou can also use ArcGIS Pro to view the attribute tables of each dataset in tandem with the spatial data. This may provide additional benefit, as you can select attributes of interest (a particular vegetation type, for example) and ArcGIS Pro will highlight where that attribute appears in the landscape. You can also use ArcGIS Pro’s built-in tools to generate some basic summary statistics that will allow you to explore the data on a high level.\n\nExploring attribute tables in ArcGIS Pro\n\nRight click on the layer name in the table of contents to open the layer properties menu, then browse to ‘Attribute Table’. This option can be found near the top of the menu.\n\nThis will open the attribute table for the layer. Here you can examine and edit the attributes of the layer.\n\nTo explore where a particular attribute value occurs on the landscape, click on the corresponding row number in the attribute table and ArcGIS Pro will highlight those pixels in the map display.\n\n\n💡 Be sure to use the selection tools in the Map section at the top of the ribbon bar to unselect any rows before doing any data processing. By default, ArcGIS Pro will run all tools on only the selected data and you may end up needing to re-run tools or processes because they were only run on a subset of your full area of interest.\n\n\n\nScreenshots for finding and working with the attribute tables in ArcGIS Pro\n\n\n\nHow to open the attribute table of a layer\n\n\n\n\n\nHighlighting a BpS in the attribute table and the map\n\n\n # Helpful Links\n\nUse the LANDFIRE Data Dictionary to help understand and locate LANDFIRE information.",
+    "crumbs": [
+      "Explore LANDFIRE spatial data"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/1_lf-data.html",
+    "href": "LANDFIRE_Datasets/1_lf-data.html",
+    "title": "LANDFIRE Datasets: An Overview",
+    "section": "",
+    "text": "In our work, we frequently utilize various vegetation and fire regime datasets to gain a deeper understanding of certain landscapes. Key datasets such as Biophysical Settings, Existing Vegetation, and Succession Class are integrated to create the Vegetation Departure (VDEP) product. This section of the website will give you an overview of these essential datasets, along with links to additional information and download options for your use.\nHere, you’ll learn how to access and make good use of these datasets. We’ll walk you through how to download each one and share real-life examples of how they can be applied. We’ll also introduce you to other helpful tools that can improve your work, making this a complete resource for everything LANDFIRE-related.\n\nA Word About Vegetation Classifications\nLANDFIRE adopted NatureServe’s Ecological Systems (ES) classification in 2004. At that time, it was the only consistent classification available continent-wide, and its ecological foundation fit the needs of the project as designed. Ecological Systems is currently used in the Existing Vegetation Type (EVT) and Biophysical Settings (BpS) spatial layers, the Biophysical Settings Models and Descriptions products and Historic Fire Regime. Three other classifications are provided as attributes of the EVT layer: National Vegetation Classification Group (NVCG), National Vegetation Classification Macrogroup (NVCM) and Society of American Foresters/Society of Range Management (SAF/SRM) Cover Type. The only classification that is directly mapped by LANDFIRE at the present time is Ecological Systems. NVCG is provided as a separate spatial layer in LF2016 but it and SAF/SRM attributes are created using a crosswalk with ES. Since the National Vegetation Classification is hierarchical, NVCM is created by rolling-up NVCG into the next highest level of the classification.\n\n\nWhat you will learn in this section\n\nA brief overview of some commonly used datasets\nHow to download and access LANDFIRE datasets\nHow these key LANDFIRE datasets are linked to one another\n\n\n\n\n\n\nStill have questions? LANDFIRE is here to help.\n\nAsk the LANDFIRE Helpdesk (email link).\nSearch the LANDFIRE Helpdesk Dashboard to see what others are asking and find solutions to common problems.\nSearch and subscribe to the LANDFIRE YouTube Channel (see tutorials, Office Hours, quick demonstrations).\nJoin an Office Hour (monthly meeting with open format Q & A with LANDFIRE experts).\nSchedule a meeting (email link) with TNC’s LANDFIRE Team.",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "LANDFIRE Datasets: An Overview"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/2-bps_spatial.html",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/2-bps_spatial.html",
+    "title": "Biophysical Settings Spatial Data",
+    "section": "",
+    "text": "An overview of the Biophysical Settings spatial data\nKey attributes of the Biophysical Settings spatial data\nWhere to find Biophysical Settings data on the LANDFIRE Program website\n\n\n\n\n\n\n\n\nLANDFIRE delivers Biophysical Settings data and models for the entire United States, including Alaska and Hawaii. Puerto Rico and the US Virgin Islands do not have BpS data developed. 950 Biophysical Settings are grouped into seven major vegetation classes and displayed using one color family for each class.",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings Spatial Data"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/2-bps_spatial.html#key-bps-attributes-include",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/2-bps_spatial.html#key-bps-attributes-include",
+    "title": "Biophysical Settings Spatial Data",
+    "section": "Key BpS Attributes include",
+    "text": "Key BpS Attributes include\n\nBPS_CODE: The unique code LANDFIRE uses for each Biophysical Setting\nZone: The NLCD map zone(s) the Bps is located in or relates to\nBPS_MODEL: The unique BpS Model code. This combines the BpS code with the zone(s) the model is located in. In some cases, a BpS with the same name and BpS Code may be split among map zones because the vegetation or disturbance regimes vary enough that the descriptions differ. An example of this is the ‘Laurentian-Acadian Northern Hardwoods forest’ BpS (13020), which has four different BpS Models, although it is mapped as one BpS type:\n\n13020_40 (BpS 13020, Map Zone 40)\n13020_63 (BpS 13020, Map Zone 40)\n13020_65_66 (BpS 13020, Map Zone 65 and 66)\n13020_65_66 (BpS 13020, Map Zone 65 and 66)\n\n\nNote, there will be a separate row, and VALUE for each BPS_CODE/MapZone combination, such as presented in the above example where there are two rows for 13020_65_66.\n\nBPS_NAME: The name of the Biophysical Setting. The name is matched to the BpS Code, not the BpS model number.\nGROUPVEG: Coarse vegetation type groupings highlighting the high-level dominant vegetation within that BpS. Note that if a BpS is listed as ‘Hardwood’ it may actually be a mix of hardwood, herbaceous, savannah, and more, but LANDFIRE’s mapping identified hardwoods as dominating most of the landscape.\nPre-European Colonization Fire Regime Attributes:\n\nFRI_REPLAC: Average historic replacement-severity fire frequency for the BpS\nFRI_MIXED: Average historic mixed-severity fire frequency for the BpS\nFRI_SURFAC: Average historic surface-severity fire frequency for the BpS\nFRI_ALLFIR: Average historic fire frequency for all fires within the BpS.\nPRC_REPLAC: Percent of historic fires with replacement severity for the BpS\nPRC_MIXED: Percent of historic fires with mixed serverity for the BpS\nPRC_SURFAC: Percent of historic fires with surface severity for the BpS\nFRG_NEW: The fire regime group this BpS is found in. Fire regime groups are based on a combination of fire return interval and fire severity. The current Fire Regime Groups were updated in 2016 and have been modified from a previous classification. You can find the new breakdown of fire regime groups in the Attribute Data Dictionaryfor the BpS spatial data.",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings Spatial Data"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html",
+    "title": "Biophysical Settings Models",
+    "section": "",
+    "text": "The basics of Biophysical Settings models\nDownloading and installing SyncroSim, the software we use for LANDFIRE’s models\nLoading all LANDFIRE BpS models using the LANDFIRE Package\nIsolating a subset of BpS models\nExploring the models you are interested in",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings Models"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html#download-and-install-syncrosim",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html#download-and-install-syncrosim",
+    "title": "Biophysical Settings Models",
+    "section": "Download and Install SyncroSim",
+    "text": "Download and Install SyncroSim\nInstalling SyncroSim is similar to installing most software, i.e., you download the application, then click to start an installer, etc. You can find the software on the SyncroSim website - we typically accept all defaults when installing.\n\nInstalling on a governmental machine may present challenges, but approval and updates are in the works.\nRunning SyncroSim on a Mac is generally not recommended. For more information on this, see the getting started documentation on the SyncroSim website.",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings Models"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html#load-all-landfire-bps-models-using-the-landfire-package",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html#load-all-landfire-bps-models-using-the-landfire-package",
+    "title": "Biophysical Settings Models",
+    "section": "Load all LANDFIRE BpS models using the LANDFIRE Package",
+    "text": "Load all LANDFIRE BpS models using the LANDFIRE Package\n💡Note: Screenshots of the process are included below the written instructions for those who find them useful.\nWhile SyncroSim is powerful as downloaded, adding ‘packages’ will bring even more functionality. For our work you will need to add in the ST-Sim and landfirevegmodels packages. In SyncroSim:\n\nGo to File -&gt; Packages. Click the “Install” button.\nFrom the list check the “St-Sim” and “landfirevegmodels” packages, when click “OK”. The install will happen automatically.\nClose the “Packages” window.\n\nOnce you have those packages installed, you are ready to bring in the LANDFIRE vegetation models. To do that will take a few steps:\n\nNote: you will need internet for this section.\n\n\nGo to File -&gt; New… This will bring up a “New Library” window.\nIn the New Library window highlight “landfirevegmodels” at the top of the window, then select “Reference Models” near the bottom.\nNote where the “Reference Models” library will be saved. Change the location if needed. Hit “OK”, then grab a beverage or go for a walk as this will take a few minutes.\n\n\n\n\n\n\n\nNote\n\n\n\nAn “Update Library” window may open once the Reference Models library is downloaded. Click “Apply” at the bottom of that window to proceed.\n\n\nOnce you complete these steps, SyncroSim will have downloaded and loaded the LANDFIRE BpS Reference Condition Models library into your “Library Explorer” window.\n\nScreenshots of loading LANDFIRE Package and Reference Conditions Library\n\n\n\nPackages Pane\n\n\n\n\n\nSelect packages",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings Models"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html#isolate-a-subset-of-bps-model",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html#isolate-a-subset-of-bps-model",
+    "title": "Biophysical Settings Models",
+    "section": "Isolate a subset of BpS model",
+    "text": "Isolate a subset of BpS model\n\n\n\n\n\n\nNote\n\n\n\nYou can access a set of downloadable instructions (pdf) and much more information on Biophysical Settings models on the LANDFIRE Vegetation Modeling website.\n\n\n💡Note: Screenshots of the process are included below the written instructions for those who find them useful.\nWe assume you will not want to explore all 900+ LANDFIRE models, so we outline how to subset one or more individual models below.\n\nFor good luck close and re-open SyncroSim. Seriously, after installing packages and libraries some of the functions just work better if you do so.\nIf it is not there, open the LANDFIRE BpS Reference Condition Models library by going to File -&gt; Open then navigating to the “Reference-Condition-Models.ssim” file, likely in your SyncroSim directory. You will then click “Open”.\nOnce opened, the LANDFIRE BpS Reference Condition Models will be in the Library Explorer pane. You will also see, within the library, a “project” named “Definitions” and a “Scenaro” named “Reference Condition Models”.\nClick the “Reference Condition Models” scenario once to highlight it.\nGo to Edit -&gt; Export LFVM Strata to bring up the selection window.\nOnce at the Export LFVM Strata window, you will check the BpSs of interest, give a file name for the new library and assign a folder that it will be saved to.\n\n\n\n\n\n\n\nNote\n\n\n\nWe do not suggest selecting many strata at once until you are familiar with the modeling process. Stick to 1-3 initially.\n\n\n\nScreenshots of Isolating a model\n\n\n\nSelect scenario\n\n\n\n\n\nExport strata\n\n\n\n\n\nCreate a new library with selected strata",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings Models"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html#explore-the-models-you-are-interested-in",
+    "href": "LANDFIRE_Datasets/Biophysical_Settings/4-bps-models.html#explore-the-models-you-are-interested-in",
+    "title": "Biophysical Settings Models",
+    "section": "Explore the models you are interested in",
+    "text": "Explore the models you are interested in\n💡Note: Screenshots of the process are included below the written instructions for those who find them useful.\nOK you are doing a great job. Now you have a library with a subset of strata (i.e., BpSs in this case) that you care about. Now what?\nBy exploring the BpS models you can learn how the modeling experts parameterized them, and more interactively see how the disturbances and states all fit together.\nStart exploring:\n\nDouble click on “Reference Condition Models” then the Transition Pathways tab.\nTo make viewing easier go to Window -&gt; Arrange All.\nAt the bottom will be tabs of all of the BpSs that are in this library. Click any one. See “Transitions Pane”.\nClick on any box to see the pathways associated with that state (i.e., succession class).\nIf you want to run the scenario:\n\nGo to “Output Options” tab within the scenario, make sure that the “State classes every” box is set to 100 (i.e., not “1”).\nGo to “Run Control tab” and set the ‘Total iterations’ to 2.\nIn the “Initial Conditions” tab, insure that the “Total Acres”and “Number of Simulation cells” boxes both have “1,000” For exploring we recommend these three steps as it will speed up your runs.\nIn the Library Explorer highlight the scenario, then click the small green triangle at the top of the screen.\n\nMake a chart by clicking the “New” icon in the “Charts” pane, then name it appropriately. You will change some settings to get your first chart:\n\nChange Line Chart to Column Chart (top left of window)\nUnder “State Classes” select “Proportion”\nUnder “Disaggregate by” check the “State Class” box\nUnder “Include Data For”, click “State Class” then select the appropriate state classes\nNote: if you have multiple BpSs, you will also want to go to and select one “Model” under the “Include Data For” dropdown\nClick “Apply”\n\n\n\nScreenshots of Running a Model and Making a Chart\n\n\n\nState class outputs\n\n\n\n\n\nRun your model\n\n\n\n\n\nSet up your column chart",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Biophysical Settings",
+      "Biophysical Settings Models"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Existing_Vegetation/1_existing-vegetation-type.html",
+    "href": "LANDFIRE_Datasets/Existing_Vegetation/1_existing-vegetation-type.html",
+    "title": "Existing Vegetation Type",
+    "section": "",
+    "text": "An overview of the Existing Vegetation Type data\nKey attributes of the EVT data\nWhere to find EVT data",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Existing Vegetation",
+      "Existing Vegetation Type"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Existing_Vegetation/1_existing-vegetation-type.html#key-evt-attributes-include",
+    "href": "LANDFIRE_Datasets/Existing_Vegetation/1_existing-vegetation-type.html#key-evt-attributes-include",
+    "title": "Existing Vegetation Type",
+    "section": "Key EVT Attributes include:",
+    "text": "Key EVT Attributes include:\n\nEVT_Name: Ecological Systems names\nEVT_Fuel: The Ecological Systems code used for LANDFIRE fuels product development\nEVT_Fuel_N: The Ecological Systems class name used for fuel product development\nEVT_LF: Major vegetation lifeform (e.g., tree, shrub, herb, sparse) for the ecological system. Note that if an EVT Lifeform is listed as ‘tree’ it may actually be a mix of tree, herb, savanna, and more, but the ecological system and LANDFIRE identified trees as dominating most of the landscape.\nEVT_GP_N: The vegetation type name (e.g. grassland and steppe, longleaf pine, yellow birch-sugar maple forest). This is more specific than the lifeform, but less specific than the ecological system (EVT Name).\nEVT_PHYS: Vegetation physiognomy of the ecological system (e.g. Grassland, Riparian, Herbaceous, Sparsely Vegetated)\nSAF_SRM: Society of American Foresters/Society for Range Management cover types\nEVT_ORDER: FGDC Vegetation physiognomic order (highest level/most general classification, e.g. Tree Dominated)\nEVT_CLASS: FGDC Vegetation class (mid level/more specific, e.g. Closed tree canopy)\nEVT_SBCLS: FGDC Vegetation subclass (lowest level/most specific, e.g. Deciduous closed tree canopy)",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Existing Vegetation",
+      "Existing Vegetation Type"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Existing_Vegetation/1_existing-vegetation-type.html#screenshot-of-data-access-and-resources-on-the-existing-vegetation-type-page",
+    "href": "LANDFIRE_Datasets/Existing_Vegetation/1_existing-vegetation-type.html#screenshot-of-data-access-and-resources-on-the-existing-vegetation-type-page",
+    "title": "Existing Vegetation Type",
+    "section": "Screenshot of Data Access and Resources on the Existing Vegetation Type page",
+    "text": "Screenshot of Data Access and Resources on the Existing Vegetation Type page\n\n\n\nScreenshot of where to locate the Existing Vegetation Type data page on the LANDFIRE Program website\n\n\n\n\n\nScreenshot of Data Access and Resources on the Existing Vegetation Type data page",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Existing Vegetation",
+      "Existing Vegetation Type"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Existing_Vegetation/3_existing-vegetation-height.html",
+    "href": "LANDFIRE_Datasets/Existing_Vegetation/3_existing-vegetation-height.html",
+    "title": "Existing Vegetation Height",
+    "section": "",
+    "text": "An overview of the Existing Vegetation Height data\nKey attributes of the EVH data\nWhere to find EVH data\nCommon uses for EVH data",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Existing Vegetation",
+      "Existing Vegetation Height"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Existing_Vegetation/3_existing-vegetation-height.html#key-evh-attributes-include",
+    "href": "LANDFIRE_Datasets/Existing_Vegetation/3_existing-vegetation-height.html#key-evh-attributes-include",
+    "title": "Existing Vegetation Height",
+    "section": "Key EVH Attributes include:",
+    "text": "Key EVH Attributes include:\n\nCLASSNAMES: The main attribute of EVH. This combines the EVT lifeform with the average heightof the dominant lifeform. Key lifeforms are described below. As with all LANDFIRE layers, you can get more information about individual attributes from the EVH Attribute Data Dictionary (opens a pdf).\nTree Height: average tree height in meters\nShrub Height: average shrub height in meters\nHerb Height: average herb/grass height in meters\nDeveloped-Upland Forest Height: Five classes of developed upland forest\nDeveloped: Seven classes of developed landscapes\nDeveloped-Roads: Pixels identified as roads\nNASS Crops: Ten classes of National Agricultural Statistics Service defined cropland",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Existing Vegetation",
+      "Existing Vegetation Height"
+    ]
+  },
+  {
+    "objectID": "LANDFIRE_Datasets/Existing_Vegetation/3_existing-vegetation-height.html#screenshots-of-data-access-and-resources-on-the-existing-vegetation-height-page",
+    "href": "LANDFIRE_Datasets/Existing_Vegetation/3_existing-vegetation-height.html#screenshots-of-data-access-and-resources-on-the-existing-vegetation-height-page",
+    "title": "Existing Vegetation Height",
+    "section": "Screenshots of Data Access and Resources on the Existing Vegetation Height page",
+    "text": "Screenshots of Data Access and Resources on the Existing Vegetation Height page\n\n\n\nScreenshot of where to locate the Existing Vegetation Height data page on the LANDFIRE Program website\n\n\n\n\n\nScreenshot of Data Access and Resources on the Existing Vegetation Height data page",
+    "crumbs": [
+      "LANDFIRE Datasets",
+      "Existing Vegetation",
+      "Existing Vegetation Height"
     ]
   }
 ]
