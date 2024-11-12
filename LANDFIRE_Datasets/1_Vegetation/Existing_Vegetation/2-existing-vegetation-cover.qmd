@@ -1,0 +1,64 @@
+---
+title: "Existing Vegetation Cover"
+author: "Sarah Hagen"
+toc: true
+format: html
+---
+
+# What you will find in this section
+
+- An overview of the Existing Vegetation Cover data
+
+- Key attributes of the EVC data
+
+- Where to find EVC data
+
+- Common uses for EVC data
+
+# Existing Vegetation Cover
+![LANDFIRE maps Existing Vegetation Cover data for the entire United States, including Alaska, Hawaii, Puerto Rico and the US Virgin Islands. Vegetation is divided into lifeforms and then displayed with a continuous color ramp (lowest percentage cover to highest percentage cover) within each lifeform.](images/EVC_map.bmp){fig-alt="A map of LANDFIRE Existing Vegetation Cover for the Contiguous US, Alaska, Hawaii, and Puerto Rico and the US Virgin Islands."}
+
+[LANDFIRE’s Existing Vegetation Cover dataset](https://www.landfire.gov/vegetation/evc), also known as EVC, works in tandem with the [Existing Vegetation Type dataset](https://www.landfire.gov/vegetation/evt) to give a more detailed picture of the current vegetation on a landscape. EVC represents the percent cover of the live canopy layer for a 30-m cell.
+
+EVC is generated separately for tree, shrub, and herbaceous cover lifeforms using training data and other geospatial layers. Percentage tree, shrub, and herbaceous canopy cover training data are generated using plot-level ground-based visual assessments and lidar observations.
+
+LANDFIRE uses EVC in several subsequent layers, including the development of the fuel layers.
+
+## Key EVC Attributes include:
+
+-   **CLASSNAMES**: The main attribute of EVC. This combines the EVT lifeform with the percent canopy cover of that lifeform. Key lifeforms are described below. As with all LANDFIRE layers, you can get more information about individual attributes from the [EVC Attribute Data Dictionary](https://landfire.gov/sites/default/files/DataDictionary/LF2023/LF23_EVCADD_240.pdf) (opens a pdf).
+    -   **Tree Cover**: percent tree cover
+    -   **Shrub Cover**: percent shrub cover
+    -   **Herb Cover**: percent herbaceous/grassland cover
+    -   **Developed-Upland Forest/Shrub**: Five classes of developed upland vegetation
+    -   **Developed**: Three classes of developed landscapes
+    -   **Developed-Roads**: Pixels identified as roads
+    -   **NASS Crops**: Six classes of National Agricultural Statistics Service defined cropland
+  
+# Where to find Existing Vegetation Cover data
+
+The Existing Vegetation Cover data is included in the [Vegetation section](https://landfire.gov/vegetation) of the LANDFIRE Program Website on the [Existing Vegetation Cover](https://landfire.gov/vegetation/evc) page.
+
+On that page you will find an overview, including the information above along with further details and links to other important documents. Perhaps of most interest are the download links - via the LANDFIRE Map Viewer, full extent downloads, and a variety of ways to stream data into your maps. The page also includes resources such as attribute tables, metadata, and supplemental information.
+
+## Screenshot of Data Access and Resources on the Existing Vegetation Cover page
+
+![Screenshot of where to locate the Existing Vegetation Cover data page on the LANDFIRE Program website](images/EVC_lfgov.bmp){fig-alt="Arrow pointing to the Existing Vegetation Cover link on the Vegetation page of the LANDFIRE Program website main page under the Current Vegetation section."}
+
+![Screenshot of Data Access and Resources on the Existing Vegetation Cover data page ](images/EVC_page.bmp){fig-alt="Location on landfire.gov, the LANDFIRE Program website, of where to find the Data Access and Resources sections of the Existing Vegetation Cover data page. When you browse to landfire.gov/vegetation/evc, these resources are near the bottom of the page under the Data Access and Existing Vegetation Cover Resources headings."}
+
+# Some uses for Existing Vegetation Cover data
+
+## Landscape Assessments
+
+We often use LANDFIRE EVC in combination with Existing Vegetation Type (EVT) and Height (EVH) to better understand landscapes using something we call landscape assessments. These assessments are created using GIS and R code and examine historical and current vegetation patterns across landscapes of various sizes. For examples of what we can do with landscape assessments, please see the [LANDFIRE in Landscape Assessments](https://storymaps.arcgis.com/collections/21a22e163439413c9ce1d8e2ef0b1311?item=3) page of the [LANDFIRE Portfolio](https://storymaps.arcgis.com/collections/21a22e163439413c9ce1d8e2ef0b1311).
+
+## Succession Class
+
+EVC, once again in combination with EVT and EVH, is a key component in the way LANDFIRE creates and maps succession class. Through Succession Class, EVC contributes to the calculation of [Vegetation Departure](https://www.landfire.gov/vegetation/vdep) and [Vegetation Condition Class](https://www.landfire.gov/vegetation/vcc). We will discuss [succession class](../Succession_Class/1_succession-class.qmd) and [vegetation departure(../Vegetation_Departure/1_vegetation-departure.qmd) in more detail in subsequent sections of this website.
+
+# Helpful Resources
+
+- [Existing Vegetation Cover Attribute Data Dictionary](https://landfire.gov/sites/default/files/DataDictionary/LF2023/LF23_EVCADD_240.pdf)
+
+- An overview of [LANDFIRE in Landscape Assessments](https://storymaps.arcgis.com/collections/21a22e163439413c9ce1d8e2ef0b1311?item=3) on the LANDFIRE Portfolio

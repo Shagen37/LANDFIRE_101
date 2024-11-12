@@ -101,8 +101,8 @@ You can also use ArcGIS Pro to view the attribute tables of each dataset in tand
 
 2.  To explore where a particular attribute value occurs on the landscape, click on the corresponding row number in the attribute table and ArcGIS Pro will highlight those pixels in the map display.
 
-::: {callout-warning}
-💡 Be sure to use the selection tools in the Map section at the top of the ribbon bar to unselect any rows before doing any data processing. By default, ArcGIS Pro will run all tools on only the selected data and you may end up needing to re-run tools or processes because they were only run on a subset of your full area of interest.
+::: {callout-warning icon="true"}
+Be sure to use the selection tools in the Map section at the top of the ribbon bar to unselect any rows before doing any data processing. By default, ArcGIS Pro will run all tools on only the selected data and you may end up needing to re-run tools or processes because they were only run on a subset of your full area of interest.
 :::
 
 ### Screenshots for finding and working with the attribute tables in ArcGIS Pro
@@ -111,6 +111,8 @@ You can also use ArcGIS Pro to view the attribute tables of each dataset in tand
 
 ![*Highlighting a BpS in the attribute table and the map*](images/4_HighlightAttribute.png){fig-alt="An ArcGIS Pro window with the attribute table open in the bottom half and a map window open in the top half. A row is highlighted in the attribute table with the corresponding pixels highlighted in the map. An arrow is pointing to the row number, showing where to click to highlight the row in the table."}
 
-![Unselecting attributes](images/5_UnselectAttribute.png){fig-alt="An ArcGIS Pro window showing the Clear button highlighted in the ribbon bar at the top of the map window under the Selection heading."} \# Helpful Links
+![Unselecting attributes](images/5_UnselectAttribute.png){fig-alt="An ArcGIS Pro window showing the Clear button highlighted in the ribbon bar at the top of the map window under the Selection heading."}
+
+# Helpful Resources
 
 -   Use the [LANDFIRE Data Dictionary](https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf) to help understand and locate LANDFIRE information.

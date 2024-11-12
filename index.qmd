@@ -13,7 +13,7 @@ LANDFIRE's mission is to provide agency leaders and managers with a common "all-
 
 # What is The Nature Conservancy’s connection?
 
-The Nature Conservancy (TNC) is a [major partner](https://www.landfire.gov/about-landfire/lfpartners)in the LANDFIRE Program supported by a cooperative agreement through the USDA Forest Service. TNC’s LANDFIRE Team works closely with the LANDFIRE Business Leads, program staff, and other partners to provide support to LANDFIRE users.
+The Nature Conservancy (TNC) is a [major partner](https://www.landfire.gov/about-landfire/lfpartners) in the LANDFIRE Program supported by a cooperative agreement through the USDA Forest Service. TNC’s LANDFIRE Team works closely with the LANDFIRE Business Leads, program staff, and other partners to provide support to LANDFIRE users.
 
 LANDFIRE user support can take many forms. Providing this assistance can range from in-person and online workshops to monthly office hours, newsletters and data alerts to learning website development and technical, personalized assistance. TNC’s LANDFIRE team is dedicated to developing current, user-focused LANDFIRE resources that advance natural resource work, amplify the appropriate use of LANDFIRE products, and leverage the collective knowledge of the natural resource community.
 
@@ -25,8 +25,8 @@ Welcome to LANDFIRE 101, an introduction to the essential elements of LANDFIRE a
 
 LANDFIRE users often include district rangers, managers and natural resource specialists who may be tasked with a variety of objectives ranging from managing fuels, wildfires, multiple use requirements, wildlife habitat and climate change. LANDFIRE products, while not all encompassing, provide a solid foundation from which to build from. The products are consistent, (most are) updated annually, and serve as key inputs for programs such as Wildland Fire Decision Support System (WFDSS), the Cohesive Strategy Initiative and Wildfire Risk to Communities. Getting started with LANDFIRE may feel daunting, but we have a suite of tools to support anyone getting started with (or diving deeper into) the broad LANDFIRE suite.
 
-::: {.callout-note icon="true"}
-💡 This LANDFIRE 101 learning website serves as a supporting addendum to the comprehensive [LANDFIRE Program website](https://www.landfire.gov). The LANDFIRE 101 learning website can be followed from start-to-finish and provides practical support for LANDFIRE users. This supporting site should be used in conjunction with (not instead of) the [LANDFIRE Program website](https://www.landfire.gov). As such, we provide essentials for getting started with using and applying LANDFIRE products. Each page provides multiple opportunities for understanding and exploring these data further on the [LANDFIRE Program website](https://www.landfire.gov).
+::: callout-note
+This LANDFIRE 101 learning website serves as a supporting addendum to the comprehensive [LANDFIRE Program website](https://www.landfire.gov). The LANDFIRE 101 learning website can be followed from start-to-finish and provides practical support for LANDFIRE users. This supporting site should be used in conjunction with (not instead of) the [LANDFIRE Program website](https://www.landfire.gov). As such, we provide essentials for getting started with using and applying LANDFIRE products. Each page provides multiple opportunities for understanding and exploring these data further on the [LANDFIRE Program website](https://www.landfire.gov).
 :::
 
 # What you will learn

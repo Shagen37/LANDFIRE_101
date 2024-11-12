@@ -1,0 +1,216 @@
+---
+title: "Biophysical Settings Descriptions"
+author: "Randy Swaty, Sarah Hagen"
+toc: true
+format: html
+---
+
+The Biophysical Settings (BpS) Descriptions are a foundational LANDFIRE product. They set the stage for development of many other LANDFIRE products such as the Biophysical Settings and Succession Class spatial datasets.
+
+# What you will find in this section
+
+-   How to download all (or some) of the BpS Descriptions
+
+-   The concept of BpS and succession class
+
+-   How LANDFIRE documented ‘reference conditions’ (i.e., how our BpSs looked and functioned prior to European colonization)
+
+-   What is contained in the BpS descriptions
+
+# Downloading all of the BpS descriptions
+
+While we typically work with one or a small set of BpSs, there are times when downloading the entire set developed for the lower 48 states plus Hawaii and Alaska is most efficient.
+
+## To download all BpS descriptions
+
+💡 *Screenshots are provided below for those who want them.*
+
+1.  Navigate to the [Biophysical Settings Models and Descriptions page](https://landfire.gov/vegetation/bps) of the LANDFIRE Program website (Vegetation→ Biophysical Settings Models and Descriptions).
+
+2.  Scroll down to the Download BpS Models and Descriptions Section near the bottom of the page.
+
+3.  Here you will see two options: “Revised CONUS and Hawaii” models and “Original Alaska” models. Select whichever set you would like, then click on the “BpS Descriptions” which will trigger downloading of a .zip file named “LANDFIRE_CONUS-HI_BpS_Descriptions_Jan2023.zip” (for Revised CONUS and Hawaii) that has 819 Word documents or “Alaska_Original_BpS_Descriptions.zip” (for Alaska) that has 12 pdf documents. This file will most likely land in your “Downloads” directory.
+
+4.  Use your extraction tool of choice to unzip and explore. One possible way if you are using Windows is to:
+
+    -   right click the file
+
+    -   select ‘Extract all’ to access the Windows extraction tool.
+
+------------------------------------------------------------------------
+
+### Screenshot for where to find the Biophysical Settings Models and Descriptions Page
+
+[![You can find the Biophysical Settings Models and Descriptions page from the Vegetation page on the LANDFIRE Program website.](images/BpS_models_page.bmp){fig-alt="The Vegetation Page on the LANDFIRE Program website. There are three boxes with the headings Current Vegetation, Modeled Vegetation, and Vegetation Classes. An arrow points to the second link in the Modeled Vegetation section, Biophysical Settings models and Descriptions" fig-align="center"}](https://landfire.gov/vegetation)
+
+------------------------------------------------------------------------
+
+### Screenshot for downloading and unzipping all BpS descriptions
+
+[![Where to click to download all BpS descriptions](images/BpS_models_download.bmp){fig-alt="The bottom of the BpS Models and Descriptions page of the LANDFIRE Program website. There are two boxes with the headings Revised CONUS and Hawaii and Original Alaska. Arrows point to the second link below each heading, BpS Descriptions" fig-align="center"}](https://landfire.gov/vegetation/bps-models)
+
+------------------------------------------------------------------------
+
+# Downloading one or a set of BpS documents
+
+💡 *Screenshots are provided below for those who want them.*
+
+In support of a BpS review process we completed recently, we created a [BpS Models and Descriptions Support](https://landfirereview.org/)website, which has a page that allows for searching for, and downloading a single or a set of BpS Descriptions.
+
+::: callout-note
+We recommend using a browser other than Google Chrome to access this site, as some users have reported issues with downloading BpS documents while using Chrome.
+:::
+
+## First, select your BpSs of interest
+
+-   Go to [the search page](https://landfirereview.org/search.php).
+
+-   From here, there are multiple ways to select BpS documents to download:
+
+    1.  Use the filters on the left side of the page:
+
+        -   Use the checkboxes under the “Vegetation Types” heading to select all BpS documents for one or more broad Vegetation Types (#1 on ‘Ways to select’ screenshot below)
+
+        -   Use the checkboxes under the “Map Zone” heading to select all BpS documents for one or more LANDFIRE Map Zones (#2 on ‘Ways to select’ screenshot below).
+
+            -   To get a Map Zone map you can click the “View map of LANDFIRE Map Zones” text (highlighted with blue arrow on ‘Ways to download’ screenshot below), or [access it directly](https://landfirereview.org/IMG/USmapzones-v1_July2015.jpg) (opens a .jpg file).
+
+    2.  Search for a BpS of interest by typing in the ‘Search…’ box (#3 on ‘Ways to select’ screenshot below). A few things to keep in mind when searching:
+
+        -   You can search by genus and/or species or common name (e.g., ‘Fraxinus’, or ‘White Ash’ )
+
+        -   Most text terms will work, numbers will not. For example, ‘hurricane’ will return BpSs, ‘1362’ (an actual BpS number) will not.
+
+        -   You can first filter by ‘Vegetation Types’ and/or ‘Map Zones’, then search to narrow results.
+
+## Download documents of interest
+
+Once you have selected the BpSs you want to get descriptions for you must take one more step to get your documents:
+
+1.  If you want all of the BpSs for selected ‘Vegetation Types’ and/or ‘Map Zones’ you will click the ‘Download All Search Results Documents’ button (indicated with arrow on ‘Download all’ screenshot below).
+
+2.  If you have checked specific BpSs for download, you will click the ‘Download All Selected Documents’ button (indicated with an arrow on ‘Download selected’ screenshot below).
+
+::: callout-note
+Clicking either of the ‘Download’ buttons will initiate download of a .zip file that will most likely land in your ‘Downloads’ folder. Use your extraction tool of choice to unzip and explore.
+:::
+
+::: callout-warning
+Beware when clicking the ‘Download All Search Results Documents’ button. If not careful you will end up with a huge download of many more documents than you want! Make sure to filter by ‘Vegetation Types’ and/or ‘Map Zones’ first.
+:::
+
+------------------------------------------------------------------------
+
+### Screenshots showing how to select and download BpSs
+
+[![Three ways to select your BpS(s) of interest](images/ways_to_select.png){fig-alt="The search page of the LANDFIRE BpS Models and Descriptions Support website. There are three numbers on the page. #1 is over the Vegetation Types checkboxes in the upper left sidebar. #2 is over the Map Zones checkboxes in the lower left sidebar. #3 is over the search bar at the top of the main page section" fig-align="center"}](https://landfirereview.org/search.php)
+
+[![Downloading all BpSs from filtering by 'Vegetation Types' and/or 'Map Zones'](images/download_all.png){fig-alt="The search page of the LANDFIRE BpS Models and Descriptions Support website. An arrow points to the 'Download All Search Results Documents' button in the right sidebar" fig-align="center"}](https://landfirereview.org/search.php)
+
+[![Downloading selected BpSs](images/download_selected.png){fig-alt="The search page of the LANDFIRE BpS Models and Descriptions Support website. The right sidebar now reads 'Documents selected for download:' then shows the names of the selected Biophysical settings. Below this are two buttons reading Download All Selected Documents and Remove All Selected Documents" fig-align="center"}](https://landfirereview.org/search.php)
+
+------------------------------------------------------------------------
+
+# What’s in a BpS document
+
+Once you download and unzip your selected BpS documents, what do you actually have? Inside the zip file, you will find one or more Word documents that in very general terms describe how the ecosystems of the US ‘looked and functioned’ prior to European colonization. We hope the documents are largely self-explanatory. That said, below we’ll highlight a few important considerations when reading these documents.
+
+## File name, Map Zones and that number at the top
+
+::: callout-note
+Note: You are able to rename the files once downloaded, but please be cautious about deleting the BpS code in the document, as this is the code that will link the document to all other Biophysical Settings products. For more information on the BpS model code and it’s importance, see the Deciphering the BpS Model Code pdf.
+:::
+
+The BpS documents were saved with a numeric code such as “13700_60_63_64_65_66.docx”. This number represents three things:
+
+1.  *BpS code:* this is the first 4 digits, e.g., “1370” in our example for the “Appalachian (Hemlock-)Northern Hardwood Forest”.
+
+2.  *BpS splits:* this is the fifth digit, or “0” in our example. Occasionally an original BpS would be ‘split’ into multiple. For example, in the Great Lakes there is a “Boreal White Spruce-Fir-Hardwood Forest - Inland” (BpS code 13651), and a “Boreal White Spruce-Fir-Hardwood Forest - Coastal” (BpS code 13652), which have a “1” and a “2” in the file name, and BpS code.
+
+3.  *Map Zones:* the string of numbers separated by an underscore represents the Map Zones that this particular document (and associated BpS state and transition model) apply to.
+
+::: callout-tip
+The BpS code allows you to link the BpS description to the BpS spatial data.
+:::
+
+## Modelers and Reviewers table
+
+This table provides the names of people who contributed to the development of the BpS description and model. The additional list of reviewers below the table lists the individuals who provided additional review circa 2018 to incorporate new science when possible.
+
+## Fire Frequency Table
+
+The Fire Frequency Table contains information about fire frequency and severity. A few things to keep in mind when viewing this table include:
+
+- The *Avg FI* (FI - Fire Interval), and *Percent of All Fires* values are results of the BpS model. These values represent fire frequency for the entire BpS across all succession classes, which may include classes which have very short FIs, and classes with very long FIs. To understand fire frequency and severity at the level of the succession class, users can refer to the model parameters table (described below) or the BpS model.
+
+- The *Min FI* and *Max FI* columns, when populated, include the model developer’s estimate of the maximum and minimum fire frequency for the BpS.
+
+An example Fire Frequency table is replicated below.
+
+| Severity         | Avg FI | Percent of All Fires | Min FI | Max FI |
+|------------------|--------|----------------------|--------|--------|
+| Replacement      | 1005   | 53                   |        |        |
+| Moderate (Mixed) | 1118   | 47                   |        |        |
+| Low (Surface)    |        |                      |        |        |
+| All Fires        | 529    | 100                  |        |        |
+
+Fire interval is expressed in years for each fire severity class and for all types of fire combined (All Fires). Average FI is the central tendency modeled. Percent of all fires is the percent of fires modeled in that severity class. Minimum and Maximum FIs show the relative range of fire intervals as estimated by model contributors, if known.
+
+## Succession Classes – Mapping Rules 
+
+LANDFIRE did not attempt to map where succession classes were prior to European colonization, as they would have moved around on a landscape over time. This table is used to map where succession classes are today. For example, in the ‘Succession Class Table’ below we have highlighted combinations of Existing Height and Cover (and lifeform) that would be mapped as Succession Class A. 
+
+[![](images/sclass_table.png){fig-alt="A succession class table showing the Mapping Rules, Upper Layer Lifeform (herb, shrub, or tree), the vegetation height, and several columns of canopy cover in groups of 10 (i.e. 0 - 10, 11 - 20, etc.). Below the Canopy Cover % groups is a letter corresponding to the succession class. A purple box around 6 boxes corresponding to tree 0-5m, 71-80% canopy, 81 -90% canopy, and 91 - 100% canopy and tree 5-10m with the same canopy covered percents shows that those classes should be in succession Class A." fig-align="center"}](https://landfirereview.org/search.php)
+
+::: callout-tip
+Pro tip: LANDFIRE also delivers a [succession class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads an Excel document). The spreadsheet contains rules for mapping the states of every BpS including additional mapping criteria that are not included in the description document. We suggest that users refer to the rules in the description document to get a basic understanding of succession class structure. Users that need a complete and detailed ruleset should use the mapping rules spreadsheet. You can find that spreadsheet on the [Biophysical Settings Description and Quantitative Models page](https://landfire.gov/vegetation/bps-models) of the LANDFIRE Program website.
+:::
+
+## Succession Classes – Description 
+
+This section provides a description of the development states of a BpS as conceptualized by the model developers within the LANDFIRE modeling framework. Developers were allowed to describe and model up to five states. Each class is identified by a letter (A-E) and a name that describes its cover and structure (e.g. Early Development 1 All Structures).
+
+The combination of the BpS code and the class letter links the succession class description to the reference condition table. The BpS code and class name links the succession class to the BpS model. For more detail on this, see our [linking the BpS models and descriptions](https://tnc.app.box.com/s/y638zukhcg0ttdq5et7bel2ycqgpdz5c) pdf.
+
+The number to the right of the class letter represents the modeled reference condition for that class. In other words, the percent of the landscape that you would expect to be in the class on average, over long time periods, for the extent of a BpS within a mapzone. 
+
+## Model Parameters Table
+
+This table is essentially an ‘export’ of the SyncroSim BpS model parameters. In other words, this table compiles information provided by model developers about the probability and impact of natural disturbances into the modeling software.
+
+In the ‘Model Parameters Table’ below the top row that would read something like “the wind/weather/stress disturbance would impact the Early1:All succession class once every 1000 years on average (or 0.001% of the succession class yearly on average), and when that disturbance happened, the vegetation would respond by returning back to the beginning of the Early1: All succession class.”
+
+**Reset Age Class Start After Disturbance**
+
+In ST-Sim, the “Age Reset” field indicates whether a transition resets the age of a simulation cell to the “Age Min” of the destination class. If the value is “yes,” the age is reset; if “no,” the age remains unchanged. According to LANDFIRE standards, probabilistic transitions that do not change the class do not reset the age (Age Reset = No), except for class A to A replacement disturbances. Transitions that result in a state change do reset the age (Age Reset = Yes).
+
+**Years Since Last Disturbance**
+
+Years since last disturbance, referred to as “TST Min” (time-since-transition minimum) in SyncroSim, specifies the minimum number of years that must pass before a transition can occur. In LANDFIRE models, this is used only with Alternative Succession transitions and is related to fire disturbances (surface, mixed, and replacement). For example, if an Alternative Succession transition has a TST Min value of 20, it means that this transition can only happen if 20 years have passed since the last fire.
+
+| Disturbance Type | Disturbance occurs in | Moves vegetation to | Disturbance Probability | Return Interval (yrs) | Reset Age to New Class Start Age after Disturbance? | Years Since Last Disturbance |
+|-----------|-----------|----------|-----------|--------|------------|-----------|
+| Wind or Weather Stress | Early1:ALL | Early1:ALL | 0.001 | 1000 | Yes | 0 |
+| Replacement Fire | Early1:ALL | Early1:ALL | 0.001 | 1000 | Yes | 0 |
+| Alternative Succession | Mid1:OPN | Late1:CLS | 1 | 1 | Yes | 100 |
+| Mixed Fire | Mid1:OPN | Mid1:OPN | 0.001 | 1000 | No | 0 |
+
+------------------------------------------------------------------------
+
+# Helpful resources
+
+- [Deciphering the BpS model code](https://tnc.app.box.com/s/72zucxhtzq5xfc36pkf46llh531v1onh) (opens a pdf on Box)
+
+- [Linking the Bps models and descriptions](https://tnc.app.box.com/s/y638zukhcg0ttdq5et7bel2ycqgpdz5c) (opens a pdf on Box)
+
+- [Succession class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.ziphttps://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads a zip file)
+
+- Blankenship, K., Swaty, R., Hall, K.R., Hagen, S., Pohl, K., Shlisky Hunt, A., Patton, J., Frid, L. and Smith, J., 2021. Vegetation dynamics models: a comprehensive set for natural resource assessment and planning in the United States. Ecosphere, 12(4), p.e03484. [Link to paper](https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484)
+
+- [LANDFIRE Vegetation Modeling website](https://thenatureconservancy.github.io/landfiremodels/)
+
+- [BpS Models Page](https://landfire.gov/vegetation/bps-models) on the LANDFIRE Program Website
+
+- [LANDFIRE BpS Models and Descriptions metadata](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_BpS-model-description_metadata.zip)
+
+- [BpS Models and Descriptions Support](https://landfirereview.org/) website
