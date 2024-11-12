@@ -7,7 +7,46 @@ website:
   sidebar: 
     style: "docked"
     search: true
-    contents: auto
+    contents:
+      - text: "LANDFIRE: an introduction"
+        href: index.qmd
+      - text: "An Overview of LANDFIRE Products"
+        href: 1_what-is-landfire.qmd
+      - text: "Explore LANDFIRE spatial data"
+        href: 2_landfire-attributes.qmd
+      - section: "LANDFIRE Vegetation Datasets"
+        contents:
+          - LANDFIRE_Datasets\1_Vegetation\1_lf-vegetation-data.qmd
+          - section: "Biophysical Settings"
+            contents:
+              - LANDFIRE_Datasets\1_Vegetation\Biophysical_Settings\1-bps.qmd
+              - LANDFIRE_Datasets\1_Vegetation\Biophysical_Settings\2-bps-spatial.qmd
+              - LANDFIRE_Datasets\1_Vegetation\Biophysical_Settings\3-bps_documents.qmd
+              - LANDFIRE_Datasets\1_Vegetation\Biophysical_Settings\4-bps-models.qmd
+              - LANDFIRE_Datasets\1_Vegetation\Biophysical_Settings\5-refcon-tables.qmd
+          - section: "Existing Vegetation"
+            contents:
+              - LANDFIRE_Datasets\1_Vegetation\Existing_Vegetation\1-existing-vegetation-type.qmd
+              - LANDFIRE_Datasets\1_Vegetation\Existing_Vegetation\2-existing-vegetation-cover.qmd
+              - LANDFIRE_Datasets\1_Vegetation\Existing_Vegetation\3-existing-vegetation-height.qmd
+          - section: "Succession Class"
+            contents:
+              - LANDFIRE_Datasets\1_Vegetation\Succession_Class\1-succession-class.qmd
+          - section: "Vegetation Departure"
+            contents:
+              - LANDFIRE_Datasets\1_Vegetation\Vegetation_Departure\1-vegetation-departure.qmd
+      - section: "LANDFIRE Fuels Datasets"
+        contents:
+          - LANDFIRE_Datasets\2_Fuels\1_fuels.qmd
+      - section: "Ways to get LANDFIRE Data"
+        contents:
+          - Get_Data\1-ways-to-get-data.qmd
+          - Get_Data\2-LANDFIRE-map-viewer.qmd
+          - Get_Data\3-full-extent-mosaics.qmd
+          - Get_Data\4-LANDFIRE-data-streaming.qmd
+          - Get_Data\5-rlandfire.qmd
+    
+    
   body-footer: |
     # Still have questions? LANDFIRE is here to help.
 

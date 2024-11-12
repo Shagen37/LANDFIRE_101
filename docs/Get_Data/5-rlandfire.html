@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Sarah Hagen">
+<meta name="author" content="Randy Swaty">
 
-<title>Get LANDFIRE Data: Download full extent rasters – LANDFIRE 101</title>
+<title>Get LANDFIRE Data: rlandfire package – LANDFIRE 101</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Ways to Get LANDFIRE Data/1-ways-to-get-data.html">Ways to Get LANDFIRE Data</a></li><li class="breadcrumb-item"><a href="../Ways to Get LANDFIRE Data/3-full-extent-mosaics.html">Get LANDFIRE Data: Download full extent rasters</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Get_Data/1-ways-to-get-data.html">Ways to get LANDFIRE Data</a></li><li class="breadcrumb-item"><a href="../Get_Data/5-rlandfire.html">Get LANDFIRE Data: rlandfire package</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -113,6 +113,12 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LANDFIRE: an introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../1_what-is-landfire.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">An Overview of LANDFIRE Products</span></a>
   </div>
@@ -126,21 +132,12 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">LANDFIRE Datasets</span></a>
+ <span class="menu-text">LANDFIRE Vegetation Datasets</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
- <span class="menu-text">1 Vegetation</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../LANDFIRE_Datasets/1_Vegetation/1_lf-vegetation-data.html" class="sidebar-item-text sidebar-link">
@@ -149,13 +146,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
  <span class="menu-text">Biophysical Settings</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth3 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/1-bps.html" class="sidebar-item-text sidebar-link">
@@ -163,11 +160,8 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/2-bps_spatial.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Biophysical Settings Spatial Data</span></a>
-  </div>
-</li>
+ <span class="menu-text">LANDFIRE_Datasets\1_Vegetation\Biophysical_Settings\2-bps-spatial.qmd</span>
+  </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/3-bps_documents.html" class="sidebar-item-text sidebar-link">
@@ -181,22 +175,19 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/5-refcon-table.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The Reference Conditions Table</span></a>
-  </div>
-</li>
+ <span class="menu-text">LANDFIRE_Datasets\1_Vegetation\Biophysical_Settings\5-refcon-tables.qmd</span>
+  </li>
       </ul>
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
  <span class="menu-text">Existing Vegetation</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth3 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../LANDFIRE_Datasets/1_Vegetation/Existing_Vegetation/1-existing-vegetation-type.html" class="sidebar-item-text sidebar-link">
@@ -219,13 +210,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
  <span class="menu-text">Succession Class</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth3 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../LANDFIRE_Datasets/1_Vegetation/Succession_Class/1-succession-class.html" class="sidebar-item-text sidebar-link">
@@ -236,13 +227,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
  <span class="menu-text">Vegetation Departure</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth3 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html" class="sidebar-item-text sidebar-link">
@@ -253,15 +244,15 @@ ul.task-list li input[type="checkbox"] {
   </li>
       </ul>
   </li>
-          <li class="sidebar-item sidebar-item-section">
+        <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
- <span class="menu-text">2 Fuels</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+ <span class="menu-text">LANDFIRE Fuels Datasets</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../LANDFIRE_Datasets/2_Fuels/1_fuels.html" class="sidebar-item-text sidebar-link">
@@ -270,44 +261,42 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
-      </ul>
-  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
- <span class="menu-text">Ways to Get LANDFIRE Data</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
+ <span class="menu-text">Ways to get LANDFIRE Data</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Ways to Get LANDFIRE Data/1-ways-to-get-data.html" class="sidebar-item-text sidebar-link">
+  <a href="../Get_Data/1-ways-to-get-data.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Four Ways to Get LANDFIRE Data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Ways to Get LANDFIRE Data/2-LANDFIRE-map-viewer.html" class="sidebar-item-text sidebar-link">
+  <a href="../Get_Data/2-LANDFIRE-map-viewer.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Get LANDFIRE Data: The LANDFIRE Map Viewer</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Ways to Get LANDFIRE Data/3-full-extent-mosaics.html" class="sidebar-item-text sidebar-link active">
+  <a href="../Get_Data/3-full-extent-mosaics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Get LANDFIRE Data: Download full extent rasters</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Ways to Get LANDFIRE Data/4-LANDFIRE-data-streaming.html" class="sidebar-item-text sidebar-link">
+  <a href="../Get_Data/4-LANDFIRE-data-streaming.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Get LANDFIRE Data: LANDFIRE data streaming</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Ways to Get LANDFIRE Data/5-rlandfire.html" class="sidebar-item-text sidebar-link">
+  <a href="../Get_Data/5-rlandfire.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Get LANDFIRE Data: rlandfire package</span></a>
   </div>
 </li>
@@ -323,26 +312,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-you-will-find-in-this-section" id="toc-what-you-will-find-in-this-section" class="nav-link active" data-scroll-target="#what-you-will-find-in-this-section">What you will find in this section?</a></li>
-  <li><a href="#full-extent-mosaics" id="toc-full-extent-mosaics" class="nav-link" data-scroll-target="#full-extent-mosaics">Full Extent Mosaics</a></li>
-  <li><a href="#accessing-the-downloads-page" id="toc-accessing-the-downloads-page" class="nav-link" data-scroll-target="#accessing-the-downloads-page">Accessing the Downloads page</a>
+  <li><a href="#what-you-will-find-in-this-section" id="toc-what-you-will-find-in-this-section" class="nav-link active" data-scroll-target="#what-you-will-find-in-this-section">What you will find in this section</a></li>
+  <li><a href="#downloading-landfire-data-with-the-rlandfire-package-by-mark-buckner" id="toc-downloading-landfire-data-with-the-rlandfire-package-by-mark-buckner" class="nav-link" data-scroll-target="#downloading-landfire-data-with-the-rlandfire-package-by-mark-buckner">Downloading LANDFIRE data with the rlandfire package by Mark Buckner</a>
   <ul class="collapse">
-  <li><a href="#screenshots-for-accessing-the-downloads-page" id="toc-screenshots-for-accessing-the-downloads-page" class="nav-link" data-scroll-target="#screenshots-for-accessing-the-downloads-page">Screenshots for accessing the downloads page</a></li>
-  </ul></li>
-  <li><a href="#downloading-data" id="toc-downloading-data" class="nav-link" data-scroll-target="#downloading-data">Downloading Data</a>
+  <li><a href="#what-is-the-rlandfire-package" id="toc-what-is-the-rlandfire-package" class="nav-link" data-scroll-target="#what-is-the-rlandfire-package">What is the ‘rlandfire’ package?</a></li>
+  <li><a href="#how-it-can-be-useful" id="toc-how-it-can-be-useful" class="nav-link" data-scroll-target="#how-it-can-be-useful">How it can be useful</a></li>
+  <li><a href="#basic-framework-and-requirements" id="toc-basic-framework-and-requirements" class="nav-link" data-scroll-target="#basic-framework-and-requirements">Basic framework and requirements</a>
   <ul class="collapse">
-  <li><a href="#screenshots-for-downloading-data-from-the-full-extent-downloads-page" id="toc-screenshots-for-downloading-data-from-the-full-extent-downloads-page" class="nav-link" data-scroll-target="#screenshots-for-downloading-data-from-the-full-extent-downloads-page">Screenshots for downloading data from the Full Extent Downloads page</a></li>
+  <li><a href="#screenshot-of-package-in-use" id="toc-screenshot-of-package-in-use" class="nav-link" data-scroll-target="#screenshot-of-package-in-use">Screenshot of package in use:</a></li>
   </ul></li>
-  <li><a href="#helpful-resources" id="toc-helpful-resources" class="nav-link" data-scroll-target="#helpful-resources">Helpful Resources</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Ways to Get LANDFIRE Data/1-ways-to-get-data.html">Ways to Get LANDFIRE Data</a></li><li class="breadcrumb-item"><a href="../Ways to Get LANDFIRE Data/3-full-extent-mosaics.html">Get LANDFIRE Data: Download full extent rasters</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Get_Data/1-ways-to-get-data.html">Ways to get LANDFIRE Data</a></li><li class="breadcrumb-item"><a href="../Get_Data/5-rlandfire.html">Get LANDFIRE Data: rlandfire package</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Get LANDFIRE Data: Download full extent rasters</h1>
+<h1 class="title">Get LANDFIRE Data: rlandfire package</h1>
 </div>
 
 
@@ -352,7 +340,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Sarah Hagen </p>
+             <p>Randy Swaty </p>
           </div>
   </div>
     
@@ -366,162 +354,52 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="what-you-will-find-in-this-section" class="level1">
-<h1>What you will find in this section?</h1>
+<h1>What you will find in this section</h1>
 <ul>
-<li><p>What LANDFIRE mosaics are</p></li>
-<li><p>Who should use LANDFIRE Full Extent mosaics</p></li>
-<li><p>How to download the LANDFIRE mosaics</p></li>
-<li><p>Helpful resources for downloading and using the LANDFIRE mosaics</p></li>
+<li><p>Information on the rlandfire r package</p></li>
+<li><p>How the rlandfire package can be useful</p></li>
+<li><p>Basic information on how to use the rlandfire package to access landfire data</p></li>
 </ul>
 </section>
-<section id="full-extent-mosaics" class="level1">
-<h1>Full Extent Mosaics</h1>
-<p>For users who want to assess larger landscapes (all of CONUS, the full US, or large regions encompassing multiple states or map zones), or users who frequently work in different landscapes around the US, we recommend downloading full extent mosaics. LANDFIRE delivers these as they are available for each product and each release. You can select which version, which theme (Disturbance, Fire Regime, Fuel, Reference, Topographic, Vegetation) and which region (CONUS, Alaska, Hawaii, Insular Areas) you are interested in.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>💡 CONUS releases in GeoAreas (pieces) throughout the calendar year, so the latest version available may not include all of CONUS. See each specific version page <a href="https://landfire.gov/data">here</a> for more information.</p>
-</div>
-</div>
+<section id="downloading-landfire-data-with-the-rlandfire-package-by-mark-buckner" class="level1">
+<h1>Downloading LANDFIRE data with the rlandfire package by Mark Buckner</h1>
+<section id="what-is-the-rlandfire-package" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-the-rlandfire-package">What is the ‘rlandfire’ package?</h2>
+<p>The ‘<a href="https://github.com/bcknr/rlandfire">rlandfire</a>’ package, developed by Dr.&nbsp;Mark Buckner, provides a way to download LANDFIRE products directly into your R environment. At the package page, Dr.&nbsp;Buckner provides instructions for basic use, and a tutorial for comparing ponderosa pine canopy cover before and after a fire.</p>
 </section>
-<section id="accessing-the-downloads-page" class="level1">
-<h1>Accessing the Downloads page</h1>
-<p>You can download the full extent mosaics from the <a href="https://landfire.gov/data/FullExtentDownloads">Full Extent Downloads page</a> on the LANDFIRE Program website. There are several ways to access this page.</p>
-<p>💡 <em>Note: Screenshots are provided below for those who find them useful</em></p>
-<ol type="1">
-<li><p>Click Get Data from the top navigation bar on the LANDFIRE Program website. This will take you directly to the <a href="https://landfire.gov/data">data page</a> where you can access data.</p></li>
-<li><p>Click “learn more” under the data heading on the main page of the LANDFIRE Program website. This is found in the center of the three boxes near the bottom of the page. This will take you directly to the <a href="https://landfire.gov/data">data page</a> where you can access data.</p></li>
-<li><p>You can arrive directly at the Full Extent Downloads page in several ways:</p>
+<section id="how-it-can-be-useful" class="level2">
+<h2 class="anchored" data-anchor-id="how-it-can-be-useful">How it can be useful</h2>
+<p>We often use R code for LANDFIRE data processing and analysis. There are many cases when using the rlandfire package makes sense, including:</p>
 <ul>
-<li><p>Scroll to the bottom of the main page of the LANDFIRE Program website and click “Full Extent Downloads”</p></li>
-<li><p>From the data page you arrived at by clicking Get Data or Learn More following the processes in steps 1 or 2.</p></li>
-<li><p>From the individual product pages</p></li>
-</ul></li>
-</ol>
-<section id="screenshots-for-accessing-the-downloads-page" class="level2">
-<h2 class="anchored" data-anchor-id="screenshots-for-accessing-the-downloads-page">Screenshots for accessing the downloads page</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Get-data-topnav.bmp" class="img-fluid figure-img" alt="An arrow points to the Get Data link in the top navigation bar of the LANDFIRE Program Website."></p>
-<figcaption>From the top navigation on the LANDFIRE Program website</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/get-data.bmp" class="img-fluid figure-img" alt="The main page of the LANDFIRE Program website. An arrow points to the Learn More button under the Data heading - the middle of three boxes across the main section of the page."></p>
-<figcaption>From the Learn More button under the Data heading on the main page of the LANDFIRE Program website</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/full-extent-main.bmp" class="img-fluid figure-img" alt="The main page of the LANDFIRE Program website. An arrow points to the Learn More button under the Data heading - the middle of three boxes across the main section of the page."></p>
-<figcaption>From the bottom of the main page</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/full-extent-data.bmp" class="img-fluid figure-img" alt="The data page of the LANDFIRE Program website. An arrow points to the Full Extent Downloads section - the middle of three boxes across the main section of the page."></p>
-<figcaption>From the data page</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/full-extent-product.bmp" class="img-fluid figure-img" alt="A product page on the LANDFIRE Program website. An arrow points to the Full Extent Downloads section - the middle of three boxes across the main section of the page."></p>
-<figcaption>From the From the individual product page</figcaption>
-</figure>
-</div>
-</section>
-</section>
-<section id="downloading-data" class="level1">
-<h1>Downloading Data</h1>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Not all datasets are available with every version. See the <a href="https://landfire.gov/data#versions">data page on the LANDFIRE Program Website</a> to begin learning about versions.</p>
-</div>
-</div>
-<ol type="1">
-<li><p>Once you are on the Full Extent Downloads page, you will see three dropdown menus - one for version, one for Theme, and one for Region ID. These will help you limit your search so you can find the data you need more easily.</p>
-<ul>
-<li>For example, let’s search for LF 2022 Vegetation data for CONUS. To do so, we select Version: LF2022 - Theme: Vegetation, Region ID: CONUS, then hit apply. This narrows our search to only CONUS-wide vegetation projects from LANDFIRE 2022.</li>
-</ul></li>
-</ol>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>If you would like multiple versions, multiple regions, or multiple themes of data, simply leave that dropdown as -Any- and you will have the option to download whichever datasets you’d like. You cannot select multiple items from the dropdowns, and you will need to download each dataset individually.</p>
-</div>
-</div>
-<ol start="2" type="1">
-<li><p>From here, we can select from EVC, EVH, EVT, SClass, VCC, and VDep. BpS is not an option because BpS data were not created in LF 2022. To find the most recent versions of your dataset of interest, see the <a href="https://landfire.gov/data/comparison-table">version comparison table</a> on the LANDFIRE Program Website.</p></li>
-<li><p>Find the dataset(s) you are interested in, and click the Download link to the right of the dataset name. This will begin downloading a zip file. The zipped data will likely land in your ’Downloads’ directory unless you specified another location.</p></li>
-<li><p>Extract the data to a useful location, then begin using LANDFIRE data in your projects and analyses.</p></li>
-</ol>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Many of the full extent mosaics are very large files. The downloads will take several minutes. We recommend downloading them while connected to your best available internet connection and making sure you have several gigabytes of storage space available in your download location.</p>
-</div>
-</div>
-<section id="screenshots-for-downloading-data-from-the-full-extent-downloads-page" class="level2">
-<h2 class="anchored" data-anchor-id="screenshots-for-downloading-data-from-the-full-extent-downloads-page">Screenshots for downloading data from the Full Extent Downloads page</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/full-extent-downloads.bmp" class="img-fluid figure-img" alt="The full extent downloads page on the LANDFIRE Program Website. There are three dropdown boxes: Version, theme, and region ID."></p>
-<figcaption>The Full Extent Downloads page</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/full-extent-downloads-dropdowns.bmp.bmp" class="img-fluid figure-img" alt="The full extent downloads page on the LANDFIRE Program Website. There are three dropdown boxes: Version, theme, and region ID. The version box shows LF 2022. The theme box shows Vegetation. The Region ID box has CONUS highlighted in the dropdown list."></p>
-<figcaption>Using the dropdowns to select LF2022 vegetation products for CONUS</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/full-extent-downloads-vegdownloads.bmp.bmp" class="img-fluid figure-img" alt="The full extent downloads page on the LANDFIRE Program Website. An arrow points to the download link next to the Existing Vegetation Type - EVT section of the page."></p>
-<figcaption>Downloading a dataset</figcaption>
-</figure>
-</div>
-</section>
-</section>
-<section id="helpful-resources" class="level1">
-<h1>Helpful Resources</h1>
-<ul>
-<li><p><a href="https://landfire.gov/data#versions">LANDFIRE data version information</a></p></li>
-<li><p><a href="https://landfire.gov/data/comparison-table">LANDFIRE version comparison table</a></p></li>
-<li><p><a href="https://www.landfire.gov/data/alerts">LANDFIRE data alerts and notifications</a> - where you can find out when new versions or datasets are available for download</p></li>
+<li><p>Need to work in a ‘reproducible’ manner, i.e., needing to document LF datasets used (and versions) in your code,</p></li>
+<li><p>Have limited storage space—i.e., do not want to save relatively large CONUS-wide datasets locally,</p></li>
+<li><p>Need to update your work frequently e.g., due to updated LANDFIRE versions or multiple landscapes.</p></li>
 </ul>
+<p>In general, by using the rlandfire package you gain some of the biggest benefits of coding: 1) documentation and 2) being able to repeat operations quickly.</p>
+</section>
+<section id="basic-framework-and-requirements" class="level2">
+<h2 class="anchored" data-anchor-id="basic-framework-and-requirements">Basic framework and requirements</h2>
+<p>The basic workflow is similar across all methods. Steps include:</p>
+<ol type="1">
+<li><p>Read in a shapefile of your Area of Interest (AoI)</p></li>
+<li><p>Determine names and list of products you need. One way to do that is to visit the <a href="https://lfps.usgs.gov/helpdocs/productstable.html">products table</a>.</p></li>
+<li><p>Create necessary and optional r objects:</p>
+<ul>
+<li><p>List of data products to download (necessary)</p></li>
+<li><p>Projection and Resolution (optional)</p></li>
+<li><p>Rules, e.g., arguments that filter data</p></li>
+<li><p>Path for temporary .zip file</p></li>
+</ul></li>
+<li><p>Call the landfire API</p></li>
+<li><p>Load and process the downloaded data</p></li>
+</ol>
+<section id="screenshot-of-package-in-use" class="level3">
+<h3 class="anchored" data-anchor-id="screenshot-of-package-in-use">Screenshot of package in use:</h3>
+<p><img src="Images/rlandfire.bmp" class="img-fluid" alt="An R Studio window showing the code for the rlandfire package with a small map in the bottom right corner."></p>
 
 
+</section>
+</section>
 </section>
 
 <section id="still-have-questions-landfire-is-here-to-help." class="level1">
