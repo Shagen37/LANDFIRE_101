@@ -1,0 +1,120 @@
+---
+title: "Vegetation Departure"
+author: "Sarah Hagen, Jim Smith"
+toc: true
+format: html
+---
+::: callout-note
+💡 NOTE: We have another section of this training site that will be entirely devoted to vegetation departure. This section is intended to give you the basics.
+:::
+
+# What you will find in this section
+
+- An overview of the LANDFIRE Vegetation Departure data
+
+- Key attributes of the Vegetation Departure data
+
+- Where to find Vegetation Departure data
+
+- Ways to use the Vegetation Departure data
+
+- Some misconceptions about the Vegetation Departure metric
+
+# LANDFIRE’s Vegetation Departure metric
+![LANDFIRE delivers Vegetation Departure data for the entire United States, including Alaska and Hawaii. Puerto Rico and the US Virgin Islands do not have VDEP data developed. Departure ranges from 0 (least departed) to 100 (most departed). In this map, lower departure scores are in darker purple colors, ranging through pink, red, and orange with yellow as the highest departure. Agricultural areas, urban areas, and sparsely vegetated areas are not included in departure calculations.](images/VDEP_map.bmp){fig-alt="A map of LANDFIRE Vegetation Departure for the Contiguous US, Alaska, and Hawaii."}
+
+The Vegetation Departure (VDep) metric from LANDFIRE measures how current vegetation on a landscape differs from expected historical conditions. This difference is assessed based on changes in vegetation composition, structural stage, and canopy closure. VDep values range from 0 to 100, with higher values indicating greater departure from historical conditions. It’s important to note that VDep is scale-dependent, meaning it can vary across different landscape units.
+
+VDep is calculated using current vegetation data and reference conditions, which are based on models of historical vegetation. These models are updated periodically, so VDep values can change with each new version of LANDFIRE data. However, caution is advised when comparing VDep values across different versions due to potential differences in the underlying data and methods used.
+
+LANDFIRE uses several datasets to calculate and map vegetation departure. These include:
+
+1. **Biophysical Settings (BpS)**: Represents the natural vegetation types that would be expected under historical disturbance regimes.
+
+2. **Existing Vegetation Type (EVT)**: Describes the current vegetation types present on the landscape.
+
+3. **Existing Vegetation Cover (EVC)**: Provides information on the percent cover of existing vegetation.
+
+4. **Existing Vegetation Height (EVH)**: Details the height of the existing vegetation.
+
+5. **Succession Class (SClass)**: Represents different stages of vegetation development, sometimes called seral states.
+
+These datasets are combined to assess the current landscape conditions and compared to historical conditions to develop the vegetation departure metric.
+
+::: callout-note
+💡 Over the years, the methodology for calculating VDep has evolved to better suit LANDFIRE’s needs. You can find a chart with more specifics around the VDep methodology on the [Vegetation Departure Page](https://www.landfire.gov/vegetation/vdep) of the LANDFIRE Program website.
+:::
+
+# Where to find the Vegetation Departure data
+
+The Vegetation Departure data are included in the [Vegetation section](https://landfire.gov/vegetation) of the LANDFIRE Program Website on the [Vegetation Departure](https://landfire.gov/vegetation/vdep) page.
+
+On that page you will find an overview, including the information above along with further details and links to other important documents. Perhaps of most interest are the download links - via the LANDFIRE Map Viewer, full extent downloads, and a variety of ways to stream data into your maps. The page also includes resources such as attribute tables, metadata, and supplemental information.
+
+## Screenshots of Data Access and Resources on the Vegetation Departure page
+
+![Screenshot of where to locate the Vegetation Departure data page on the LANDFIRE Program website](images/VDEP_lfgov.bmp){fig-alt="Arrow pointing to the Vegetation Departure link on the Vegetation page of the LANDFIRE Program website main page under the Vegetation Classes section."}
+
+![Screenshot of Data Access and Resources on the Vegetation Departure data page ](images/VDEP_page.bmp){fig-alt="Location on landfire.gov, the LANDFIRE Program website, of where to find the Data Access and Resources sections of the Vegetation Departure data page. When you browse to landfire.gov/vegetation/vdep, these resources are near the bottom of the page under the Data Access and Vegetation Departure headings."}
+
+# How does the Vegetation Departure Metric help?
+
+The most common application of the Vegetation Departure metric is evaluating overall vegetation condition using a numerical score between 1 and 100. The score is useful for comparing and prioritizing different landscapes. VDep can also provide information on management needs. By using the appropriate reference conditions, a user can determine which seral states are overrepresented, underrepresented, or well represented on the landscape. This information provides useful information on where/how to focus management activities to achieve the desired result. Examples include the [Ecological Conservation Risk Index](https://pmc.ncbi.nlm.nih.gov/articles/PMC3151280/), [Landscape Conservation Forecasting](https://www.mdpi.com/2225-1154/9/5/79), the USFS [Watershed Condition Class](https://www.fs.usda.gov/sites/default/files/Watershed_Condition_Framework.pdf) metric, and the USFS [Terrestrial Condition Assessment](https://terrestrial-condition-assessment-usfs.hub.arcgis.com/).
+
+# Customizing the Vegetation Departure Metric
+
+[Swaty, *et al.* (2022)](https://www.mdpi.com/2073-445X/11/1/28) walk you through the vegetation departure metric’s calculation, its application across the United States, and provides case studies to illustrate its use in assessing ecosystem health and guiding management decisions. They also provide several ways to customize the VDEP metric to make it more relevant to local conditions and specific conservation goals, including:
+
+1. **Reference Conditions**: Users can define reference conditions based on any baseline of interest, which can represent historical, current, or desired future conditions. This flexibility allows the VDEP metric to be tailored to specific conservation objectives or local ecological contexts.
+
+2. **Input Data**: The paper emphasizes the importance of using thematically consistent input data. Users are encouraged to review and modify existing data sets to ensure they meet their specific needs. This might involve aggregating or splitting ecosystem types to achieve the desired level of detail.
+
+3. **Current Conditions**: Customizing the current condition inputs can include defining structural stages based on various attributes such as species composition, canopy cover, vegetation height, tree diameter, or stand age. This allows for a more accurate representation of the local ecosystem.
+
+4. **Summary Unit**: The size and boundaries of the summary unit, which is the area over which VDEP values are computed, can be adjusted. This ensures that the summary unit is ecologically meaningful and captures the full suite of structural stages in their reference proportions.
+
+5. **Local Calculation**: By calculating VDEP, locally, users can customize inputs to increase local relevancy. This includes setting locally meaningful reference values that may reflect a desired future condition rather than historical conditions.
+
+These customizations help make the VDEP metric a more precise and useful tool for assessing ecosystem conditions and informing management decisions in diverse ecological settings.
+
+# Enhancing the Vegetation Departure for Conservation Risk Assessment
+
+Provencher, *et al.* detail how vegetation departure can be utilized to assess and manage risks to biodiversity and ecosystem health. They outline several key methods and considerations for applying the VDEP metric in conservation contexts, including:
+
+1. **Risk Identification**: The metric helps identify areas where current vegetation conditions significantly differ from reference states, indicating potential threats to ecological integrity.
+
+2. **Temporal Variability Considerations**: While temporal variability within replicate samples is not used, the authors underscore the importance of considering long-term trends in data collection and analysis.
+
+3. **Custom Reference Points**: Users are guided on setting custom reference points that reflect both historical and desired future conditions, aiding in the identification of areas requiring conservation actions.
+
+4. **Risk Prioritization**: By adjusting summary units based on ecological significance, users can better prioritize risk management efforts across different scales.
+
+These methodologies enhance the VDEP metric's applicability for evaluating and addressing conservation risks in varied ecological settings, providing a robust framework for informed decision-making in natural resource management.
+
+# Common misconceptions about the Vegetation Departure metric
+
+## VDep is a static metric.
+
+**FALSE** The final VDep value depends on the “summary unit” you utilized in the calculation (see Swaty paper). It is important to understand what summary unit is most suited to your particular situation.
+
+## Reference Conditions are about the past.
+
+**FALSE** Reference Conditions can be about past patterns but is not required. Reference Conditions are not tied to any particular time period.
+
+## VDep can be used on small areas.
+
+**FALSE** VDep is generally not useful for small areas because a key assumption of the metric is that the summary unit is large enough to possibly contain all seral states.
+
+# Helpful Links
+
+- [Vegetation Departure Workshop video series](https://www.youtube.com/watch?v=NToZt9CV8ZM&list=PLwRbAc4x5n96qaq-Skeg4iYhw1FFz08AR) on the LANDFIRE YouTube channel (opens a 13 video YouTube playlist)
+
+- [Assessing Ecosystem Condition: Use and Customization of the Vegetation Departure Metric](https://www.mdpi.com/2073-445X/11/1/28) by Swaty, *et.al* (2022)
+
+- [Ecological Conservation Risk Index](https://pmc.ncbi.nlm.nih.gov/articles/PMC3151280/)
+
+- [Landscape Conservation Forecasting](https://www.mdpi.com/2225-1154/9/5/79)
+
+- The USFS [Watershed Condition Class](https://www.fs.usda.gov/sites/default/files/Watershed_Condition_Framework.pdf) metric
+
+- The USFS [Terrestrial Condition Assessment](https://terrestrial-condition-assessment-usfs.hub.arcgis.com/)

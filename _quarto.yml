@@ -54,7 +54,9 @@ website:
         
 format:
   html:
-    theme: cosmos
+    theme: 
+      light: lumen
+      dark: cyborg
     css: styles.css
     toc: false
     page-layout: full
