@@ -29,26 +29,26 @@ The LANDFIRE Products Service (LFPS) is a powerful tool that allows users to dow
 
 -   **What is LFPS?**
     -   LFPS is a service that provides access to a wide range of landscape data products through a REST API. This allows you to request and download LANDFIRE products through an API using HTTPS requests.
+    
 -   **How to Make a Request**
     -   To get data, you’ll need to specify certain parameters in your request, such as the product layer you want and the area of interest. This helps the service understand exactly what data you need.
 
     -   The LFPS can be accessed in several ways:
-
         -   Python, php, unix wget, or anything that can call a URL (including an internet browser)
 
         -   Scripting tools like [Postman](https://www.postman.com/)
 
         -   Through ESRI’s REST API/Web Interface using the [LANDFIRE Product Service URL](https://lfps.usgs.gov/arcgis/rest/services/LandfireProductService/GPServer/LandfireProductService)
+        
 -   **Customizing Your Request**
     -   You can customize your data request with optional settings like output projection (how the data is mapped) and resample resolution (the detail level of the data).
+    
 -   **Understanding Responses**
     -   When you make a request, you’ll receive messages that tell you if your request was successful or if there were any errors. These messages help you troubleshoot and ensure you get the data you need.
 
 For more detailed instructions and examples, please refer to the full [LANDFIRE Products Service User Guide](https://lfps.usgs.gov/helpdocs/LFProductsServiceUserGuide.pdf).
 
 # ESRI Image Service
-
-💡 Screenshots are provided below for those who find them useful
 
 ESRI Image Service, also known as ArcGIS Image Server or simply Image Server, is a component of the ArcGIS platform. ESRI Image Services allow you to view and interact with raster datasets in ArcGIS Pro or ArcGIS Online. This service makes it easy to access LANDFIRE spatial datasets without needing to download them to your computer.
 
@@ -57,7 +57,7 @@ The benefit of using the ESRI image service over other data streaming such as WC
 To use ESRI Image Service (ArcGIS Image Server) in combination with LANDFIRE spatial data, you'll need to follow these steps:
 
 ::: callout-tip
-Pro-tip: It’s important to follow the documents linked below very carefully, as the Image Service URLs are set up for ArcMap and previous versions of ArcGIS Online. There are additional steps you may need to take in order to make the image service rasters work as expected.
+It’s important to follow the documents linked below very carefully, as the Image Service URLs are set up for ArcMap and previous versions of ArcGIS Online. There are additional steps you may need to take in order to make the image service rasters work as expected.
 :::
 
 -   **ArcGIS Desktop (ArcMap/ArcGIS Pro)**: Add the image service as a layer in your map document following the process outlined in the [How to use Image Service URLs in ArcPro document](https://landfire.gov/sites/default/files/documents/Instructions_ImageService_ArcPro.pdf) found on the [LANDFIRE Stream Data page](https://landfire.gov/data/lf_stream) of the LANDFIRE Program website.
@@ -73,7 +73,6 @@ Pro-tip: It’s important to follow the documents linked below very carefully, a
 -   **Web mapping platforms** like Leaflet, OpenLayers, or Cesium: Use the REST endpoint of the image service along with appropriate WMS or tile layer options.
 
 -   **Analyze and process LANDFIRE data**:
-
     -   With the LANDFIRE image service added to your map, you can perform various spatial analysis tasks, such as:
         -   Overlaying LANDFIRE data with other raster or vector datasets for combined analysis.
 

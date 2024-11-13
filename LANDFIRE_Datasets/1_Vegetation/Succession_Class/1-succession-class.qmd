@@ -17,6 +17,8 @@ format: html
 
 # Succession Classes
 
+![LANDFIRE delivers Succession Class data for the entire United States, including Alaska and Hawaii. Puerto Rico and the US Virgin Islands do not have VDEP data developed. In this map, yellows and oranges are succession classes A and B, with classes C, D, and E represented by pinks to dark purples. Uncharacteristic vegetation is displayed in shades of brown. Agricultural areas, urban areas, and sparsely vegetated areas are not included in departure calculations.](images/SClass_Map.bmp){fig-alt="A map of LANDFIRE Succession Class for the Contiguous US, Alaska, and Hawaii."}
+
 The LANDFIRE Succession Class (SClass) spatial product maps the current condition of vegetation in terms of species composition (leaf-form and life-form), percent cover, and the range of heights of each successional state in a Biophysical Setting. Succession classes represent vegetative states with unique dynamics related to succession and disturbances, such as structural development or fire frequency. The Succession Classes don’t directly measure the fuel characteristics of the current vegetation, but they represent specific stages in plant development or how often fire and other disturbances occur and their likely impact. LANDFIRE uses these classes to quantify the current landscape and compare it to historical conditions to calculate vegetation departure and vegetation condition class. Classes are defined primarily by combinations of cover type and structural stage.
 
 Reference states are identified by a letter (A-E) and represent different stages of vegetation development. Non-reference states are represented by the codes UE, uncharacteristic exotic, and UN, Uncharacteristic Native.
@@ -33,15 +35,8 @@ It is important to understand that the Succession Class dataset alone isn’t in
 
 # Linking the Succession Class Letter with the BpS Description Document
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-The LANDFIRE Succession Class (SClass) product characterizes current vegetation conditions based on existing vegetation cover, height, and species composition within each Biophysical Setting (BpS). It is used to display the current location of reference vegetation states and uncharacteristic states. The [BpS description document](/Biophysical_Settings/3-bps-descriptions.qmd) describes the reference states and provides a set of mapping rules for the reference and uncharacteristic native states.
-=======
-The LANDFIRE Succession Class (SClass) product characterizes current vegetation conditions based on existing vegetation cover, height, and species composition within each Biophysical Setting (BpS). It is used to display the current location of reference vegetation states and uncharacteristic states. The [BpS description document](../Biophysical_Settings/3-bps-descriptions.qmd) describes the reference states and provides a set of mapping rules for the reference and uncharacteristic native states.
->>>>>>> 1706d6900e1e8990300133749407481cead6ca57
-=======
-The LANDFIRE Succession Class (SClass) product characterizes current vegetation conditions based on existing vegetation cover, height, and species composition within each Biophysical Setting (BpS). It is used to display the current location of reference vegetation states and uncharacteristic states. The [BpS description document](../Biophysical_Settings/3-bps-descriptions.qmd) describes the reference states and provides a set of mapping rules for the reference and uncharacteristic native states.
->>>>>>> 1706d6900e1e8990300133749407481cead6ca57
+
+The LANDFIRE Succession Class (SClass) product characterizes current vegetation conditions based on existing vegetation cover, height, and species composition within each Biophysical Setting (BpS). It is used to display the current location of reference vegetation states and uncharacteristic states. The [BpS description document](https://shagen37.github.io/LANDFIRE_101/LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/3-bps_documents.html) describes the reference states and provides a set of mapping rules for the reference and uncharacteristic native states.
 
 ## How Succession Class Letters are Linked to BpS Description Documents
 
@@ -91,7 +86,7 @@ The “[How to Map Successional Stages](https://www.conservationgateway.org/Cons
 
 ## Visual Representation
 
-![This figure illustrates the distribution of various succession classes within the Northern Hardwoods Biophysical Setting. Succession classes represent different stages of vegetation development, from early to late stages, indicating the progression and health of ecosystems. From Swaty, et al., 2021.](images/SClass_lfgov.bmp){fig-alt="A bar chart showing the distribution of succession classes across the northern hardwoods biophysical setting in the United States. Each bar represents a specific succession class within the ecosystem, highlighting the stages of vegetation development. Below the bar are graphics showing the various heights and cover combinations of existing vegetation type, cover, and height."}
+![This figure illustrates the distribution of various succession classes within the Northern Hardwoods Biophysical Setting. Succession classes represent different stages of vegetation development, from early to late stages, indicating the progression and health of ecosystems. From Swaty, et al., 2021.](images/Swaty_SClass.bmp){fig-alt="A bar chart showing the distribution of succession classes across the northern hardwoods biophysical setting in the United States. Each bar represents a specific succession class within the ecosystem, highlighting the stages of vegetation development. Below the bar are graphics showing the various heights and cover combinations of existing vegetation type, cover, and height."}
 
 [Swaty *et al.*, 2021](https://www.mdpi.com/1421304) provides a visual representation of LANDFIRE succession class data by displaying the distribution of different succession classes across an ecosystem. Showing the proportion of each succession class within different ecosystems helps us understand the current state and progression of vegetation in these areas. This visual representation allows for easy comparison and identification of ecosystems that may be in early, mid, or late stages of succession, highlighting areas that might need conservation or restoration efforts.
 

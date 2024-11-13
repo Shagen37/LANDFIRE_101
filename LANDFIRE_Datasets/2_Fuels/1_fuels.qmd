@@ -61,6 +61,9 @@ Here you will find general information about some of the products mentioned abov
 # Helpful Resources
 
 - [Modeling Dynamic Fuels with and Index System](https://www.landfire.gov/fuel/lfmodfis) (MoD-FIS)
+
 - [Fuel Rulesets Database](https://www.landfire.gov/fuel/fuel_rulesets_db)
+
 - [LANDFIRE Total Fuels Change Tool](https://www.landfire.gov/resources/lftfc) (LFTFC)
+
 - [Wildfire Risk to Communities](https://wildfirerisk.org/) uses LANDFIRE fuels to provide a free, easy-to-use website with interactive maps, charts, and resources to help communities understand, explore, and reduce wildfire risk.

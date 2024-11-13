@@ -160,8 +160,11 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
           <li class="sidebar-item">
- <span class="menu-text">LANDFIRE_Datasets\1_Vegetation\Biophysical_Settings\2-bps-spatial.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/2-bps_spatial.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Biophysical Settings Spatial Data</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/3-bps_documents.html" class="sidebar-item-text sidebar-link">
@@ -175,8 +178,11 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
           <li class="sidebar-item">
- <span class="menu-text">LANDFIRE_Datasets\1_Vegetation\Biophysical_Settings\5-refcon-tables.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/5-refcon-table.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Reference Conditions Table</span></a>
+  </div>
+</li>
       </ul>
   </li>
           <li class="sidebar-item sidebar-item-section">
@@ -312,15 +318,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-explore-the-attributes-of-landfire-data" id="toc-why-explore-the-attributes-of-landfire-data" class="nav-link active" data-scroll-target="#why-explore-the-attributes-of-landfire-data">Why explore the attributes of LANDFIRE data?</a></li>
-  <li><a href="#what-you-will-learn-here" id="toc-what-you-will-learn-here" class="nav-link" data-scroll-target="#what-you-will-learn-here">What you will learn here</a></li>
+  <li><a href="#what-you-will-find-in-this-section" id="toc-what-you-will-find-in-this-section" class="nav-link active" data-scroll-target="#what-you-will-find-in-this-section">What you will find in this section</a></li>
+  <li><a href="#why-explore-the-attributes-of-landfire-data" id="toc-why-explore-the-attributes-of-landfire-data" class="nav-link" data-scroll-target="#why-explore-the-attributes-of-landfire-data">Why explore the attributes of LANDFIRE data?</a></li>
   <li><a href="#how-to-explore-the-attributes-of-landfire-datasets" id="toc-how-to-explore-the-attributes-of-landfire-datasets" class="nav-link" data-scroll-target="#how-to-explore-the-attributes-of-landfire-datasets">How to explore the attributes of LANDFIRE datasets</a>
   <ul class="collapse">
   <li><a href="#from-the-landfire-program-website" id="toc-from-the-landfire-program-website" class="nav-link" data-scroll-target="#from-the-landfire-program-website">From the LANDFIRE Program website</a>
   <ul class="collapse">
   <li><a href="#screenshots-for-where-to-find-attributes-on-the-landfire-website" id="toc-screenshots-for-where-to-find-attributes-on-the-landfire-website" class="nav-link" data-scroll-target="#screenshots-for-where-to-find-attributes-on-the-landfire-website">Screenshots for where to find attributes on the LANDFIRE website</a></li>
   </ul></li>
-  <li><a href="#with-the-.csv-file-for-each-layer" id="toc-with-the-.csv-file-for-each-layer" class="nav-link" data-scroll-target="#with-the-.csv-file-for-each-layer">With the .csv file for each layer</a>
+  <li><a href="#with-the-.csv-file-that-comes-with-each-layer" id="toc-with-the-.csv-file-that-comes-with-each-layer" class="nav-link" data-scroll-target="#with-the-.csv-file-that-comes-with-each-layer">With the .csv file that comes with each layer</a>
   <ul class="collapse">
   <li><a href="#exploring-the-.csv-files-of-a-landfire-spatial-layer" id="toc-exploring-the-.csv-files-of-a-landfire-spatial-layer" class="nav-link" data-scroll-target="#exploring-the-.csv-files-of-a-landfire-spatial-layer">Exploring the .csv files of a LANDFIRE spatial layer</a></li>
   <li><a href="#screenshots-for-where-to-find-the-.csv-file" id="toc-screenshots-for-where-to-find-the-.csv-file" class="nav-link" data-scroll-target="#screenshots-for-where-to-find-the-.csv-file">Screenshots for where to find the .csv file</a></li>
@@ -363,6 +369,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="what-you-will-find-in-this-section" class="level1">
+<h1>What you will find in this section</h1>
+<p>How to explore the attribute tables of LANDFIRE datasets:</p>
+<ul>
+<li><p>From the LANDFIRE Program website</p></li>
+<li><p>In the .csv files for each layer</p></li>
+<li><p>With ArcGIS Pro</p></li>
+</ul>
+</section>
 <section id="why-explore-the-attributes-of-landfire-data" class="level1">
 <h1>Why explore the attributes of LANDFIRE data?</h1>
 <p>Exploring the attributes of any dataset is a fundamental step in the data analysis process. It lays the foundation for accurate analyses, informed decision-making, and successful outcomes in various fields, from scientific research to business intelligence.</p>
@@ -372,15 +387,6 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Understanding Data Quality</strong>: Examining data attributes helps assess the quality and reliability of the dataset. Identifying missing or inaccurate information early on can prevent errors in analyses and decision-making processes.</p></li>
 <li><p><strong>Effective Data Visualization</strong>: Exploring attributes aids in creating effective data visualizations. Understanding the range and distribution of variables helps you choose appropriate visualization techniques that convey the intended message and insights.</p></li>
 </ol>
-</section>
-<section id="what-you-will-learn-here" class="level1">
-<h1>What you will learn here</h1>
-<p>How to explore the attribute tables of LANDFIRE datasets:</p>
-<ul>
-<li><p>From the LANDFIRE Program website</p></li>
-<li><p>In the .csv files for each layer</p></li>
-<li><p>With ArcGIS Pro</p></li>
-</ul>
 </section>
 <section id="how-to-explore-the-attributes-of-landfire-datasets" class="level1">
 <h1>How to explore the attributes of LANDFIRE datasets</h1>
@@ -399,7 +405,7 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><p>Another way to explore datasets and their attributes is to navigate to the layer via the buttons across the top of the page. Most of the datasets we will discuss on this website can be found underneath the Vegetation category. If you need a refresher, check out which datasets are available where in the What is LANDFIRE? section of this site.</p></li>
 </ul></li>
-<li><p>On each individual product page, you will find a section on Key Attributes, which provides more information on the attributes of that specific dataset.</p></li>
+<li><p>On each individual product page, you will find a section on Key Attributes, which provides more information on the attributes of that specific dataset. You can download a .csv file attribute table for the most recent LANDFIRE dataset there (see “With the .csv file for each layer” section below).</p></li>
 </ol>
 <section id="screenshots-for-where-to-find-attributes-on-the-landfire-website" class="level3">
 <h3 class="anchored" data-anchor-id="screenshots-for-where-to-find-attributes-on-the-landfire-website">Screenshots for where to find attributes on the LANDFIRE website</h3>
@@ -423,8 +429,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 </section>
-<section id="with-the-.csv-file-for-each-layer" class="level2">
-<h2 class="anchored" data-anchor-id="with-the-.csv-file-for-each-layer">With the .csv file for each layer</h2>
+<section id="with-the-.csv-file-that-comes-with-each-layer" class="level2">
+<h2 class="anchored" data-anchor-id="with-the-.csv-file-that-comes-with-each-layer">With the .csv file that comes with each layer</h2>
 <p>💡 <em>Screenshots of where to find the datasets and attributes are below for those who find them useful.</em></p>
 <p>Whenever you download a LANDFIRE dataset, it will be packaged in a .zip file that includes not only the spatial data in .tif format, but also general metadata, spatial metadata, and a .csv data file. .csv stands for ‘Comma Separated Values’ and is a convenient way to display and work with the attributes of a spatial data layer in a non-spatial way (R, Excel, etc.). This enables you to examine your data and understand landscape trends without even opening GIS software. It also helps you understand the attributes you may want to map and explore spatially.</p>
 <p>The .csv files can be found on the individual dataset web pages under the “Attribute Tables (CSV, ADD) sections at the bottom of each product page.</p>
@@ -476,7 +482,19 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><p>To explore where a particular attribute value occurs on the landscape, click on the corresponding row number in the attribute table and ArcGIS Pro will highlight those pixels in the map display.</p></li>
 </ol>
-<p>::: {callout-warning icon=“true”} Be sure to use the selection tools in the Map section at the top of the ribbon bar to unselect any rows before doing any data processing. By default, ArcGIS Pro will run all tools on only the selected data and you may end up needing to re-run tools or processes because they were only run on a subset of your full area of interest. :::</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Be sure to use the selection tools in the Map section at the top of the ribbon bar to unselect any rows before doing any data processing. By default, ArcGIS Pro will run all tools on only the selected data and you may end up needing to re-run tools or processes because they were only run on a subset of your full area of interest.</p>
+</div>
+</div>
 </section>
 <section id="screenshots-for-finding-and-working-with-the-attribute-tables-in-arcgis-pro" class="level3">
 <h3 class="anchored" data-anchor-id="screenshots-for-finding-and-working-with-the-attribute-tables-in-arcgis-pro">Screenshots for finding and working with the attribute tables in ArcGIS Pro</h3>

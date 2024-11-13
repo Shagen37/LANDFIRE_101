@@ -25,7 +25,7 @@ While we typically work with one or a small set of BpSs, there are times when do
 
 💡 *Screenshots are provided below for those who want them.*
 
-1.  Navigate to the [Biophysical Settings Models and Descriptions page](https://landfire.gov/vegetation/bps) of the LANDFIRE Program website (Vegetation→ Biophysical Settings Models and Descriptions).
+1.  Navigate to the [Biophysical Settings Models and Descriptions page](https://landfire.gov/vegetation/bps-models) of the LANDFIRE Program website (Vegetation→ Biophysical Settings Models and Descriptions).
 
 2.  Scroll down to the Download BpS Models and Descriptions Section near the bottom of the page.
 
@@ -37,25 +37,19 @@ While we typically work with one or a small set of BpSs, there are times when do
 
     -   select ‘Extract all’ to access the Windows extraction tool.
 
-------------------------------------------------------------------------
-
 ### Screenshot for where to find the Biophysical Settings Models and Descriptions Page
 
 [![You can find the Biophysical Settings Models and Descriptions page from the Vegetation page on the LANDFIRE Program website.](images/BpS_models_page.bmp){fig-alt="The Vegetation Page on the LANDFIRE Program website. There are three boxes with the headings Current Vegetation, Modeled Vegetation, and Vegetation Classes. An arrow points to the second link in the Modeled Vegetation section, Biophysical Settings models and Descriptions" fig-align="center"}](https://landfire.gov/vegetation)
-
-------------------------------------------------------------------------
 
 ### Screenshot for downloading and unzipping all BpS descriptions
 
 [![Where to click to download all BpS descriptions](images/BpS_models_download.bmp){fig-alt="The bottom of the BpS Models and Descriptions page of the LANDFIRE Program website. There are two boxes with the headings Revised CONUS and Hawaii and Original Alaska. Arrows point to the second link below each heading, BpS Descriptions" fig-align="center"}](https://landfire.gov/vegetation/bps-models)
 
-------------------------------------------------------------------------
-
 # Downloading one or a set of BpS documents
 
 💡 *Screenshots are provided below for those who want them.*
 
-In support of a BpS review process we completed recently, we created a [BpS Models and Descriptions Support](https://landfirereview.org/)website, which has a page that allows for searching for, and downloading a single or a set of BpS Descriptions.
+In support of a BpS review process we completed recently, we created a [BpS Models and Descriptions Support](https://landfirereview.org/) website, which has a page that allows for searching for, and downloading a single or a set of BpS Descriptions.
 
 ::: callout-note
 We recommend using a browser other than Google Chrome to access this site, as some users have reported issues with downloading BpS documents while using Chrome.
@@ -99,8 +93,6 @@ Clicking either of the ‘Download’ buttons will initiate download of a .zip f
 Beware when clicking the ‘Download All Search Results Documents’ button. If not careful you will end up with a huge download of many more documents than you want! Make sure to filter by ‘Vegetation Types’ and/or ‘Map Zones’ first.
 :::
 
-------------------------------------------------------------------------
-
 ### Screenshots showing how to select and download BpSs
 
 [![Three ways to select your BpS(s) of interest](images/ways_to_select.png){fig-alt="The search page of the LANDFIRE BpS Models and Descriptions Support website. There are three numbers on the page. #1 is over the Vegetation Types checkboxes in the upper left sidebar. #2 is over the Map Zones checkboxes in the lower left sidebar. #3 is over the search bar at the top of the main page section" fig-align="center"}](https://landfirereview.org/search.php)
@@ -109,8 +101,6 @@ Beware when clicking the ‘Download All Search Results Documents’ button. If 
 
 [![Downloading selected BpSs](images/download_selected.png){fig-alt="The search page of the LANDFIRE BpS Models and Descriptions Support website. The right sidebar now reads 'Documents selected for download:' then shows the names of the selected Biophysical settings. Below this are two buttons reading Download All Selected Documents and Remove All Selected Documents" fig-align="center"}](https://landfirereview.org/search.php)
 
-------------------------------------------------------------------------
-
 # What’s in a BpS document
 
 Once you download and unzip your selected BpS documents, what do you actually have? Inside the zip file, you will find one or more Word documents that in very general terms describe how the ecosystems of the US ‘looked and functioned’ prior to European colonization. We hope the documents are largely self-explanatory. That said, below we’ll highlight a few important considerations when reading these documents.
@@ -118,7 +108,7 @@ Once you download and unzip your selected BpS documents, what do you actually ha
 ## File name, Map Zones and that number at the top
 
 ::: callout-note
-Note: You are able to rename the files once downloaded, but please be cautious about deleting the BpS code in the document, as this is the code that will link the document to all other Biophysical Settings products. For more information on the BpS model code and it’s importance, see the Deciphering the BpS Model Code pdf.
+ You are able to rename the files once downloaded, but please be cautious about deleting the BpS code in the document, as this is the code that will link the document to all other Biophysical Settings products. For more information on the BpS model code and it’s importance, see the Deciphering the BpS Model Code pdf.
 :::
 
 The BpS documents were saved with a numeric code such as “13700_60_63_64_65_66.docx”. This number represents three things:
@@ -163,7 +153,7 @@ LANDFIRE did not attempt to map where succession classes were prior to European 
 [![](images/sclass_table.png){fig-alt="A succession class table showing the Mapping Rules, Upper Layer Lifeform (herb, shrub, or tree), the vegetation height, and several columns of canopy cover in groups of 10 (i.e. 0 - 10, 11 - 20, etc.). Below the Canopy Cover % groups is a letter corresponding to the succession class. A purple box around 6 boxes corresponding to tree 0-5m, 71-80% canopy, 81 -90% canopy, and 91 - 100% canopy and tree 5-10m with the same canopy covered percents shows that those classes should be in succession Class A." fig-align="center"}](https://landfirereview.org/search.php)
 
 ::: callout-tip
-Pro tip: LANDFIRE also delivers a [succession class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads an Excel document). The spreadsheet contains rules for mapping the states of every BpS including additional mapping criteria that are not included in the description document. We suggest that users refer to the rules in the description document to get a basic understanding of succession class structure. Users that need a complete and detailed ruleset should use the mapping rules spreadsheet. You can find that spreadsheet on the [Biophysical Settings Description and Quantitative Models page](https://landfire.gov/vegetation/bps-models) of the LANDFIRE Program website.
+LANDFIRE also delivers a [succession class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads an Excel document). The spreadsheet contains rules for mapping the states of every BpS including additional mapping criteria that are not included in the description document. We suggest that users refer to the rules in the description document to get a basic understanding of succession class structure. Users that need a complete and detailed ruleset should use the mapping rules spreadsheet. You can find that spreadsheet on the [Biophysical Settings Description and Quantitative Models page](https://landfire.gov/vegetation/bps-models) of the LANDFIRE Program website.
 :::
 
 ## Succession Classes – Description 

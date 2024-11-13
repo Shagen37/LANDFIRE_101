@@ -59,7 +59,7 @@ Beyond simple viewing, mapping and quantifying of ecosystems with the EVH datase
 
 - Landscape Assessments: We often use LANDFIRE EVH in combination with EVT and EVC to better understand landscapes using something we call landscape assessments. We will have a later section of this website specifically dedicated to how we create landscape assessments using GIS and R.
 
-- Succession Class: EVH, once again in combination with EVT and EVC, is a key component in the way LANDFIRE creates and maps succession class. Through Succession Class, EVH contributes to the calculation of [Vegetation Departure](https://www.landfire.gov/vegetation/vdep) and [Vegetation Condition Class](https://www.landfire.gov/vegetation/vcc).We will discuss [succession class](../Succession_Class/1_succession-class.qmd) and [vegetation departure(../Vegetation_Departure/1_vegetation-departure.qmd) in more detail in subsequent sections of this website.
+- Succession Class: EVH, once again in combination with EVT and EVC, is a key component in the way LANDFIRE creates and maps succession class. Through Succession Class, EVC contributes to the calculation of Vegetation Departure and Vegetation Condition Class. We will discuss [succession class](https://shagen37.github.io/LANDFIRE_101/LANDFIRE_Datasets/1_Vegetation/Succession_Class/1-succession-class.html) and [vegetation departure](https://shagen37.github.io/LANDFIRE_101/LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html) in more detail in subsequent sections of this website.
 
 # Helpful Resources
 

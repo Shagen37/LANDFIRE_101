@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  
 
 website:
   title: "LANDFIRE 101"
@@ -20,10 +21,10 @@ website:
           - section: "Biophysical Settings"
             contents:
               - LANDFIRE_Datasets\1_Vegetation\Biophysical_Settings\1-bps.qmd
-              - LANDFIRE_Datasets\1_Vegetation\Biophysical_Settings\2-bps-spatial.qmd
+              - LANDFIRE_Datasets\1_Vegetation\Biophysical_Settings\2-bps_spatial.qmd
               - LANDFIRE_Datasets\1_Vegetation\Biophysical_Settings\3-bps_documents.qmd
               - LANDFIRE_Datasets\1_Vegetation\Biophysical_Settings\4-bps-models.qmd
-              - LANDFIRE_Datasets\1_Vegetation\Biophysical_Settings\5-refcon-tables.qmd
+              - LANDFIRE_Datasets\1_Vegetation\Biophysical_Settings\5-refcon-table.qmd
           - section: "Existing Vegetation"
             contents:
               - LANDFIRE_Datasets\1_Vegetation\Existing_Vegetation\1-existing-vegetation-type.qmd

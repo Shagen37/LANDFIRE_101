@@ -23,7 +23,7 @@ Biophysical Settings are a foundational concept for LANDFIRE defined on the [LAN
 
 We like to think of the BpSs as “ecosystem habitats”, or “potential ecosystem footprints”. The BpS concept asks “where might an ecosystem occur” based on abiotic factors such as soils, surficial geology, slope and elevation as well as natural disturbance regimes.
 
-For more information on ecological systems in LANDFIRE, see the [LANDFIRE Vegetation Products Overview](D:/LANDFIRE/Communications/Trainings/LANDFIRE101/R-Code/LANDFIRE_101/LANDFIRE_Datasets/1_lf-data.qmd) section of this website.
+For more information on ecological systems in LANDFIRE, see the [LANDFIRE Vegetation Products Overview](https://shagen37.github.io/LANDFIRE_101/LANDFIRE_Datasets/1_Vegetation/1_lf-vegetation-data.html) section of this website.
 
 # What are the BpS products?
 
@@ -37,7 +37,7 @@ Three quick reasons to use BpS:
 
 1.  *BpS represent historic patterns and functions*, however when used with Succession class data, current vegetation patterns can be explored. (Resource: [Swaty et al., 2021](https://www.mdpi.com/2073-445X/11/1/28))
 
-2.  Coupled with local knowledge, *BpS descriptions and models can augment current vegetation information* to understand a landscape’s potential. (Resource: [Provencher. et al., 2021](https://www.mdpi.com/2225-1154/9/5/79/pdf))
+2.  Coupled with local knowledge, *BpS descriptions and models can augment current vegetation information* to understand a landscape’s potential. (Resource: [Provencher. et al., 2021](https://www.mdpi.com/2225-1154/9/5/79/pdf) - downloads a pdf)
 
 3.  *BpS models can be modified* to represent current and future scenarios given predicted changes possible under future climate scenarios. (Resource: [LANDFIRE Vegetation Modeling website](https://thenatureconservancy.github.io/landfiremodels/index.html)).
 
@@ -92,10 +92,10 @@ Map zones are used in LANDFIRE to break up the landscape into geographic areas s
 
 - Using Biophysical Settings to explore vegetation departure. ([Swaty et al., 2021](https://www.mdpi.com/2073-445X/11/1/28))
 
-- Using BpS and local knowledge to understand a landscape’s potential. ([Provencher. et al., 2021](https://www.mdpi.com/2225-1154/9/5/79/pdf))
+- Using BpS and local knowledge to understand a landscape’s potential. ([Provencher. et al., 2021](https://www.mdpi.com/2225-1154/9/5/79/pdf) - downloads a pdf)
 
 - Modifying BpS models to represent current and future scenarios. ([LANDFIRE Vegetation Modeling website](https://thenatureconservancy.github.io/landfiremodels/index.html))
 
 - [Quick guide on Biophysical Settings](https://youtu.be/xjaWJCe7udQ) on YouTube (4 minute video)
 
--[Linking the LANDFIRE BpS models and geospatial data](https://tnc.app.box.com/s/jyostw32akl86j3s9q3481tjmkus9w58) (pdf on Box)
+- [Linking the LANDFIRE BpS models and geospatial data](https://tnc.app.box.com/s/jyostw32akl86j3s9q3481tjmkus9w58) (pdf on Box)

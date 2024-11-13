@@ -5,6 +5,16 @@ toc: true
 format: html
 ---
 
+# What you will find in this section
+
+How to explore the attribute tables of LANDFIRE datasets:
+
+-   From the LANDFIRE Program website
+
+-   In the .csv files for each layer
+
+-   With ArcGIS Pro
+
 # Why explore the attributes of LANDFIRE data?
 
 Exploring the attributes of any dataset is a fundamental step in the data analysis process. It lays the foundation for accurate analyses, informed decision-making, and successful outcomes in various fields, from scientific research to business intelligence.
@@ -16,16 +26,6 @@ Here are three main reasons to understand the attributes of LANDFIRE data before
 2.  **Understanding Data Quality**: Examining data attributes helps assess the quality and reliability of the dataset. Identifying missing or inaccurate information early on can prevent errors in analyses and decision-making processes.
 
 3.  **Effective Data Visualization**: Exploring attributes aids in creating effective data visualizations. Understanding the range and distribution of variables helps you choose appropriate visualization techniques that convey the intended message and insights.
-
-# What you will learn here
-
-How to explore the attribute tables of LANDFIRE datasets:
-
--   From the LANDFIRE Program website
-
--   In the .csv files for each layer
-
--   With ArcGIS Pro
 
 # How to explore the attributes of LANDFIRE datasets
 
@@ -47,7 +47,7 @@ The LANDFIRE program website is the most comprehensive resource for exploring an
 
     -   Another way to explore datasets and their attributes is to navigate to the layer via the buttons across the top of the page. Most of the datasets we will discuss on this website can be found underneath the Vegetation category. If you need a refresher, check out which datasets are available where in the What is LANDFIRE? section of this site.
 
-3.  On each individual product page, you will find a section on Key Attributes, which provides more information on the attributes of that specific dataset.
+3.  On each individual product page, you will find a section on Key Attributes, which provides more information on the attributes of that specific dataset. You can download a .csv file attribute table for the most recent LANDFIRE dataset there (see "With the .csv file for each layer" section below).
 
 ### Screenshots for where to find attributes on the LANDFIRE website
 
@@ -57,7 +57,7 @@ The LANDFIRE program website is the most comprehensive resource for exploring an
 
 ![*Where to download datasets*](images/get_data.bmp){fig-alt="Three boxes titled About, Data, Resources. An arrow points to the Learn More button underneath the data heading."}
 
-## With the .csv file for each layer
+## With the .csv file that comes with each layer
 
 💡 *Screenshots of where to find the datasets and attributes are below for those who find them useful.*
 
@@ -101,7 +101,7 @@ You can also use ArcGIS Pro to view the attribute tables of each dataset in tand
 
 2.  To explore where a particular attribute value occurs on the landscape, click on the corresponding row number in the attribute table and ArcGIS Pro will highlight those pixels in the map display.
 
-::: {callout-warning icon="true"}
+::: callout-warning
 Be sure to use the selection tools in the Map section at the top of the ribbon bar to unselect any rows before doing any data processing. By default, ArcGIS Pro will run all tools on only the selected data and you may end up needing to re-run tools or processes because they were only run on a subset of your full area of interest.
 :::
 

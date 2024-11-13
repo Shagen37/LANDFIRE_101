@@ -63,7 +63,7 @@ For more on application scale, you can read Jim Smith’s [blog post](https://ww
 
 -   Use the [LANDFIRE Data Dictionary](https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf) to help understand and locate LANDFIRE information.
 
--   Use the [LANDFIRE Helpdesk](mailto:helpdesk@landfire.gov) for any questions you have about LANDFIRE products.
+-   Use the [LANDFIRE Helpdesk](mailto:helpdesk@landfire.gov) (email link) for any questions you have about LANDFIRE products.
 
 -   Visit the [data page of the LANDFIRE Program website](https://landfire.gov/data#schedule) to find the data delivery schedule.
 

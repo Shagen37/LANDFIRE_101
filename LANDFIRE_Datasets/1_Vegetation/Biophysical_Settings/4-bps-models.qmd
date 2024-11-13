@@ -29,7 +29,7 @@ LANDFIRE, in collaboration with hundreds of experts around the country, created 
 
 - Adding, subtracting, and modifying disturbances and succession classes to not only better understand today’s landscape, but also to look forward
 
-To learn more about the creation of the models, see [Blankenship et al., (2021).](https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484). For more information on working with the models, see the [Work with BpS page](https://landfirereview.org/WorkWithBpS.html) of our LANDFIRE Biophysical Settings Models and Descriptions Support website.
+To learn more about the creation of the models, see [Blankenship et al., (2021)](https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484). For more information on working with the models, see the [Working with BpS page](https://landfirereview.org/WorkWithBpS.html) of our LANDFIRE Biophysical Settings Models and Descriptions Support website.
 
 # Working with the Biophysical Settings Models
 
@@ -45,7 +45,7 @@ Running SyncroSim on a Mac is generally not recommended. For more information on
 
 ## Load all LANDFIRE BpS models using the LANDFIRE Package
 
-💡*Note: Screenshots of the process are included below the written instructions for those who find them useful.*
+💡 *Screenshots of the process are included below the written instructions for those who find them useful.*
 
 While SyncroSim is powerful as downloaded, adding ‘packages’ will bring even more functionality. For our work you will need to add in the ST-Sim and landfirevegmodels packages. In SyncroSim:
 
@@ -58,7 +58,7 @@ While SyncroSim is powerful as downloaded, adding ‘packages’ will bring even
 Once you have those packages installed, you are ready to bring in the LANDFIRE vegetation models. To do that will take a few steps:
 
 ::: callout-note
-Note: you will need internet for this section.
+You will need internet for this section.
 :::
 
 1.  Go to File -\> New… This will bring up a “New Library” window.
@@ -85,7 +85,7 @@ Once you complete these steps, SyncroSim will have downloaded and loaded the LAN
 You can access a set of [downloadable instructions](https://thenatureconservancy.github.io/landfiremodels/isolateLoadModel.pdf) (pdf) and much more information on Biophysical Settings models on the LANDFIRE Vegetation Modeling website.
 :::
 
-💡*Screenshots of the process are included below the written instructions for those who find them useful.*
+💡 *Screenshots of the process are included below the written instructions for those who find them useful.*
 
 We assume you will not want to explore all 900+ LANDFIRE models, so we outline how to subset one or more individual models below.
 
@@ -115,7 +115,7 @@ We do not suggest selecting many strata at once until you are familiar with the 
 
 ## Explore the models you are interested in
 
-💡*Note: Screenshots of the process are included below the written instructions for those who find them useful.*
+💡 *Screenshots of the process are included below the written instructions for those who find them useful.*
 
 OK you are doing a great job. Now you have a library with a subset of strata (i.e., BpSs in this case) that you care about. Now what?
 
@@ -150,14 +150,15 @@ Start exploring:
     -   Under “Disaggregate by” check the “State Class” box
 
     -   Under “Include Data For”, click “State Class” then select the appropriate state classes
+    
 ::: callout-note
-If you have multiple BpSs, you will also want to go to and select one “Model” under the “Include Data For” dropdown/
+If you have multiple BpSs, you will also want to go to and select one “Model” under the “Include Data For” dropdown
 :::
 
     -   Click “Apply"
 
 ::: callout-tip
-Pro tip: ST-Sim is stochastic, so every time a model is run the results will be slightly different. If you run a BpS model in ST-Sim, you can expect the modeled succession class percents to be within +/-5% of the values reported in the BpS description and the reference condition table.
+ST-Sim is stochastic, so every time a model is run the results will be slightly different. If you run a BpS model in ST-Sim, you can expect the modeled succession class percents to be within +/-5% of the values reported in the BpS description and the reference condition table.
 :::
 
 ### Screenshots of Running a Model and Making a Chart
