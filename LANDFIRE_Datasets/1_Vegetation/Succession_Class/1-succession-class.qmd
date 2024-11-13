@@ -34,7 +34,11 @@ It is important to understand that the Succession Class dataset alone isn’t in
 # Linking the Succession Class Letter with the BpS Description Document
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 The LANDFIRE Succession Class (SClass) product characterizes current vegetation conditions based on existing vegetation cover, height, and species composition within each Biophysical Setting (BpS). It is used to display the current location of reference vegetation states and uncharacteristic states. The [BpS description document](/Biophysical_Settings/3-bps-descriptions.qmd) describes the reference states and provides a set of mapping rules for the reference and uncharacteristic native states.
+=======
+The LANDFIRE Succession Class (SClass) product characterizes current vegetation conditions based on existing vegetation cover, height, and species composition within each Biophysical Setting (BpS). It is used to display the current location of reference vegetation states and uncharacteristic states. The [BpS description document](../Biophysical_Settings/3-bps-descriptions.qmd) describes the reference states and provides a set of mapping rules for the reference and uncharacteristic native states.
+>>>>>>> 1706d6900e1e8990300133749407481cead6ca57
 =======
 The LANDFIRE Succession Class (SClass) product characterizes current vegetation conditions based on existing vegetation cover, height, and species composition within each Biophysical Setting (BpS). It is used to display the current location of reference vegetation states and uncharacteristic states. The [BpS description document](../Biophysical_Settings/3-bps-descriptions.qmd) describes the reference states and provides a set of mapping rules for the reference and uncharacteristic native states.
 >>>>>>> 1706d6900e1e8990300133749407481cead6ca57
