@@ -43,7 +43,7 @@ You can download the full extent mosaics from the [Full Extent Downloads page](h
 
 ## Screenshots for accessing the downloads page
 
-![From the top navigation on the LANDFIRE Program website](Images/Get-data-topnav.bmp){fig-alt="An arrow points to the Get Data link in the top navigation bar of the LANDFIRE Program Website."}
+![From the top navigation on the LANDFIRE Program website](images/Get-data-topnav.bmp){fig-alt="An arrow points to the Get Data link in the top navigation bar of the LANDFIRE Program Website."}
 
 ![From the Learn More button under the Data heading on the main page of the LANDFIRE Program website](images/get_data.bmp){fig-alt="The main page of the LANDFIRE Program website. An arrow points to the Learn More button under the Data heading - the middle of three boxes across the main section of the page."}
 
