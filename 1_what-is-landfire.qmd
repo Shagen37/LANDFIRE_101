@@ -7,9 +7,9 @@ format: html
 
 # What does LANDFIRE provide?
 
-The LANDFIRE Program produces current, consistent, and comprehensive geospatial data sets and databases that describe vegetation, wildland fuels, and fire regimes for the entire United States, including Alaska, Hawai'i, and Puerto Rico and the US Virgin Islands. Most LANDFIRE products are delivered as geospatial data layers with 30-meter cell resolution, although not all products are spatial layers. Read the [LANDFIRE Technical Documentation](https://pubs.usgs.gov/publication/ofr20231045) to learn how LANDFIRE creates these products. Use the [LANDFIRE Data Dictionary](https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf) to help understand and locate LANDFIRE product information.
+The LANDFIRE Program produces current, consistent, and comprehensive geospatial data sets and databases that describe vegetation, wildland fuels, and fire regimes for the entire United States, including Alaska, Hawai'i, and Puerto Rico and the US Virgin Islands. Most LANDFIRE products are delivered as geospatial data layers with 30-meter cell resolution, although not all products are spatial layers. Read the [LANDFIRE Technical Documentation}(https://pubs.usgs.gov/publication/ofr20231045) to learn how LANDFIRE creates these products. Use the [LANDFIRE Data Dictionary](https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf) to help understand and locate LANDFIRE product information. 
 
-## LANDFIRE Data Products by Category
+## LANDFIRE data products by category
 
 The table below shows a comprehensive list of all the datasets LANDFIRE provides in each of six categories, with links to where you can learn more about each dataset, explore attribute tables, and download data.
 
@@ -29,9 +29,9 @@ The table below shows a comprehensive list of all the datasets LANDFIRE provides
 |  |  | [Fuel Vegetation Height](https://landfire.gov/fuel/fvh) |  |  |  |
 |  |  | [Fuel Vegetation Type](https://landfire.gov/fuel/fvt) |  |  |  |
 
-# LANDFIRE Versions
+# LANDFIRE versions
 
-Beginning in 2022, LANDFIRE is providing annual updates in which the landscape changes from the previous year are represented in the current year products. You can find the data delivery schedule on the [data page of the LANDFIRE Program website](https://landfire.gov/data#schedule). LANDFIRE’s version history can be found in the [Version Description table](https://landfire.gov/data/comparison-table) on the LANDFIRE Program website. A [table comparing all LANDFIRE versions](https://landfire.gov/data/comparison-table) from LANDFIRE National (LFc2001) through the current version is also available on the same page. LANDFIRE keeps three versions online for immediate download at all times. Versions not listed can be requested through the [LANDFIRE Helpdesk](https://landfire.gov/contact).
+Prior to 2022, LANDFIRE updated their product suite every few years. However, beginning in 2022, LANDFIRE started providing annual product updates. It’s important to note that these annual updates only apply to pixels mapped as disturbed. Pixels mapped as undisturbed (since the release of LF2016), remain unchanged. You can find the data delivery schedule on the [data page of the LANDFIRE Program website](https://landfire.gov/data#schedule). LANDFIRE’s version history can be found in the [Version Description table](https://landfire.gov/data/comparison-table) on the LANDFIRE Program website. A [table comparing all LANDFIRE versions](https://landfire.gov/data/comparison-table) from LANDFIRE National (LFc2001) through the current version is also available on the same page. LANDFIRE keeps three versions online for immediate download at all times. Versions not listed can be requested through the [LANDFIRE Helpdesk](https://landfire.gov/contact).
 
 ::: callout-note
 Please visit the [LANDFIRE Program website](https://landfire.gov/data) for the most recent data version and the most up-to-date release schedule.
@@ -47,12 +47,14 @@ LANDFIRE data is currently available for the following extents, although not all
 
 -   Insular Areas: American Samoa, Guam, Commonwealth of the Northern Mariana Islands (CNMI), Federated States of Micoronesia, Republic of Palau, Republic of Marshall Islands, Puerto Rico, US Virgin Islands.
 
-# How Data Products and Information may be used
+# How data products and information may be used
 
-LANDFIRE products provide data for landscape assessment, analysis, and management. This information supports efforts such as identification of areas with similar characteristics, prioritization exercises, modeling capacity and potential, and improving collaboration between landowners with common data sets and analytics. LANDFIRE offers national-scale spatial products that provide the best available data on vegetation, fuels, fire regimes, and disturbances, supporting landscape assessment, analysis, and management. This data aids in identifying areas with similar characteristics, prioritizing tasks, modeling capacity and potential, and fostering collaboration between landowners through shared data sets and analytics. These products are extensively utilized by land managers for setting priorities, formulating management strategies, and devising action plans. Their applications extend beyond fire management to encompass climate change research, carbon sequestration planning, and habitat analysis. Key applications that use LANDFIRE products are the [Wildland Fire Decision Support System (WFDSS)](https://wfdss.usgs.gov/), [Interagency Fuels Treatment Decision Support System](https://iftdss.firenet.gov/landing_page/), [Terrestrial Condition Assessment](https://terrestrial-condition-assessment-usfs.hub.arcgis.com/), and [Watershed Condition Class](https://www.fs.usda.gov/naturalresources/watershed/condition_framework.shtml).
+LANDFIRE provides national, regional, and large landscape-scale products for landscape assessment, analysis, and management. This information supports efforts such as identification of areas with similar characteristics, prioritization exercises, modeling capacity and potential, and improving collaboration between landowners with common data sets and analytics. These products are extensively utilized by land managers for setting priorities, formulating management strategies, and devising action plans. Their applications extend beyond fire management to encompass climate change research, carbon sequestration planning, and habitat analysis. Key applications that use LANDFIRE products are the [Wildland Fire Decision Support System](https://wfdss.usgs.gov/) (WFDSS), [Interagency Fuels Treatment Decision Support System](https://iftdss.firenet.gov/landing_page/) (IFTDSS), [Terrestrial Condition Assessment](https://terrestrial-condition-assessment-usfs.hub.arcgis.com/), and [Watershed Condition Class](https://www.fs.usda.gov/naturalresources/watershed/condition_framework.shtml).
 
 ::: callout-note
-**A note on application scale** Application scale in LANDFIRE refers to the minimum area size that the data creators aimed to represent accurately for specific applications. It’s not about detail or spatial resolution, but about the usefulness of the product when zoomed in. LANDFIRE provides data for the entire United States, but its application scale is large landscape, regional, national. This means the data is accurate for large geographies, but may not be precise for specific small areas within that geography. Therefore, understanding application scale is crucial when using LANDFIRE products, as it ensures the data represents the overall landscape faithfully for planning or analysis.
+**A note on application scale** 
+
+Application scale in LANDFIRE refers to the minimum area size that the data creators aimed to represent accurately for specific applications. It’s not about detail or spatial resolution, but about the usefulness of the product when zoomed in. LANDFIRE provides data for the entire United States, but its application scale is large landscape, regional, and national. This means the data is accurate for large geographies but may not be precise for specific small areas within that geography. Therefore, understanding application scale is crucial when using LANDFIRE products, as it ensures the data represents the overall landscape faithfully for planning or analysis.
 
 For more on application scale, you can read Jim Smith’s [blog post](https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Pages/landscape-scale-landfire.aspx) on the topic.
 :::
@@ -68,3 +70,5 @@ For more on application scale, you can read Jim Smith’s [blog post](https://ww
 -   Visit the [data page of the LANDFIRE Program website](https://landfire.gov/data#schedule) to find the data delivery schedule.
 
 -   Use the [Version Description table](https://landfire.gov/data/comparison-table) and the [table comparing all LANDFIRE versions](https://landfire.gov/data/comparison-table) to see LANDFIRE’s version history.
+
+-   See the [Modifying LANDFIRE Geospatial Data for Local Applications](https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/ModifyingLF_DataGuide_V1.pdf) guide by Don Helmbrecht and Kori Blankenship for help adapting LANDFIRE datasets to your landscape.
