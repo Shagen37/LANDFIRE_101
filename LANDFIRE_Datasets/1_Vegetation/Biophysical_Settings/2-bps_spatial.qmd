@@ -40,7 +40,7 @@ For even more context, we’ve created this short [BpS 101 video](https://youtu.
 
 ::: callout-note
 Note, there will be a separate row, and VALUE for each BPS_CODE/MapZone combination, such as presented in the above example where there are two rows for 13020_65_66.
-::
+:::
 
 ::: callout-tip
 The attribute for map zone in the BpS attribute table creates duplicate rows in the table in cases where one model applies to multiple map zones. For users only interested in unique BpS, we recommend performing a spatial lookup based on the BpS_Model code. This will allow the user to visualize each unique BpS in an area of interest.
@@ -71,12 +71,12 @@ The LANDFIRE spatial data layers allow for display and analysis on multiple attr
 
 # Where to find BpS data
 
-💡 *Screenshots are provided below for those who find them useful.*
+💡 *Screenshots of the process are included below the written instructions for those who find them useful.*
 
 The Biophysical Settings data is included in the [Vegetation section](https://landfire.gov/vegetation) of the LANDFIRE Program Website on the [Biophysical Settings page](https://landfire.gov/vegetation/bps). Here you will find an overview, including the information above along with further details and links to other important documents. Perhaps of most interest are the download links - via the LANDFIRE Map Viewer, full extent downloads, and a variety of ways to stream data into your maps. The page also includes resources such as attribute tables, metadata, and supplemental information.
 
 ::: callout-note
-In a [later section of this site](../Get_Data/1-ways-to-get-data.qmd), you will learn more about the differences between these download methods and how to access data via each method.
+In a [later section of this site](../../../Get_Data/1-ways-to-get-data.qmd), you will learn more about the differences between these download methods and how to access data via each method.
 :::
 
 ![Screenshot of Data Access and Resources on the Biophysical Settings data page](images/5-bps-spatial-lfgov.bmp){fig-alt="Location on landfire.gov, the LANDFIRE Program website, of where to find the Data Access and Resources sections of the Biophysical Settings data page. When you browse to landfire.gov/vegetation/bps, these resources are near the bottom of the page under the Data Access and Biophysical Settings Resources headings."}

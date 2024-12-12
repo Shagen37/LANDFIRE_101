@@ -24,7 +24,7 @@ Biophysical Settings (BpS) are a foundational concept for LANDFIRE defined on th
 
 We like to think of the Biophysical Settings as ‘ecosystem habitats’, or ‘potential ecosystem footprints’. The BpS concept asks “where might an ecosystem occur” based on abiotic factors such as soils, surficial geology, slope and elevation as well as natural disturbance regimes.
 
-For more information on ecological systems in LANDFIRE, see the [LANDFIRE Vegetation Products Overview](../../1_lf-vegetation-data.qmd.) section of this website.
+For more information on ecological systems in LANDFIRE, see the [LANDFIRE Vegetation Products Overview](../../1_Vegetation/1_lf-vegetation-data.qmd) section of this website.
 
 # What are the BpS products?
 

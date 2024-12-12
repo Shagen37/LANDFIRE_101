@@ -9,22 +9,22 @@ format: html
 
 -   An overview of the Existing Vegetation Type data
 
--   Key attributes of the EVT data
+-   Key attributes of the Existing Vegetation Type data
 
--   Where to find EVT data
+-   Where to find Existing Vegetation Type data
 
--   Ways to use EVT data in your work
+-   Ways to use Existing Vegetation Type data in your work
 
 # Existing Vegetation Type
 
-![LANDFIRE maps existing vegetation type for all of the United States, including Alaska, Hawaii, Puerto Rico, and the US Virgin Islands. This map groups more than 1000 vegetation types by major lifeform then displays them by color within each group.](images/EVT_map.bmp){fig-alt="A map of LANDFIRE Existing Vegetation Type for the Contiguous US, Alaska, Hawaii, and Puerto Rico and the US Virgin Islands."}
+![LANDFIRE delivers Existing Vegetation Type data for the entire United States, including Alaska, Hawaii, Puerto Rico and the US Virgin Islands. More than 1000 Existing Vegetation Types are grouped into seven major vegetation classes and displayed using one color family for each class. This map was designed with a custom color ramp created by Sarah Hagen.](images/1-EVT-map.bmp){fig-alt="A map of LANDFIRE Existing Vegetation Type for the Contiguous US, Alaska, Hawaii, and Puerto Rico and the US Virgin Islands."}
 
-LANDFIRE's (LF) Existing Vegetation Type (EVT-ES) represents the current distribution of the terrestrial ecological systems classification, developed by NatureServe for the western hemisphere, through 2016. A terrestrial ecological system is defined as a group of plant community types (associations) that tend to co-occur within landscapes with similar ecological processes, substrates, and/or environmental gradients. EVT is mapped using a combination of satellite imagery, biophysical gradient layers, and field plots. For more on this, see the LANDFIRE technical documentation.
+LANDFIRE's Existing Vegetation Type (EVT-ES) represents the current distribution of the terrestrial ecological systems classification, developed by NatureServe for the western hemisphere, through 2016. A terrestrial ecological system is defined as a group of plant community types (associations) that tend to co-occur within landscapes with similar ecological processes, substrates, and/or environmental gradients. EVT is mapped using a combination of satellite imagery, biophysical gradient layers, and field plots. For more on this, see the [LANDFIRE technical documentation](https://www.usgs.gov/publications/landfire-technical-documentation).
 
-EVT also includes ruderal or semi-natural vegetation types within the [U.S. National Vegetation Classification](https://usnvc.org/). The [LANDFIRE Ruderal NVC Groups Descriptions for CONUS](https://landfire.gov/sites/default/files/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf) provides info for each ruderal NVC Group, including species, distribution, and classification details. At this time, EVT (and other LANDFIRE vegetation layers) extend 90km past the United States border into Mexico and Canada, allowing some crosswalk of EVT and other vegetation systems.
+EVT also includes ruderal or semi-natural vegetation types within the [U.S. National Vegetation Classification](https://usnvc.org/) (NVC). The [LANDFIRE Ruderal NVC Groups Descriptions for CONUS](https://landfire.gov/sites/default/files/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf) provides info for each ruderal NVC Group, including species, distribution, and classification details. At this time, EVT (and other LANDFIRE vegetation layers) extend 90km past the United States border into Mexico and Canada, allowing some crosswalk of EVT and other vegetation systems.
 
 ::: callout-important
-Prior to LANDFIRE 2016, EVT were created based on the NatureServe terrestrial ecosystems classification. You can still find information on these data under [Existing Vegetation Type - Ecological Systems](https://landfire.gov/vegetation/evt). You can learn more about each of these ecological systems classifications on the separate product pages on the [LANDFIRE Program Website](https://landfire.gov/vegetation). Due to the differences in classification, users should not compare EVT versions created from 2016 onward with those created before 2016.
+EVT's were created based on the NatureServe terrestrial ecosystems classification. You can still find information on these data under [Existing Vegetation Type - Ecological Systems](https://landfire.gov/vegetation/evt). Additional information about each of these ecological systems classifications can be found on the separate product pages on the [LANDFIRE Program Website](https://landfire.gov/vegetation). Due to the differences in the classification, over time, users should be careful when comparing different EVT versions.
 :::
 
 ## Key EVT Attributes include:
@@ -55,37 +55,43 @@ LANDFIRE EVT can be used at a variety of scales but should only be used after co
 Caution should be taken when comparing LANDFIRE versions as attribute tables are often changed to reflect the changing needs of users.
 :::
 
+The LANDFIRE spatial data layers allow for display and analysis at varying levels of specificity. Three examples of how you can display, aggregate, and evaluate Existing Vegetation Type data from most specific (EVT Name) to least specific (Lifeform) information are presented in the following images. These three maps are presented as examples, but you can display or analyze EVT data on any of the attributes mentioned above.
+
+![Existing Vegetation Type data for the contiguous United States (CONUS) are displayed on the EVT_Name attribute. In this map Existing Vegetation Type data are grouped into seven major vegetation classes and displayed using one color family for each class, with each EVT getting its own specific color code. This map was designed using a custom color ramp created by Sarah Hagen.](images/2-evt-map-name.bmp){fig-alt="A map of the Existing Vegtation Type data for the Contiguous United States. Text across the top reads 'EVT Name'." fig-align="center"}
+
+![Existing Vegetation Type data for the contiguous United States (CONUS) are displayed on the EVT_Phys attribute. In this map Existing Vegetation Type data are grouped into thirteen major classes and displayed using one color for each class. This map was designed using a custom color ramp created by Sarah Hagen.](images/3-evt-map-phys.bmp){fig-alt="A map of the Existing Vegetation Type data for the Contiguous United States. Text across the top reads 'EVT Physiognomy'." fig-align="center"}
+
+![Existing Vegetation Type data for the contiguous United States (CONUS) are displayed on the EVT_LF attribute. In this map Existing Vegetation Type data are grouped into eight major classes and displayed using one color for each class. This map was designed using a custom color ramp created by Sarah Hagen.](images/4-evt-map-lifeform.bmp){fig-alt="A map of the Existing Vegetation Type data for the Contiguous United States. Text across the top reads 'EVT Lifeform'." fig-align="center"}
+
 # Where to find Existing Vegetation Type data
 
 The Existing Vegetation Type data is included in the [Vegetation section](https://landfire.gov/vegetation) of the LANDFIRE Program Website on the [Existing Vegetation Type - Ecological Systems](https://landfire.gov/vegetation/evt) page.
 
 On that page you will find an overview, including the information above along with further details and links to other important documents. Perhaps of most interest are the download links - via the LANDFIRE Map Viewer, full extent downloads, and a variety of ways to stream data into your maps. The page also includes resources such as attribute tables, metadata, and supplemental information.
 
+::: callout-note
+In a [later section of this site](../../../Get_Data/1-ways-to-get-data.qmd), you will learn more about the differences between these download methods and how to access data via each method.
+:::
+
 ## Screenshot of Data Access and Resources on the Existing Vegetation Type page
 
-![Screenshot of where to locate the Existing Vegetation Type data page on the LANDFIRE Program website](images/EVT_lfgov.bmp){fig-alt="Arrow pointing to the Existing Vegetation Type - Ecological Systems link on the Vegetation page of the LANDFIRE Program website main page under the Current Vegetation section."}
+![Screenshot of where to locate the Existing Vegetation Type data page on the LANDFIRE Program website](images/5-evt-lfgov.bmp){fig-alt="Arrow pointing to the Existing Vegetation Type - Ecological Systems link on the Vegetation page of the LANDFIRE Program website main page under the Current Vegetation section."}
 
-![Screenshot of Data Access and Resources on the Existing Vegetation Type data page ](images/EVT_page.bmp){fig-alt="Location on landfire.gov, the LANDFIRE Program website, of where to find the Data Access and Resources sections of the Existing Vegetation Type data page. When you browse to landfire.gov/vegetation/evt, these resources are near the bottom of the page under the Data Access and Existing Vegetation Type Resources headings."}
+![Screenshot of Data Access and Resources on the Existing Vegetation Type data page ](images/6-evt-page.bmp){fig-alt="Location on landfire.gov, the LANDFIRE Program website, of where to find the Data Access and Resources sections of the Existing Vegetation Type data page. When you browse to landfire.gov/vegetation/evt, these resources are near the bottom of the page under the Data Access and Existing Vegetation Type Resources headings."}
 
 # Some interesting uses of Existing Vegetation Type data
 
-The EVT dataset can be used to quantify and map ecosystems, both at fine classification levels (e.g., using the EVT_NAME attribute) and coarse levels (e.g., using the EVT_PHYS attribute). This is done by clipping the data to your landscape of interest. Even more simply is to bring the data into GIS and view it! We can learn a lot about a place by simply exploring it in GIS software.
+The EVT dataset can be used to quantify and map ecosystems, both at fine classification levels (e.g., using the EVT_NAME attribute) and coarse levels (e.g., using the EVT_PHYS attribute). This is done by clipping the data to your landscape of interest. Even more simple is to bring the data into GIS and view it! We can learn a lot about a place by simply exploring it in GIS software.
 
-Beyond simple viewing, mapping and quantifying of ecosystems with the EVT dataset, there are many possible analyses and operations with this data including:
+Beyond simple viewing, mapping and quantifying of ecosystems with the EVT dataset, there are many possible analyses and operations with these data including:
 
--   **Wildfire Exposure Risk mapping:** The basic process was developed and documented in [Beverly et al., 2021.](https://link.springer.com/article/10.1007/s10980-020-01173-8) Simply stated, experts assign a probability of a vegetation type, if burning, igniting nearby vegetation through spotting, then a GIS analyst performs a focal statistics operation to calculate and map Wildfire Exposure Risk. An example of this was performed by Silas Pickhardt and Robert Zeil for the [Central Upper Peninsula Vegetation Assessment](https://conservation-data-lab.github.io/cup_assessment/fire.html).
+-   **Wildfire Exposure Risk mapping:** The basic process was developed and documented in [Beverly et al., 2021.](https://link.springer.com/article/10.1007/s10980-020-01173-8) Simply stated, experts assign a probability of a vegetation type igniting nearby vegetation through spotting, then a GIS analyst performs a focal statistics operation to calculate and map Wildfire Exposure Risk. An example of this was performed by Silas Pickhardt and Robert Zeil for the [Central Upper Peninsula Vegetation Assessment](https://conservation-data-lab.github.io/cup_assessment/fire.html).
 
 -   **Exploring changes over time:** [Morgan et al., 2020](https://link.springer.com/article/10.1186/s42408-019-0061-9#Abs1) explored changes in the prairie-forest ecotone in the Palouse Prairie along the border of Idaho and Washington. Authors used General Land Office survey field notes to characterize the historical landscape, then the EVT data for current. As is often done, authors grouped EVT types as needed to match the needs of their research.
 
 -   **Using EVT to map ecosystems of interest:** A common use of the EVT data is to limit the analysis to ecosystems/places of interest. For example, [Crockett and Hurteau 2024](https://link.springer.com/article/10.1186/s42408-024-00264-0) used this data to select pixels that were mapped as ponderosa pine, mixed conifer and sub-alpine forest types in their analysis of limiting factors of post-high severity wildfire green-up.
 
-# Some common mistakes with EVT data
-
-LANDFIRE EVT can be used at a variety of scales but should only be used after conducting a local review to confirm data accuracy. 
-
-Caution should be taken when comparing LANDFIRE versions as attribute tables are often changed to reflect the changing needs of users.
-
-# Helpful resources
+# Helpful Resources
 - [LANDFIRE Technical Documentation](https://www.usgs.gov/publications/landfire-technical-documentation)
 
 - [U.S. National Vegetation Classification](https://usnvc.org/)
@@ -99,3 +105,5 @@ Caution should be taken when comparing LANDFIRE versions as attribute tables are
 - Changes in ecosystems over time - [Morgan et al., 2020](https://link.springer.com/article/10.1186/s42408-019-0061-9#Abs1)
 
 - Limiting an analysis to ecosystems of interest  - [Crockett and Hurteau 2024](https://link.springer.com/article/10.1186/s42408-024-00264-0)
+
+- [LANDFIRE Office Hour: Explaining New Vegetation Methods with LANDFIRE 2023](https://youtu.be/Fzc_zS6EoJE) (YouTube video)

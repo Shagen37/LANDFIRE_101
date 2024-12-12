@@ -37,7 +37,7 @@ There are a few ways to view the attribute tables of any LANDFIRE dataset.
 
 ## From the [LANDFIRE Program website](https://www.landfire.gov/)
 
-💡 *Screenshots are provided below for those who find them useful.*
+💡 *Screenshots of the process are included below the written instructions for those who find them useful.*
 
 The [LANDFIRE Program website](https://www.landfire.gov/) is the most comprehensive resource for exploring and understanding the suite of LANDFIRE data. Here we highlight where you can find information and resources related to attributes of some key datasets.
 
@@ -63,7 +63,7 @@ The [LANDFIRE Program website](https://www.landfire.gov/) is the most comprehens
 
 ## With the .csv file that comes with each layer
 
-💡 *Screenshots are provided below for those who find them useful.*
+💡 *Screenshots of the process are included below the written instructions for those who find them useful.*
 
 Whenever you download a LANDFIRE dataset, it will be packaged in a .zip file that includes not only the spatial data in .tif format, but also general metadata, spatial metadata, and a .csv data file. .csv stands for Comma Separated Values and is a convenient way to display and work with the attributes of a spatial data layer in a non-spatial way (R, Excel, etc.). This enables you to examine your data and understand landscape trends without even opening GIS software. It also helps you understand the attributes you may want to map and explore spatially.
 
@@ -95,7 +95,7 @@ If you don’t use Microsoft Excel or you aren’t working in a Microsoft Window
 
 ## Within ArcGIS Pro
 
-💡 *Screenshots are provided below for those who find them useful.*
+💡 *Screenshots of the process are included below the written instructions for those who find them useful.*
 
 You can also use ArcGIS Pro to view the attribute tables of each dataset in tandem with the spatial data. This may provide additional benefit, as you can select attributes of interest (a particular vegetation type, for example) and ArcGIS Pro will highlight where that attribute appears in the landscape. You can also use ArcGIS Pro’s built-in tools to generate basic summary statistics that will allow you to explore the data.
 

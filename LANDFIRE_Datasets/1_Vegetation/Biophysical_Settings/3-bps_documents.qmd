@@ -5,7 +5,7 @@ toc: true
 format: html
 ---
 
-The Biophysical Settings (BpS) Descriptions are a foundational LANDFIRE product. They set the stage for the development of many other LANDFIRE products such as the Biophysical Settings, Succession Class, and Vegetation Departure spatial datasets. They have components imported from the BpS models, which we will discuss in the [following section](3-bps-models.qmd).
+The Biophysical Settings (BpS) Descriptions are a foundational LANDFIRE product. They set the stage for the development of many other LANDFIRE products such as the Biophysical Settings, Succession Class, and Vegetation Departure spatial datasets. They have components imported from the BpS models, which we will discuss in the [following section](4-bps-models.qmd).
 
 # What you will find in this section
 
@@ -23,7 +23,7 @@ While we typically work with one or a small set of BpSs, there are times when do
 
 ## To download all BpS descriptions
 
-💡 *Screenshots are provided below for those who find them useful.*
+💡 *Screenshots of the process are included below the written instructions for those who find them useful.*
 
 1.  Navigate to the [Biophysical Settings Models and Descriptions page](https://landfire.gov/vegetation/bps-models) of the LANDFIRE Program website (Vegetation→ Biophysical Settings Models and Descriptions).
 
@@ -47,7 +47,7 @@ While we typically work with one or a small set of BpSs, there are times when do
 
 # Downloading one or a set of BpS documents
 
-💡 *Screenshots are provided below for those who find them useful.*
+💡 *Screenshots of the process are included below the written instructions for those who find them useful.*
 
 In support of a 2015 BpS review process, we created a [BpS Models and Descriptions Support website](https://landfirereview.org/), which has a page that allows for searching for, and downloading a single or a set of BpS Descriptions.
 

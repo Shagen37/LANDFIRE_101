@@ -368,21 +368,21 @@ ul.task-list li input[type="checkbox"] {
 <h1>What you will find in this section</h1>
 <ul>
 <li><p>An overview of the Existing Vegetation Cover data</p></li>
-<li><p>Key attributes of the EVC data</p></li>
-<li><p>Where to find EVC data</p></li>
-<li><p>Common uses for EVC data</p></li>
+<li><p>Key attributes of the Existing Vegetation Cover data</p></li>
+<li><p>Where to find Existing Vegetation Cover data</p></li>
+<li><p>Common uses for Existing Vegetation Cover data</p></li>
 </ul>
 </section>
 <section id="existing-vegetation-cover" class="level1">
 <h1>Existing Vegetation Cover</h1>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/EVC_map.bmp" class="img-fluid figure-img" alt="A map of LANDFIRE Existing Vegetation Cover for the Contiguous US, Alaska, Hawaii, and Puerto Rico and the US Virgin Islands."></p>
-<figcaption>LANDFIRE maps Existing Vegetation Cover data for the entire United States, including Alaska, Hawaii, Puerto Rico and the US Virgin Islands. Vegetation is divided into lifeforms and then displayed with a continuous color ramp (lowest percentage cover to highest percentage cover) within each lifeform.</figcaption>
+<p><img src="images/7-evc-map.bmp" class="img-fluid figure-img" alt="A map of LANDFIRE Existing Vegetation Cover for the Contiguous US, Alaska, Hawaii, and Puerto Rico and the US Virgin Islands."></p>
+<figcaption>LANDFIRE maps Existing Vegetation Cover data for the entire United States, including Alaska, Hawaii, Puerto Rico and the US Virgin Islands. Vegetation is divided into lifeforms and then displayed with a continuous color ramp (lowest percentage cover to highest percentage cover) within each lifeform. This map was designed with a custom color ramp created by Sarah Hagen.</figcaption>
 </figure>
 </div>
 <p><a href="https://www.landfire.gov/vegetation/evc">LANDFIRE’s Existing Vegetation Cover dataset</a>, also known as EVC, works in tandem with the <a href="https://www.landfire.gov/vegetation/evt">Existing Vegetation Type dataset</a> to give a more detailed picture of the current vegetation on a landscape. EVC represents the percent cover of the live canopy layer for a 30-m cell.</p>
-<p>EVC is generated separately for tree, shrub, and herbaceous cover lifeforms using training data and other geospatial layers. Percentage tree, shrub, and herbaceous canopy cover training data are generated using plot-level ground-based visual assessments and lidar observations.</p>
+<p>EVC is generated separately for tree, shrub, and herbaceous cover lifeforms using training data and other geospatial layers. Only the primary upper layer lifeform is provided in each pixel. Percentage tree, shrub, and herbaceous canopy cover training data are generated using plot-level ground-based visual assessments and lidar observations.</p>
 <p>LANDFIRE uses EVC in several subsequent layers, including the development of the fuel layers.</p>
 <section id="key-evc-attributes-include" class="level2">
 <h2 class="anchored" data-anchor-id="key-evc-attributes-include">Key EVC Attributes include:</h2>
@@ -404,17 +404,30 @@ ul.task-list li input[type="checkbox"] {
 <h1>Where to find Existing Vegetation Cover data</h1>
 <p>The Existing Vegetation Cover data is included in the <a href="https://landfire.gov/vegetation">Vegetation section</a> of the LANDFIRE Program Website on the <a href="https://landfire.gov/vegetation/evc">Existing Vegetation Cover</a> page.</p>
 <p>On that page you will find an overview, including the information above along with further details and links to other important documents. Perhaps of most interest are the download links - via the LANDFIRE Map Viewer, full extent downloads, and a variety of ways to stream data into your maps. The page also includes resources such as attribute tables, metadata, and supplemental information.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In a <a href="../../../Get_Data/1-ways-to-get-data.html">later section of this site</a>, you will learn more about the differences between these download methods and how to access data via each method.</p>
+</div>
+</div>
 <section id="screenshot-of-data-access-and-resources-on-the-existing-vegetation-cover-page" class="level2">
 <h2 class="anchored" data-anchor-id="screenshot-of-data-access-and-resources-on-the-existing-vegetation-cover-page">Screenshot of Data Access and Resources on the Existing Vegetation Cover page</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/EVC_lfgov.bmp" class="img-fluid figure-img" alt="Arrow pointing to the Existing Vegetation Cover link on the Vegetation page of the LANDFIRE Program website main page under the Current Vegetation section."></p>
+<p><img src="images/8-evc-lfgov.bmp" class="img-fluid figure-img" alt="Arrow pointing to the Existing Vegetation Cover link on the Vegetation page of the LANDFIRE Program website main page under the Current Vegetation section."></p>
 <figcaption>Screenshot of where to locate the Existing Vegetation Cover data page on the LANDFIRE Program website</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/EVC_page.bmp" class="img-fluid figure-img" alt="Location on landfire.gov, the LANDFIRE Program website, of where to find the Data Access and Resources sections of the Existing Vegetation Cover data page. When you browse to landfire.gov/vegetation/evc, these resources are near the bottom of the page under the Data Access and Existing Vegetation Cover Resources headings."></p>
+<p><img src="images/9-evc-page.bmp" class="img-fluid figure-img" alt="Location on landfire.gov, the LANDFIRE Program website, of where to find the Data Access and Resources sections of the Existing Vegetation Cover data page. When you browse to landfire.gov/vegetation/evc, these resources are near the bottom of the page under the Data Access and Existing Vegetation Cover Resources headings."></p>
 <figcaption>Screenshot of Data Access and Resources on the Existing Vegetation Cover data page</figcaption>
 </figure>
 </div>
@@ -424,11 +437,11 @@ ul.task-list li input[type="checkbox"] {
 <h1>Some uses for Existing Vegetation Cover data</h1>
 <section id="landscape-assessments" class="level2">
 <h2 class="anchored" data-anchor-id="landscape-assessments">Landscape Assessments</h2>
-<p>We often use LANDFIRE EVC in combination with Existing Vegetation Type (EVT) and Height (EVH) to better understand landscapes using something we call landscape assessments. These assessments are created using GIS and R code and examine historical and current vegetation patterns across landscapes of various sizes. For examples of what we can do with landscape assessments, please see the <a href="https://storymaps.arcgis.com/collections/21a22e163439413c9ce1d8e2ef0b1311?item=3">LANDFIRE in Landscape Assessments</a> page of the <a href="https://storymaps.arcgis.com/collections/21a22e163439413c9ce1d8e2ef0b1311">LANDFIRE Portfolio</a>.</p>
+<p>We often use LANDFIRE EVC in combination with EVT and Existing Vegetation Height (EVT) to better understand landscapes using something we call landscape assessments. We will have a later section of this website specifically dedicated to how we create landscape assessments using GIS and R.</p>
 </section>
 <section id="succession-class" class="level2">
 <h2 class="anchored" data-anchor-id="succession-class">Succession Class</h2>
-<p>EVC, once again in combination with EVT and EVH, is a key component in the way LANDFIRE creates and maps succession class. Through Succession Class, EVC contributes to the calculation of Vegetation Departure and Vegetation Condition Class. We will discuss <a href="https://shagen37.github.io/LANDFIRE_101/LANDFIRE_Datasets/1_Vegetation/Succession_Class/1-succession-class.html">succession class</a> and <a href="https://shagen37.github.io/LANDFIRE_101/LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html">vegetation departure</a> in more detail in subsequent sections of this website.</p>
+<p>EVC, once again in combination with EVT and EVH, is a key component in the way LANDFIRE creates and maps succession class. Through Succession Class, EVC contributes to the calculation of <a href="https://www.landfire.gov/vegetation/vdep">Vegetation Departure</a> and <a href="https://www.landfire.gov/vegetation/vcc">Vegetation Condition Class</a>.</p>
 </section>
 </section>
 <section id="helpful-resources" class="level1">

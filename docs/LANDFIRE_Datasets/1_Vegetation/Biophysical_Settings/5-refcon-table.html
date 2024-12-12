@@ -356,12 +356,12 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="what-you-will-find-in-this-section" class="level1">
 <h1>What you will find in this section</h1>
-<p>The Reference Conditions Table (RCT) is essentially an output from the Biophysical Settings Models that focuses specifically on succession class and fire regime. In this section we will:</p>
+<p>The Reference Conditions Table (RCT) is an output from the Biophysical Settings Models that focuses specifically on succession class and fire regime. In this section we will:</p>
 <ul>
-<li><p>Explore the fields in the RCT</p></li>
-<li><p>Discuss how the RCT is linked to BpS through SClass</p></li>
-<li><p>Consider RCT use cases</p></li>
-<li><p>Explain where to get the table</p></li>
+<li><p>Explore the fields in the Reference Conditions Table</p></li>
+<li><p>Understand how the Reference Conditions Table is linked to the BpS through succession class</p></li>
+<li><p>Discuss Reference Conditions Table use cases</p></li>
+<li><p>Explain where to get the Reference Conditions Table</p></li>
 </ul>
 </section>
 <section id="the-reference-conditions-table" class="level1">
@@ -376,10 +376,10 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>💡 We suggest you review the content on Biophysical Settings, specifically the <a href="../../../LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/2-bps_spatial.html">Biophysical Settings Spatial Data page</a> where we discuss BpS attributes, before you work through this material. We discuss <a href="https://shagen37.github.io/LANDFIRE_101/LANDFIRE_Datasets/1_Vegetation/Succession_Class/1-succession-class.html">Succession Class</a> in more detail in a later section of this website.</p>
+<p>💡 We suggest you review the content on Biophysical Settings, specifically the <a href="../../../LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/2-bps_spatial.html">Biophysical Settings Spatial Data page</a> where we discuss BpS attributes, before you work through this material. We discuss <a href="../../../LANDFIRE_Datasets/1_Vegetation/Succession_Class/1-succession-class.html">Succession Class</a> in more detail in a later section of this website. Remember that reference conditions relate to the pre-European colonization period and not today or the future.</p>
 </div>
 </div>
-<p>The Reference Conditions Table summarizes the vegetation and fire regime reference conditions for every BpS. Vegetation reference conditions estimate the relative proportion of each succession class. Fire regime reference conditions estimate the frequency and severity of fire within a BpS. LANDFIRE calculates reference condition using the BpS model. These results are also in the BpS description.</p>
+<p>The Reference Conditions Table summarizes the vegetation and fire regime reference conditions for every BpS. Vegetation reference conditions estimate the relative proportion of each succession class. Fire regime reference conditions estimate the frequency and severity of fire within a BpS. LANDFIRE calculates reference conditions using the BpS model. These results are also in the BpS description.</p>
 <p>When you download the <a href="https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip">Reference Condition Table</a> you will get a zipped .csv file with the following fields:</p>
 <ol type="1">
 <li><p><strong>Biophysical Settings identifiers</strong>:</p>
@@ -389,10 +389,86 @@ Note
 <li>Model_Code</li>
 </ul></li>
 <li><p><strong>Succession Class Reference Percents</strong>, Classes A – E, e.g., ‘ClassA_ReferencePercent’</p></li>
-<li><p><strong>Fire Return Intervals</strong>, surface, mixed and replacement, e.g., ‘FRI_ReplacementFire’</p></li>
-<li><p><strong>Percent of fires</strong>, surface, mixed and replacement, e.g., ‘PercentOfFires_ReplacementFire’</p></li>
-<li><p><strong>Fire Regime Group</strong>: FRG_New</p></li>
+<li><p><strong>Fire Return Intervals</strong>, surface, mixed, and replacement, e.g., ‘FRI_ReplacementFire’</p></li>
+<li><p><strong>Percent of fires</strong>, surface, mixed, and replacement, e.g., ‘PercentOfFires_ReplacementFire’</p></li>
+<li><p><strong>Fire Regime Group</strong>: FRG_New. Fire regime group is classified based on the fire frequency and severity as shown in the table below.</p></li>
 </ol>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Fire Regime Group</strong></th>
+<th><strong>All Fire Fire Return Interval</strong></th>
+<th><strong>% Replacement Fire</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>I-A</td>
+<td>0 - 5 years</td>
+<td>Less than 66.7%</td>
+</tr>
+<tr class="even">
+<td>I-B</td>
+<td>6 - 15 years</td>
+<td>Less than 66.7%</td>
+</tr>
+<tr class="odd">
+<td>I-C</td>
+<td>16 - 35 years</td>
+<td>Less than 66.7%</td>
+</tr>
+<tr class="even">
+<td>II-A</td>
+<td>0 - 5 years</td>
+<td>66.7% or greater</td>
+</tr>
+<tr class="odd">
+<td>II-B</td>
+<td>6 - 15 years</td>
+<td>66.7% or greater</td>
+</tr>
+<tr class="even">
+<td>II-C</td>
+<td>16 - 35 years</td>
+<td>66.7% or greater</td>
+</tr>
+<tr class="odd">
+<td>III-A</td>
+<td>36 - 100 years</td>
+<td>Less than 80%</td>
+</tr>
+<tr class="even">
+<td>III-B</td>
+<td>101 - 200 years</td>
+<td>Less than 66.7%</td>
+</tr>
+<tr class="odd">
+<td>IV-A</td>
+<td>36 - 100 years</td>
+<td>80% or greater</td>
+</tr>
+<tr class="even">
+<td>IV-B</td>
+<td>101 - 200 years</td>
+<td>66.7% or greater</td>
+</tr>
+<tr class="odd">
+<td>V-A</td>
+<td>201 - 500 years</td>
+<td>Any severity</td>
+</tr>
+<tr class="even">
+<td>V-B</td>
+<td>501+ years</td>
+<td>Any severity</td>
+</tr>
+</tbody>
+</table>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -409,7 +485,7 @@ Tip
 </section>
 <section id="some-common-uses-of-the-reference-conditions-table" class="level1">
 <h1>Some common uses of the Reference Conditions Table</h1>
-<p>This table can be a quick way to get reference percentages and to understand overall historical fire dynamics of BpSs. LANDFIRE Uses the RCT to compare reference succession class amounts to current amounts to calculate vegetation departure.</p>
+<p>This table can be a quick way to get reference percentages and to understand overall historical fire dynamics of BpS. LANDFIRE Uses the RCT to compare reference succession class amounts to current amounts to calculate vegetation departure.</p>
 <p>Other common uses of the RCT include:</p>
 <p><strong>Getting reference succession class percentages</strong> when making charts such as the demo figure below. This figure depicts reference vs.&nbsp;current succession classes for the Southern Rockies ecoregion and could be helpful when thinking about the major Biophysical Settings on a landscape and how their succession classes may (or may not) have changed over time.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -418,8 +494,8 @@ Tip
 <figcaption><em>Reference vs.&nbsp;current succession classes for the Southern Rockies ecoregion.</em></figcaption>
 </figure>
 </div>
-<p><strong>Understanding the relative proportion of surface, mixed, and replacement fire severity</strong> for a given Biophysical Setting.</p>
-<p><strong>Comparing fire frequency, severity, and fire regime</strong> between Biophysical Settings.</p>
+<p><strong>Understanding the relative proportion of surface, mixed, and replacement fire severity</strong> for a given BpS.</p>
+<p><strong>Comparing fire frequency, severity, and fire regime</strong> between BpS.</p>
 <p><strong>Quickly calculating estimated historical annual acres burned</strong>:</p>
 <ul>
 <li><p><em>Quantify the amount of a BpS on the landscape</em>: Let ( A ) represent the acres of the landscape. For example, ( A = 200,000 ) acres.</p></li>
@@ -428,7 +504,7 @@ Tip
 <li><p>Putting it all together, the equation becomes:</p>
 <p>S=200,000×(0.04)=8,000 acres of surface fire</p></li>
 </ul>
-<p>The following chart depicts annual acres burned, all fire types, for the most dominant BpSs of the Southern Rockies.</p>
+<p>The following chart depicts annual acres burned, all fire types, for the most dominant BpSs of the Southern Rockies, calculated using the formula above but including all fire types. <a href="https://thenatureconservancy.github.io/soro/past.html">Explore the context for this chart</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/RCT_AcresBurned.png" class="img-fluid figure-img"></p>
@@ -439,7 +515,7 @@ Tip
 </section>
 <section id="where-to-find-the-reference-conditions-table" class="level1">
 <h1>Where to find the Reference Conditions Table</h1>
-<p>The RCT is downloadable on the <a href="https://landfire.gov/vegetation/bps-models">Bps Models page of the LANDFIRE Program website</a>. Scroll down to the “Download BpS Models and Descriptions” section, then click “Reference Conditions” which will begin an immediate download. Unless you specify the download location, the file will likely end up in your default Downloads folder.</p>
+<p>The RCT is downloadable on the <a href="https://landfire.gov/vegetation/bps-models">Bps Models page of the LANDFIRE Program website</a>. Scroll down to the Download BpS Models and Descriptions section, then click Reference Conditions which will begin an immediate download. Unless you specify the download location, the file will likely end up in your default Downloads folder.</p>
 <p>To access the file, open the .csv in Excel, R, or any other program you use to view .csv files.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -454,6 +530,7 @@ Tip
 <li><p><a href="https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip">The Reference Condition Table</a> (downloads a zip file)</p></li>
 <li><p><a href="https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip">Succession Class mapping rules spreadsheet</a> (downloads a zip file)</p></li>
 <li><p><a href="https://www.landfire.gov/sites/default/files/documents/Succession_Class_Mapping_Rules_Readme.pdf">SClass Readme file</a></p></li>
+<li><p><a href="https://youtu.be/0yUIw8kF0TA">LANDFIRE Office Hours: How to use, interpret, and access LANDFIRE Reference Database Products</a> (links to a YouTube video)</p></li>
 </ul>
 
 

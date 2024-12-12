@@ -364,26 +364,26 @@ ul.task-list li input[type="checkbox"] {
 <h1>What you will find in this section</h1>
 <ul>
 <li><p>An overview of the Existing Vegetation Height data</p></li>
-<li><p>Key attributes of the EVH data</p></li>
-<li><p>Where to find EVH data</p></li>
-<li><p>Common uses for EVH data</p></li>
+<li><p>Key attributes of the Existing Vegetation Height data</p></li>
+<li><p>Where to find Existing Vegetation Height data</p></li>
+<li><p>Common uses for Existing Vegetation Height data</p></li>
 </ul>
 </section>
 <section id="existing-vegetation-height" class="level1">
 <h1>Existing Vegetation Height</h1>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/EVH_map.bmp" class="img-fluid figure-img" alt="A map of LANDFIRE Existing Vegetation Height for the Contiguous US, Alaska, Hawaii, and Puerto Rico and the US Virgin Islands."></p>
-<figcaption>LANDFIRE maps Existing Vegetation Height data for the entire United States, including Alaska, Hawaii, Puerto Rico and the US Virgin Islands. Vegetation is divided into lifeforms and then displayed with a continuous color ramp (shortest to tallest vegetation) within each lifeform.</figcaption>
+<p><img src="images/10-evh-map.bmp" class="img-fluid figure-img" alt="A map of LANDFIRE Existing Vegetation Height for the Contiguous US, Alaska, Hawaii, and Puerto Rico and the US Virgin Islands."></p>
+<figcaption>LANDFIRE maps Existing Vegetation Height data for the entire United States, including Alaska, Hawaii, Puerto Rico and the US Virgin Islands. Vegetation is divided into lifeforms and then displayed with a continuous color ramp (shortest to tallest vegetation) within each lifeform. This map was designed using a custom color ramp created by Sarah Hagen.</figcaption>
 </figure>
 </div>
 <p><a href="https://www.landfire.gov/vegetation/evh">LANDFIRE’s Existing Vegetation Height dataset</a>, also known as EVH, works in tandem with the Existing Vegetation Type dataset to give a more detailed picture of the current vegetation on a landscape. EVH represents the average height of the dominant vegetation for a 30-m cell.</p>
-<p>EVH is generated separately for tree, shrub, and herbaceous cover lifeforms using training data and other geospatial layers. Decision tree relationships are used to generate lifeform specific height class layers, which are merged into a single composite EVH layer.</p>
-<p>LANDFIRE uses EVH in several subsequent layers, including the development of the fuels products.</p>
+<p>EVH is generated separately for tree, shrub, and herbaceous cover lifeforms using training data and other geospatial layers. Only the EVH for the primary upper layer lifeform is included in each pixel. Decision tree relationships are used to generate lifeform specific height class layers, which are merged into a single composite EVH layer. For more information on how EVH was created, review the <a href="https://pubs.usgs.gov/publication/ofr20231045">Technical Documentation</a> provided on the LANDFIRE program website.</p>
+<p>LANDFIRE uses EVH in several subsequent layers, including the development of the fuels products and Succession Classes.</p>
 <section id="key-evh-attributes-include" class="level2">
 <h2 class="anchored" data-anchor-id="key-evh-attributes-include">Key EVH Attributes include:</h2>
 <ul>
-<li><strong>CLASSNAMES</strong>: The main attribute of EVH. This combines the EVT lifeform with the average heightof the dominant lifeform. Key lifeforms are described below. As with all LANDFIRE layers, you can get more information about individual attributes from the <a href="https://landfire.gov/sites/default/files/DataDictionary/LF2023/LF23_EVHADD_240.pdf">EVH Attribute Data Dictionary</a> (opens a pdf).
+<li><strong>CLASSNAMES</strong>: The main attribute of EVH. This combines the EVT lifeform with the average height of the dominant lifeform. Key lifeforms are described below. As with all LANDFIRE layers, you can get more information about individual attributes from the <a href="https://landfire.gov/sites/default/files/DataDictionary/LF2023/LF23_EVHADD_240.pdf">EVH Attribute Data Dictionary</a> (opens a pdf).
 <ul>
 <li><strong>Tree Height</strong>: average tree height in meters</li>
 <li><strong>Shrub Height</strong>: average shrub height in meters</li>
@@ -400,17 +400,30 @@ ul.task-list li input[type="checkbox"] {
 <h1>Where to find Existing Vegetation Height data</h1>
 <p>The Existing Vegetation Height data is included in the <a href="https://landfire.gov/vegetation">Vegetation section</a> of the LANDFIRE Program Website on the <a href="https://landfire.gov/vegetation/evh">Existing Vegetation Height</a> page.</p>
 <p>On that page you will find an overview, including the information above along with further details and links to other important documents. Perhaps of most interest are the download links - via the LANDFIRE Map Viewer, full extent downloads, and a variety of ways to stream data into your maps. The page also includes resources such as attribute tables, metadata, and supplemental information.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In a <a href="../../../Get_Data/1-ways-to-get-data.html">later section of this site</a>, you will learn more about the differences between these download methods and how to access data via each method.</p>
+</div>
+</div>
 <section id="screenshots-of-data-access-and-resources-on-the-existing-vegetation-height-page" class="level2">
 <h2 class="anchored" data-anchor-id="screenshots-of-data-access-and-resources-on-the-existing-vegetation-height-page">Screenshots of Data Access and Resources on the Existing Vegetation Height page</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/EVH_lfgov.bmp" class="img-fluid figure-img" alt="Arrow pointing to the Existing Vegetation Height link on the Vegetation page of the LANDFIRE Program website main page under the Current Vegetation section."></p>
+<p><img src="images/11-evh-lfgov.bmp" class="img-fluid figure-img" alt="Arrow pointing to the Existing Vegetation Height link on the Vegetation page of the LANDFIRE Program website main page under the Current Vegetation section."></p>
 <figcaption>Screenshot of where to locate the Existing Vegetation Height data page on the LANDFIRE Program website</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/EVH_page.bmp" class="img-fluid figure-img" alt="Location on landfire.gov, the LANDFIRE Program website, of where to find the Data Access and Resources sections of the Existing Vegetation Height data page. When you browse to landfire.gov/vegetation/evh, these resources are near the bottom of the page under the Data Access and Existing Vegetation Height Resources headings."></p>
+<p><img src="images/12-evh-page.bmp" class="img-fluid figure-img" alt="Location on landfire.gov, the LANDFIRE Program website, of where to find the Data Access and Resources sections of the Existing Vegetation Height data page. When you browse to landfire.gov/vegetation/evh, these resources are near the bottom of the page under the Data Access and Existing Vegetation Height Resources headings."></p>
 <figcaption>Screenshot of Data Access and Resources on the Existing Vegetation Height data page</figcaption>
 </figure>
 </div>
@@ -418,13 +431,13 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="some-uses-for-existing-vegetation-height-data" class="level1">
 <h1>Some uses for Existing Vegetation Height data</h1>
-<p>Alone the EVH dataset can be used to simply map and quantify vegetation height. This is simply done by clipping the data to your landscape of interest. Even more simple is to bring the data into GIS and view it! We can learn a lot about a place by simply exploring in GIS software.</p>
-<p>Beyond simple viewing, mapping and quantifying of ecosystems with the EVH dataset, there are many possible analyses and operations with this data including:</p>
+<p>EVH can be used to simply map and quantify vegetation height. This is done by clipping the data to your landscape of interest. Even more simple is to bring the data into GIS and view it! We can learn a lot about a place by simply exploring in GIS software.</p>
+<p>In addition to basic viewing, mapping, and quantifying of ecosystems using the EVH dataset, this data also supports various analyses and operations, such as:</p>
 <ul>
-<li><p><a href="https://www.mdpi.com/2571-6255/6/12/474">Heeren et al., (2023)</a> developed a model to map wildfire structure defensibility, using LANDFIRE Existing Vegetation Height (and other LANDFIRE) datasets. As delivered the dataset represents the average height of a lifeform. The authors did not need lifeform so wrangled the data into a continuous height dataset that did not have herbaceous, shrub or tree modifiers.</p></li>
-<li><p>In an exploration of how targeted cattle grazing might impact vegetation of a wetland habitat area, <a href="https://ntrs.nasa.gov/api/citations/20230006331/downloads/2023Spring_ID_SouthernIdahoEco_TechPaper_FD_v2.pdf">Balaji et al., (2023)</a> of a NASA Develop team used different versions of the EVH dataset. Coupled with other datasets they were able to detect changes in vegetation due to grazing, and to develop a workflow for future monitoring.</p></li>
-<li><p>Landscape Assessments: We often use LANDFIRE EVH in combination with EVT and EVC to better understand landscapes using something we call landscape assessments. We will have a later section of this website specifically dedicated to how we create landscape assessments using GIS and R.</p></li>
-<li><p>Succession Class: EVH, once again in combination with EVT and EVC, is a key component in the way LANDFIRE creates and maps succession class. Through Succession Class, EVC contributes to the calculation of Vegetation Departure and Vegetation Condition Class. We will discuss <a href="https://shagen37.github.io/LANDFIRE_101/LANDFIRE_Datasets/1_Vegetation/Succession_Class/1-succession-class.html">succession class</a> and <a href="https://shagen37.github.io/LANDFIRE_101/LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html">vegetation departure</a> in more detail in subsequent sections of this website.</p></li>
+<li><p><a href="https://www.mdpi.com/2571-6255/6/12/474">Heeren et al., (2023)</a> developed a model to <strong>map wildfire structure defensibility</strong>, using LANDFIRE Existing Vegetation Height (and other LANDFIRE) datasets. As delivered the dataset represents the average height of a lifeform. The authors did not need lifeform, so they wrangled the data into a continuous height dataset that did not have herbaceous, shrub or tree modifiers.</p></li>
+<li><p>In an exploration of <strong>how targeted cattle grazing might impact vegetation of a wetland habitat</strong> area, <a href="https://ntrs.nasa.gov/api/citations/20230006331/downloads/2023Spring_ID_SouthernIdahoEco_TechPaper_FD_v2.pdf">Balaji et al., (2023)</a> of a NASA Develop team used different versions of the EVH dataset. Coupled with other datasets they were able to detect changes in vegetation due to grazing, and to develop a workflow for future monitoring.</p></li>
+<li><p><strong>Landscape Assessments</strong>: We often use LANDFIRE EVH in combination with EVT and EVC to better understand landscapes using something we call landscape assessments. We will have a later section of this website specifically dedicated to how we create landscape assessments using GIS and R.</p></li>
+<li><p><strong>Succession Class</strong>: EVH, once again in combination with EVT and EVC, is a key component in the way LANDFIRE creates and maps succession class. Through Succession Class, EVH contributes to the calculation of <a href="https://www.landfire.gov/vegetation/vdep">Vegetation Departure</a> and <a href="https://www.landfire.gov/vegetation/vcc">Vegetation Condition Class</a>.</p></li>
 </ul>
 </section>
 <section id="helpful-resources" class="level1">
