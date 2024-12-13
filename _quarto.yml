@@ -99,7 +99,13 @@ format:
       dark: cyborg
     css: styles.css
     toc: false
-    page-layout: full
+    format:
+    grid:
+      sidebar-width: 300px
+      body-width: 1000px
+      margin-width: 200px
+      gutter-width: 2.25rem
+
 
 editor: source
 

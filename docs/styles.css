@@ -1,1 +1,33 @@
 /* css styles */
+
+/* Adjust the sidebar width */
+.quarto-sidebar {
+    width: 300px; /* Adjust this value as needed */
+}
+
+/* Adjust the body width */
+.quarto-body {
+    width: 1000px; /* Adjust this value to match the sidebar width */
+}
+
+/* Adjust the margin and gutter */
+.quarto-margin {
+    margin: 200px; /* Adjust this value as needed */
+}
+
+.quarto-gutter {
+    padding: 2.25rem; /* Adjust this value as needed */
+}
+
+/* font sizes */
+body {
+  font-size: 1rem; /* 16pt */
+}
+
+.callout {
+  font-size: 1rem;
+}
+
+.callout-body-container p {
+  font-size: 1rem;
+}

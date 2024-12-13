@@ -5,7 +5,7 @@ toc: true
 format: html
 ---
 
-# What you will find in this section?
+# What you will find in this section
 
 -   What LANDFIRE mosaics are
 
@@ -17,10 +17,10 @@ format: html
 
 # Full Extent Mosaics
 
-For users who want to assess larger landscapes (all of CONUS, the full US, or large regions encompassing multiple states or map zones), or users who frequently work in different landscapes around the US, we recommend downloading full extent mosaics. LANDFIRE delivers these as they are available for each product and each release. You can select which version, which theme (Disturbance, Fire Regime, Fuel, Reference, Topographic, Vegetation) and which region (CONUS, Alaska, Hawaii, Insular Areas) you are interested in.
+For users who want to assess larger landscapes (all of CONUS, the full US, or large regions encompassing multiple states or map zones), or users who frequently work in different landscapes around the US, we recommend downloading full extent mosaics. LANDFIRE delivers these as they are available for each product and each release. You can select which version, which theme (Disturbance, Fire Regime, Fuel, Reference, Topographic, Vegetation) and which region (CONUS, Alaska, Hawaii, Insular Areas). An additional benefit is that the files include attribute tables, which is not the case when using streaming services (see next section).
 
 ::: callout-important
-CONUS releases in GeoAreas (pieces) throughout the calendar year, so the latest version available may not include all of CONUS. See each specific version page [here](https://landfire.gov/data) for more information.
+CONUS releases data for GeoAreas throughout the calendar year, so the latest version available may not include all of CONUS. See each specific version page here for more information.
 :::
 
 # Accessing the Downloads page
@@ -31,11 +31,11 @@ You can download the full extent mosaics from the [Full Extent Downloads page](h
 
 1.  Click Get Data from the top navigation bar on the LANDFIRE Program website. This will take you directly to the [data page](https://landfire.gov/data) where you can access data.
 
-2.  Click “learn more” under the data heading on the main page of the LANDFIRE Program website. This is found in the center of the three boxes near the bottom of the page. This will take you directly to the [data page](https://landfire.gov/data) where you can access data.
+2.  Click learn more under the data heading on the main page of the LANDFIRE Program website. This is found in the center of the three boxes near the bottom of the page. This will take you directly to the [data page](https://landfire.gov/data) where you can access data.
 
 3.  You can arrive directly at the Full Extent Downloads page in several ways:
 
-    -   Scroll to the bottom of the main page of the LANDFIRE Program website and click “Full Extent Downloads”
+    -   Scroll to the bottom of the main page of the LANDFIRE Program website and click Full Extent Downloads
 
     -   From the data page you arrived at by clicking Get Data or Learn More following the processes in steps 1 or 2.
 
@@ -59,17 +59,17 @@ You can download the full extent mosaics from the [Full Extent Downloads page](h
 Not all datasets are available with every version. See the [data page on the LANDFIRE Program Website](https://landfire.gov/data#versions) to begin learning about versions.
 :::
 
-1.  Once you are on the Full Extent Downloads page, you will see three dropdown menus - one for version, one for Theme, and one for Region ID. These will help you limit your search so you can find the data you need more easily.
+1.  Once you are on the Full Extent Downloads page, you will see three dropdown menus - one for version, one for Theme, and one for Region ID. These will help you limit your search so you can find the data you need more easily. 
 
     -   For example, let’s search for LF 2022 Vegetation data for CONUS. To do so, we select Version: LF2022 - Theme: Vegetation, Region ID: CONUS, then hit apply. This narrows our search to only CONUS-wide vegetation projects from LANDFIRE 2022.
 
 ::: callout-tip
-If you would like multiple versions, multiple regions, or multiple themes of data, simply leave that dropdown as -Any- and you will have the option to download whichever datasets you’d like. You cannot select multiple items from the dropdowns, and you will need to download each dataset individually.
+If you would like multiple versions, multiple regions, or multiple themes of data, simply leave that dropdown as -Any- and you will have the option to download whichever datasets you’d like. You cannot select multiple items from the dropdowns, and you will need to download each dataset individually..
 :::
 
 2.  From here, we can select from EVC, EVH, EVT, SClass, VCC, and VDep. BpS is not an option because BpS data were not created in LF 2022. To find the most recent versions of your dataset of interest, see the [version comparison table](https://landfire.gov/data/comparison-table) on the LANDFIRE Program Website.
 
-3.  Find the dataset(s) you are interested in, and click the Download link to the right of the dataset name. This will begin downloading a zip file. The zipped data will likely land in your ’Downloads’ directory unless you specified another location.
+3.  Find the dataset(s) you are interested in and click the Download link to the right of the dataset name. This will begin downloading a zip file. The zipped data will likely land in your Downloads directory unless you specified another location.
 
 4.  Extract the data to a useful location, then begin using LANDFIRE data in your projects and analyses.
 

@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
@@ -335,7 +335,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#fuel-loading-models" id="toc-fuel-loading-models" class="nav-link" data-scroll-target="#fuel-loading-models">Fuel Loading Models</a></li>
   </ul></li>
   </ul></li>
-  <li><a href="#where-to-find-landfire-fuels-data" id="toc-where-to-find-landfire-fuels-data" class="nav-link" data-scroll-target="#where-to-find-landfire-fuels-data"><strong>Where to find LANDFIRE Fuels data</strong></a>
+  <li><a href="#where-to-find-landfire-fuels-data" id="toc-where-to-find-landfire-fuels-data" class="nav-link" data-scroll-target="#where-to-find-landfire-fuels-data">Where to find LANDFIRE Fuels data</a>
   <ul class="collapse">
   <li><a href="#screenshots-of-data-access-and-resources-on-the-succession-class-page" id="toc-screenshots-of-data-access-and-resources-on-the-succession-class-page" class="nav-link" data-scroll-target="#screenshots-of-data-access-and-resources-on-the-succession-class-page">Screenshots of Data Access and Resources on the Succession Class page</a></li>
   </ul></li>
@@ -344,7 +344,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../LANDFIRE_Datasets/2_Fuels/1_fuels.html">LANDFIRE Fuels Datasets</a></li><li class="breadcrumb-item"><a href="../../LANDFIRE_Datasets/2_Fuels/1_fuels.html">LANDFIRE Fuels</a></li></ol></nav>
 <div class="quarto-title">
@@ -353,7 +353,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-body">
+<div class="quarto-title-meta">
 
     <div>
     <div class="quarto-title-meta-heading">Author</div>
@@ -382,13 +382,13 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="what-are-landfire-fuels" class="level1">
 <h1>What are LANDFIRE Fuels?</h1>
-<p>Fuels are a downstream LANDFIRE product of particular importance to the wildland fire community. LANDFIRE provides spatial layers that represent both <a href="https://landfire.gov/fuel/fbfm13">Anderson 13</a> and <a href="https://landfire.gov/fuel/fbfm40">Scott and Burgan 40</a> Surface Fire Behavior Fuel Models (FBFM) in each delivered version. In addition, spatial layers of <a href="https://landfire.gov/fuel/cbd">Forest Canopy Bulk Density</a> and <a href="https://landfire.gov/fuel/cbh">Forest Canopy Base Height</a> are also provided. Refer to the links to learn how each of these layers is created.</p>
+<p>Fuels are downstream LANDFIRE products that represent composition and characteristics of life and dead vegetative matter which are of particular importance to the wildland fire community. LANDFIRE provides spatial layers that represent both <a href="https://landfire.gov/fuel/fbfm13">Anderson 13</a> and <a href="https://landfire.gov/fuel/fbfm40">Scott and Burgan 40</a> Surface Fire Behavior Fuel Models (FBFM) in each delivered version. In addition, spatial layers of <a href="https://landfire.gov/fuel/cbd">Forest Canopy Bulk Density</a> and <a href="https://landfire.gov/fuel/cbh">Forest Canopy Base Height</a> are also provided. Refer to the links to learn how each of these layers is created.</p>
 </section>
 <section id="how-are-landfire-fuels-data-created-and-updated" class="level1">
 <h1>How are LANDFIRE Fuels data created and updated?</h1>
 <section id="updating-fuels-for-landscape-disturbances" class="level2">
 <h2 class="anchored" data-anchor-id="updating-fuels-for-landscape-disturbances">Updating Fuels for Landscape Disturbances</h2>
-<p>As with all products, fuels layers are only updated for disturbed pixels. The LANDFIRE version name refers to the latest landscape disturbances that have been included. Prior to LF2023, 10 years of disturbance were updated, e.g., in LF2022 disturbances from 2013 – 2022 are used to update vegetation and fuels. In LF 2023 20 years of disturbance were included representing landscape changes from 2004 – 2023. For LF2001 – LF2014 versions pixels not identified as disturbed by LANDFIRE represent conditions in 2001, the most recent prior update. For LF2016 – 2023 pixels not identified as disturbed represent conditions in 2016, the most recent prior update.</p>
+<p>As with all LANDFIRE current time period spatial products, fuels layers are only updated for disturbed pixels. The LANDFIRE version name refers to the latest landscape disturbances that have been included. Prior to LF2023, 10 years of disturbance were updated, e.g., in LF2022 disturbances from 2013 – 2022 are used to update vegetation and fuels. In LF 2023 20 years of disturbance were included representing landscape changes from 2004 – 2023. For LF2001 – LF2014 versions pixels not identified as disturbed by LANDFIRE represent conditions in 2001, the most recent prior update. For LF2016 – 2023 pixels not identified as disturbed represent conditions in 2016, the most recent prior update.</p>
 </section>
 <section id="capable-fuels" class="level2">
 <h2 class="anchored" data-anchor-id="capable-fuels">Capable Fuels</h2>
@@ -399,7 +399,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>Some key LANDFIRE Fuels Products</h1>
 <section id="mod-fis-seasonally-adjusted-fuels" class="level2">
 <h2 class="anchored" data-anchor-id="mod-fis-seasonally-adjusted-fuels">Mod-FIS Seasonally Adjusted Fuels</h2>
-<p>Standard LANDFIRE surface fuel products assume a typical weather year and are constant. However, wildland fuels are not necessarily static. They can vary across a year due to weather patterns, excessive rain, drought, etc. LANDFIRE initiated the Modeling Dynamic Fuel with an Index System (<a href="https://www.landfire.gov/fuel/lfmodfis">MoD-FIS</a>) to adjust the most recently released LANDFIRE 40 Scott &amp; Burgan Fire Behavior Fuel Model (FBFM40) product to reflect drought or seasonable moisture conditions in some areas of the Continental US. This product can improve the accuracy of fire behavior predictions if the local weather has been different from normal. MoD-FIS products are created for two specific regional fuel situations (1) drought conditions in the Southeast and parts of the Northeast United States (U.S.) and (2) greater than normal abundance of annual herbaceous fuel loading in the Great Basin and Southwest U.S.</p>
+<p>Standard LANDFIRE surface fuel products assume a typical weather year and are constant. However, wildland fuels are not necessarily static. They can vary across a year due to weather patterns, excessive rain, drought, etc. LANDFIRE initiated the Modeling Dynamic Fuel with an Index System (<a href="https://www.landfire.gov/fuel/lfmodfis">MoD-FIS</a>) to adjust the most recently released Scott and Burgan 40 Fire Behavior Fuel Model (FBFM40) product to reflect drought or seasonable moisture conditions in some areas of the Continental US. This product can improve the accuracy of fire behavior predictions if the local weather has been different from normal. MoD-FIS products are created for two specific regional fuel situations (1) drought conditions in the Southeast and parts of the Northeast United States (U.S.) and (2) greater than normal abundance of annual herbaceous fuel loading in the Great Basin and Southwest U.S. LANDFIRE is currently considering renaming this product, so be aware that it could change in the future.</p>
 </section>
 <section id="landfire-total-fuels-change-tool" class="level2">
 <h2 class="anchored" data-anchor-id="landfire-total-fuels-change-tool">LANDFIRE Total Fuels Change Tool</h2>
@@ -418,9 +418,22 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 <section id="where-to-find-landfire-fuels-data" class="level1">
-<h1><strong>Where to find LANDFIRE Fuels data</strong></h1>
+<h1>Where to find LANDFIRE Fuels data</h1>
 <p>The fuels data products are included in the <a href="https://landfire.gov/fuel">Fuel section</a> of the LANDFIRE Program Website. You can access this from the buttons across the top of the page (#1 in the screenshot below).</p>
 <p>Here you will find general information about some of the products mentioned above. The page also includes links to all fuel products delivered by LANDFIRE (#2 in the screenshot below). Each fuels-specific product page has more information on that fuels product along with links to download the fuel product - via the LANDFIRE Map Viewer, full extent downloads, and a variety of ways to stream data into your maps. The page also includes resources such as attribute tables, metadata, and supplemental information.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In a <a href="../../../Get_Data/1-ways-to-get-data.qmd">later section of this site</a>, you will learn more about the differences between these download methods and how to access data via each method.</p>
+</div>
+</div>
 <section id="screenshots-of-data-access-and-resources-on-the-succession-class-page" class="level2">
 <h2 class="anchored" data-anchor-id="screenshots-of-data-access-and-resources-on-the-succession-class-page">Screenshots of Data Access and Resources on the Succession Class page</h2>
 <div class="quarto-figure quarto-figure-center">
@@ -437,7 +450,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="https://www.landfire.gov/fuel/lfmodfis">Modeling Dynamic Fuels with and Index System</a> (MoD-FIS)</p></li>
 <li><p><a href="https://www.landfire.gov/fuel/fuel_rulesets_db">Fuel Rulesets Database</a></p></li>
 <li><p><a href="https://www.landfire.gov/resources/lftfc">LANDFIRE Total Fuels Change Tool</a> (LFTFC)</p></li>
-<li><p><a href="https://wildfirerisk.org/">Wildfire Risk to Communities</a> uses LANDFIRE fuels to provide a free, easy-to-use website with interactive maps, charts, and resources to help communities understand, explore, and reduce wildfire risk.</p></li>
+<li><p><a href="https://wildfirerisk.org/">Wildfire Risk to Communities</a> uses LANDFIRE fuels to provide a free, easy-to-use website with interactive maps, charts, and resources to help communities understand, explore, and reduce wildfire risk</p></li>
+<li><p><a href="https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/Updating%20LF%20fuels%20data_Mar%2021_Blankenship.pdf">Updating LANDFIRE fuels data for recent wildfires</a> pdf guide</p></li>
+<li><p>The <a href="https://shagen37.github.io/LANDFIRE_101/LANDFIRE_Datasets/1_Vegetation/Existing_Vegetation/Balaji%20et%20al.,%20(2023)">Modifying LANDFIRE Geospatial Data for Local Applications</a> guide</p></li>
+<li><p><a href="https://youtu.be/FNtey0ALZK4">LANDFIRE Office Hour: Acquiring and using LANDFIRE fuels data in geospatial modeling applications</a> (opens a YouTube video)</p></li>
 </ul>
 
 
