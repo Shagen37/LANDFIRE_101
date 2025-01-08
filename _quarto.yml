@@ -4,6 +4,7 @@ project:
 
 website:
   title: "LANDFIRE 101"
+  page-navigation: true
   sidebar: 
     style: "docked"
     search: true
@@ -45,11 +46,24 @@ website:
           - href: Get_Data/3-full-extent-mosaics.qmd
           - href: Get_Data/4-LANDFIRE-data-streaming.qmd
           - href: Get_Data/5-rlandfire.qmd
+
     
     
   body-footer: |
-    {% include 'footer.html' %}
-      
+    # Still have questions? LANDFIRE is here to help.
+
+    -   Ask the [LANDFIRE Helpdesk](mailto:helpdesk@landfire.gov?subject=landfirehelp) (email link).
+
+    -   Search the [LANDFIRE Helpdesk Dashboard](https://landfire.gov/helpdesk) to see what others are asking and find solutions to common problems.
+
+    -   Search and subscribe to the [LANDFIRE YouTube Channel](https://www.youtube.com/@LANDFIREvideo) (see tutorials, Office Hours, quick demonstrations).
+
+    -   [Join an Office Hour](https://tnc.zoom.us/meeting/register/tJwvcOqopz4uHNbBBWNoFeLIHpdH8YFO7QLS) (monthly meeting with open format Q & A with LANDFIRE experts).
+
+    -   [Schedule a meeting](mailto:landfire@tnc.org?subject=landfirehelp) (email link) with TNC’s LANDFIRE Team.
+    
+    
+    # navbar:
 
 format:
   html:
