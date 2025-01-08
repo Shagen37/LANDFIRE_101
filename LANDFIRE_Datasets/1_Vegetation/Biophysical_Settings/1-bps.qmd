@@ -83,7 +83,7 @@ The integration of BpS spatial data, modeled BpS reference conditions, Successio
 
 Additionally, the BpS spatial data contribute to the creation of the [Fire Behavior and Fuels Modeling (FBFM) Ruleset](https://www.landfire.gov/fuel/fuel_rulesets_db).
 
-![*LANDFIRE Biophysical Settings Related Datasets*](https://www.landfire.gov/sites/default/files/inline-images/BpS_datasets.jpg){fig-alt="LANDFIRE BpS Related Datasets: BpS Descriptions Documents, BpS Descriptions Access Database, Historical Fire Regime Spatial Data, BpS Spatial Data, Vegetation Departure Spatial Data, Reference Condition Table, ST-Sim Reference Condition Models, Succession Class Mapping Rules. BpS code is the link."}
+![*LANDFIRE Biophysical Settings Related Datasets*](images/BpS_datasets.jpg){fig-alt="LANDFIRE BpS Related Datasets: BpS Descriptions Documents, BpS Descriptions Access Database, Historical Fire Regime Spatial Data, BpS Spatial Data, Vegetation Departure Spatial Data, Reference Condition Table, ST-Sim Reference Condition Models, Succession Class Mapping Rules. BpS code is the link."}
 
 The BpS Code serves as a crucial link connecting the various datasets within the LANDFIRE BpS framework. This [interconnected framework](https://tnc.app.box.com/s/jyostw32akl86j3s9q3481tjmkus9w58) ensures that all aspects of BpS are comprehensively analyzed and utilized, supporting effective ecological management and planning.
 

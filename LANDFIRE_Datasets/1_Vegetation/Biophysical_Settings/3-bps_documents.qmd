@@ -41,9 +41,11 @@ While we typically work with one or a small set of BpSs, there are times when do
 
 ![You can find the Biophysical Settings Models and Descriptions page from the Vegetation page on the LANDFIRE Program website.](images/6-bps-models-page.bmp){fig-alt="The Vegetation Page on the LANDFIRE Program website. There are three boxes with the headings Current Vegetation, Modeled Vegetation, and Vegetation Classes. An arrow points to the second link in the Modeled Vegetation section, Biophysical Settings models and Descriptions" fig-align="center"}
 
+
 ### Screenshot for downloading and unzipping all BpS descriptions
 
 ![Where to click to download all BpS descriptions](images/7-bps-models-download.bmp){fig-alt="The bottom of the BpS Models and Descriptions page of the LANDFIRE Program website. There are two boxes with the headings Revised CONUS and Hawaii and Original Alaska. Arrows point to the second link below each heading, BpS Descriptions" fig-align="center"}
+
 
 # Downloading one or a set of BpS documents
 
@@ -97,9 +99,12 @@ Beware when clicking the ‘Download All Search Results Documents’ button. If 
 
 [![Three ways to select your BpS(s) of interest](images/ways_to_select.png){fig-alt="The search page of the LANDFIRE BpS Models and Descriptions Support website. There are three numbers on the page. #1 is over the Vegetation Types checkboxes in the upper left sidebar. #2 is over the Map Zones checkboxes in the lower left sidebar. #3 is over the search bar at the top of the main page section" fig-align="center"}](https://landfirereview.org/search.php)
 
+
 [![Downloading all BpS from filtering by 'Vegetation Types' and/or 'Map Zones'](images/download_all.png){fig-alt="The search page of the LANDFIRE BpS Models and Descriptions Support website. An arrow points to the 'Download All Search Results Documents' button in the right sidebar" fig-align="center"}](https://landfirereview.org/search.php)
 
+
 [![Downloading selected BpS](images/download_selected.png){fig-alt="The search page of the LANDFIRE BpS Models and Descriptions Support website. The right sidebar now reads 'Documents selected for download:' then shows the names of the selected Biophysical settings. Below this are two buttons reading Download All Selected Documents and Remove All Selected Documents" fig-align="center"}](https://landfirereview.org/search.php)
+
 
 # What’s in a BpS document?
 
@@ -153,6 +158,7 @@ Fire interval is expressed in years for each fire severity class and for all typ
 LANDFIRE did not attempt to map where succession classes were prior to European colonization, as they would have moved around. This table is used to map where succession classes are today. For example, in the ‘Succession Class Table’ below we have highlighted combinations of Existing Height and Cover (and lifeform) that would be mapped as Succession Class A.
 
 [![](images/sclass_table.png){fig-alt="A succession class table showing the Mapping Rules, Upper Layer Lifeform (herb, shrub, or tree), the vegetation height, and several columns of canopy cover in groups of 10 (i.e. 0 - 10, 11 - 20, etc.). Below the Canopy Cover % groups is a letter corresponding to the succession class. A purple box around 6 boxes corresponding to tree 0-5m, 71-80% canopy, 81 -90% canopy, and 91 - 100% canopy and tree 5-10m with the same canopy covered percents shows that those classes should be in succession Class A." fig-align="center"}](https://landfirereview.org/search.php)
+
 
 ::: callout-tip
 LANDFIRE also delivers a [succession class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads a zip file). The spreadsheet contains rules for mapping the states of every BpS including additional mapping criteria that are not included in the description document. We suggest that users refer to the rules in the description document to get a basic understanding of succession class structure. Users that need a complete and detailed ruleset should use the mapping rules spreadsheet. You can find that spreadsheet on the [Biophysical Settings Description and Quantitative Models page](https://landfire.gov/vegetation/bps-models) of the LANDFIRE Program website.

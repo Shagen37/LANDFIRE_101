@@ -65,9 +65,12 @@ The LANDFIRE spatial data layers allow for display and analysis on multiple attr
 
 ![Biophysical Settings data for the contiguous United States (CONUS) are displayed on the BpS_Name attribute. In this map Biophysical Settings are grouped into seven major vegetation classes and displayed using one color family for each class. This map was designed using a custom color ramp created by Sarah Hagen.](images/2-bps-map-name.bmp){fig-alt="A map of the Biophysical Settings data for the Contiguous United States. Text across the top reads 'Biophysical Settings Name'." fig-align="center"}
 
+
 ![Biophysical Settings data for the contiguous United States (CONUS) are displayed on the GROUPVEG attribute. In this map Biophysical Settings are displayed using one color for each major vegetation group (conifer, mixed hardwood-conifer, hardwood, grassland, savannah, riparian, shrubland, sparse vegetation). This map was designed using a custom color ramp created by Sarah Hagen.](images/3-bps-map-group.bmp){fig-alt="A map of the Biophysical Settings data for the Contiguous United States. Text across the top reads 'Biophysical Settings Group'." fig-align="center"}
 
+
 ![Biophysical Settings data for the contiguous United States (CONUS) are displayed on the FRG_NEW attribute. This map explores the fire regime attributes of the Biophysical Settings data, with more frequent fire areas in reds and oranges, moderate frequency fire areas in yellow and pale green, and lower frequency fire areas in shades of blue. This map was designed using a custom color ramp created by Sarah Hagen.](images/4-bps-map-frg.bmp){fig-alt="A map of the Biophysical Settings data for the Contiguous United States displayed on Fire Regime attributes. Text across the top reads 'Fire Regime Groups'." fig-align="center"}
+
 
 # Where to find BpS data
 
@@ -80,6 +83,7 @@ In a [later section of this site](../../../Get_Data/1-ways-to-get-data.qmd), you
 :::
 
 ![Screenshot of Data Access and Resources on the Biophysical Settings data page](images/5-bps-spatial-lfgov.bmp){fig-alt="Location on landfire.gov, the LANDFIRE Program website, of where to find the Data Access and Resources sections of the Biophysical Settings data page. When you browse to landfire.gov/vegetation/bps, these resources are near the bottom of the page under the Data Access and Biophysical Settings Resources headings."}
+
 
 ::: callout-tip
 Pro tip: We recommend using the most recent BpS data.  If you are already using previous versions, please be aware of some important changes including:

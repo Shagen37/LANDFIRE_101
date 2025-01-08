@@ -71,6 +71,7 @@ Other common uses of the RCT include:
 
 ![*Reference vs. current succession classes for the Southern Rockies ecoregion.*](images/RCT_ReferencePercents.png){fig-alt="Six separate bar charts showing Succession classes (A, B, C, D, E, UN, UE, Agriculture, Developed) on the Y axis and present and past amounts of each class on the x axis. These charts analyze six different Biophysical Settings to compare past and current successional classes on this landscape."}
 
+
  **Understanding the relative proportion of surface, mixed, and replacement fire severity** for a given BpS.
 
 **Comparing fire frequency, severity, and fire regime** between BpS.
@@ -92,6 +93,7 @@ The following chart depicts annual acres burned, all fire types, for the most do
 
 ![Annual acres burned for all fire types in the Southern Rockies biophysical settings.](images/RCT_AcresBurned.png)
 
+
 The reference conditions table is important in landscape assessments and LANDFIRE’s vegetation departure, both of which we will discuss more in-depth in future sections of this learning website.
 
 # Where to find the Reference Conditions Table
@@ -101,6 +103,7 @@ The RCT is downloadable on the [Bps Models page of the LANDFIRE Program website]
 To access the file, open the .csv in Excel, R, or any other program you use to view .csv files.
 
 ![*Where to download the Reference Conditions Table*](images/RCT_Download.bmp){fig-alt="The LANDFIRE Program website showing arrows pointing to Reference Conditions under \"Revised CONUS and Hawaii\" and \"Original Alaska\" beneath the Download Bps Models and Descriptions heading."}
+
 
 # Helpful Resources
 

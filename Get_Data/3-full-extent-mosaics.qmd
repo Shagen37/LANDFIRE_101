@@ -43,15 +43,20 @@ You can download the full extent mosaics from the [Full Extent Downloads page](h
 
 ## Screenshots for accessing the downloads page
 
-![From the top navigation on the LANDFIRE Program website](images/Get-data-topnav.bmp){fig-alt="An arrow points to the Get Data link in the top navigation bar of the LANDFIRE Program Website."}
+![From the top navigation on the LANDFIRE Program website](Images/Get-data-topnav.bmp){fig-alt="An arrow points to the Get Data link in the top navigation bar of the LANDFIRE Program Website."}
 
-![From the Learn More button under the Data heading on the main page of the LANDFIRE Program website](images/get_data.bmp){fig-alt="The main page of the LANDFIRE Program website. An arrow points to the Learn More button under the Data heading - the middle of three boxes across the main section of the page."}
 
-![From the bottom of the main page](images/full-extent-main.bmp){fig-alt="The main page of the LANDFIRE Program website. An arrow points to the Learn More button under the Data heading - the middle of three boxes across the main section of the page."}
+![From the Learn More button under the Data heading on the main page of the LANDFIRE Program website](Images/get_data.bmp){fig-alt="The main page of the LANDFIRE Program website. An arrow points to the Learn More button under the Data heading - the middle of three boxes across the main section of the page."}
 
-![From the data page](images/full-extent-data.bmp){fig-alt="The data page of the LANDFIRE Program website. An arrow points to the Full Extent Downloads section - the middle of three boxes across the main section of the page."}
 
-![From the From the individual product page](images/full-extent-product.bmp){fig-alt="A product page on the LANDFIRE Program website. An arrow points to the Full Extent Downloads section - the middle of three boxes across the main section of the page."}
+![From the bottom of the main page](Images/full-extent-main.bmp){fig-alt="The main page of the LANDFIRE Program website. An arrow points to the Learn More button under the Data heading - the middle of three boxes across the main section of the page."}
+
+
+![From the data page](Images/full-extent-data.bmp){fig-alt="The data page of the LANDFIRE Program website. An arrow points to the Full Extent Downloads section - the middle of three boxes across the main section of the page."}
+
+
+![From the From the individual product page](Images/full-extent-product.bmp){fig-alt="A product page on the LANDFIRE Program website. An arrow points to the Full Extent Downloads section - the middle of three boxes across the main section of the page."}
+
 
 # Downloading Data
 
@@ -79,11 +84,14 @@ Many of the full extent mosaics are very large files. The downloads will take se
 
 ## Screenshots for downloading data from the Full Extent Downloads page
 
-![The Full Extent Downloads page](images/full-extent-downloads.bmp){fig-alt="The full extent downloads page on the LANDFIRE Program Website. There are three dropdown boxes: Version, theme, and region ID."}
+![The Full Extent Downloads page](Images/full-extent-downloads.bmp){fig-alt="The full extent downloads page on the LANDFIRE Program Website. There are three dropdown boxes: Version, theme, and region ID."}
 
-![Using the dropdowns to select LF2022 vegetation products for CONUS](images/full-extent-downloads-dropdowns.bmp){fig-alt="The full extent downloads page on the LANDFIRE Program Website. There are three dropdown boxes: Version, theme, and region ID. The version box shows LF 2022. The theme box shows Vegetation. The Region ID box has CONUS highlighted in the dropdown list."}
 
-![Downloading a dataset](images/full-extent-downloads-vegdownloads.bmp){fig-alt="The full extent downloads page on the LANDFIRE Program Website. An arrow points to the download link next to the Existing Vegetation Type - EVT section of the page."}
+![Using the dropdowns to select LF2022 vegetation products for CONUS](Images/full-extent-downloads-dropdowns.bmp){fig-alt="The full extent downloads page on the LANDFIRE Program Website. There are three dropdown boxes: Version, theme, and region ID. The version box shows LF 2022. The theme box shows Vegetation. The Region ID box has CONUS highlighted in the dropdown list."}
+
+
+![Downloading a dataset](Images/full-extent-downloads-vegdownloads.bmp){fig-alt="The full extent downloads page on the LANDFIRE Program Website. An arrow points to the download link next to the Existing Vegetation Type - EVT section of the page."}
+
 
 # Helpful Resources
 

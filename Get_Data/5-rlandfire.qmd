@@ -55,4 +55,5 @@ The basic workflow is similar across all methods. Steps include:
 
 ### Screenshot of package in use:
 
-![](images/rlandfire.png){fig-alt="An R Studio window showing the code for the rlandfire package with a small map in the bottom right corner."}
+![](Images/rlandfire.png){fig-alt="An R Studio window showing the code for the rlandfire package with a small map in the bottom right corner."}
+

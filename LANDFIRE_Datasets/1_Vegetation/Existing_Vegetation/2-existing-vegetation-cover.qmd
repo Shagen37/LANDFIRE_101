@@ -18,6 +18,7 @@ format: html
 # Existing Vegetation Cover
 ![LANDFIRE maps Existing Vegetation Cover data for the entire United States, including Alaska, Hawaii, Puerto Rico and the US Virgin Islands. Vegetation is divided into lifeforms and then displayed with a continuous color ramp (lowest percentage cover to highest percentage cover) within each lifeform. This map was designed with a custom color ramp created by Sarah Hagen.](images/7-evc-map.bmp){fig-alt="A map of LANDFIRE Existing Vegetation Cover for the Contiguous US, Alaska, Hawaii, and Puerto Rico and the US Virgin Islands."}
 
+
 [LANDFIRE’s Existing Vegetation Cover dataset](https://www.landfire.gov/vegetation/evc), also known as EVC, works in tandem with the [Existing Vegetation Type dataset](https://www.landfire.gov/vegetation/evt) to give a more detailed picture of the current vegetation on a landscape. EVC represents the percent cover of the live canopy layer for a 30-m cell.
 
 EVC is generated separately for tree, shrub, and herbaceous cover lifeforms using training data and other geospatial layers. Only the primary upper layer lifeform is provided in each pixel. Percentage tree, shrub, and herbaceous canopy cover training data are generated using plot-level ground-based visual assessments and lidar observations.
@@ -49,7 +50,9 @@ In a [later section of this site](../../../Get_Data/1-ways-to-get-data.qmd), you
 
 ![Screenshot of where to locate the Existing Vegetation Cover data page on the LANDFIRE Program website](images/8-evc-lfgov.bmp){fig-alt="Arrow pointing to the Existing Vegetation Cover link on the Vegetation page of the LANDFIRE Program website main page under the Current Vegetation section."}
 
+
 ![Screenshot of Data Access and Resources on the Existing Vegetation Cover data page ](images/9-evc-page.bmp){fig-alt="Location on landfire.gov, the LANDFIRE Program website, of where to find the Data Access and Resources sections of the Existing Vegetation Cover data page. When you browse to landfire.gov/vegetation/evc, these resources are near the bottom of the page under the Data Access and Existing Vegetation Cover Resources headings."}
+
 
 # Some uses for Existing Vegetation Cover data
 

@@ -19,6 +19,7 @@ format: html
 
 ![LANDFIRE delivers Existing Vegetation Type data for the entire United States, including Alaska, Hawaii, Puerto Rico and the US Virgin Islands. More than 1000 Existing Vegetation Types are grouped into seven major vegetation classes and displayed using one color family for each class. This map was designed with a custom color ramp created by Sarah Hagen.](images/1-EVT-map.bmp){fig-alt="A map of LANDFIRE Existing Vegetation Type for the Contiguous US, Alaska, Hawaii, and Puerto Rico and the US Virgin Islands."}
 
+
 LANDFIRE's Existing Vegetation Type (EVT-ES) represents the current distribution of the terrestrial ecological systems classification, developed by NatureServe for the western hemisphere, through 2016. A terrestrial ecological system is defined as a group of plant community types (associations) that tend to co-occur within landscapes with similar ecological processes, substrates, and/or environmental gradients. EVT is mapped using a combination of satellite imagery, biophysical gradient layers, and field plots. For more on this, see the [LANDFIRE technical documentation](https://www.usgs.gov/publications/landfire-technical-documentation).
 
 EVT also includes ruderal or semi-natural vegetation types within the [U.S. National Vegetation Classification](https://usnvc.org/) (NVC). The [LANDFIRE Ruderal NVC Groups Descriptions for CONUS](https://landfire.gov/sites/default/files/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf) provides info for each ruderal NVC Group, including species, distribution, and classification details. At this time, EVT (and other LANDFIRE vegetation layers) extend 90km past the United States border into Mexico and Canada, allowing some crosswalk of EVT and other vegetation systems.
@@ -27,7 +28,7 @@ EVT also includes ruderal or semi-natural vegetation types within the [U.S. Nati
 EVT's were created based on the NatureServe terrestrial ecosystems classification. You can still find information on these data under [Existing Vegetation Type - Ecological Systems](https://landfire.gov/vegetation/evt). Additional information about each of these ecological systems classifications can be found on the separate product pages on the [LANDFIRE Program Website](https://landfire.gov/vegetation). Due to the differences in the classification, over time, users should be careful when comparing different EVT versions.
 :::
 
-## Key EVT Attributes include:
+## Key EVT attributes include:
 
 -   **EVT_Name**: Ecological Systems names
 
@@ -59,9 +60,12 @@ The LANDFIRE spatial data layers allow for display and analysis at varying level
 
 ![Existing Vegetation Type data for the contiguous United States (CONUS) are displayed on the EVT_Name attribute. In this map Existing Vegetation Type data are grouped into seven major vegetation classes and displayed using one color family for each class, with each EVT getting its own specific color code. This map was designed using a custom color ramp created by Sarah Hagen.](images/2-evt-map-name.bmp){fig-alt="A map of the Existing Vegtation Type data for the Contiguous United States. Text across the top reads 'EVT Name'." fig-align="center"}
 
+
 ![Existing Vegetation Type data for the contiguous United States (CONUS) are displayed on the EVT_Phys attribute. In this map Existing Vegetation Type data are grouped into thirteen major classes and displayed using one color for each class. This map was designed using a custom color ramp created by Sarah Hagen.](images/3-evt-map-phys.bmp){fig-alt="A map of the Existing Vegetation Type data for the Contiguous United States. Text across the top reads 'EVT Physiognomy'." fig-align="center"}
 
+
 ![Existing Vegetation Type data for the contiguous United States (CONUS) are displayed on the EVT_LF attribute. In this map Existing Vegetation Type data are grouped into eight major classes and displayed using one color for each class. This map was designed using a custom color ramp created by Sarah Hagen.](images/4-evt-map-lifeform.bmp){fig-alt="A map of the Existing Vegetation Type data for the Contiguous United States. Text across the top reads 'EVT Lifeform'." fig-align="center"}
+
 
 # Where to find Existing Vegetation Type data
 
@@ -77,7 +81,9 @@ In a [later section of this site](../../../Get_Data/1-ways-to-get-data.qmd), you
 
 ![Screenshot of where to locate the Existing Vegetation Type data page on the LANDFIRE Program website](images/5-evt-lfgov.bmp){fig-alt="Arrow pointing to the Existing Vegetation Type - Ecological Systems link on the Vegetation page of the LANDFIRE Program website main page under the Current Vegetation section."}
 
+
 ![Screenshot of Data Access and Resources on the Existing Vegetation Type data page ](images/6-evt-page.bmp){fig-alt="Location on landfire.gov, the LANDFIRE Program website, of where to find the Data Access and Resources sections of the Existing Vegetation Type data page. When you browse to landfire.gov/vegetation/evt, these resources are near the bottom of the page under the Data Access and Existing Vegetation Type Resources headings."}
+
 
 # Some interesting uses of Existing Vegetation Type data
 

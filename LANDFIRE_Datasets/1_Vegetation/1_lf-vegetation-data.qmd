@@ -1,5 +1,5 @@
 ---
-title: "LANDFIRE vegetation Datasets: An Overview"
+title: "LANDFIRE Vegetation Datasets: An Overview"
 author: "Sarah Hagen"
 toc: true
 format: html

@@ -16,7 +16,7 @@ format: html
 
 # What are LANDFIRE Fuels?
 
-Fuels are downstream LANDFIRE products that represent composition and characteristics of life and dead vegetative matter which are of particular importance to the wildland fire community. LANDFIRE provides spatial layers that represent both [Anderson 13](https://landfire.gov/fuel/fbfm13) and [Scott and Burgan 40](https://landfire.gov/fuel/fbfm40) Surface Fire Behavior Fuel Models (FBFM) in each delivered version. In addition, spatial layers of [Forest Canopy Bulk Density](https://landfire.gov/fuel/cbd) and [Forest Canopy Base Height](https://landfire.gov/fuel/cbh) are also provided. Refer to the links to learn how each of these layers is created.
+Fuels are downstream LANDFIRE products that represent composition and characteristics of live and dead vegetative matter which are of particular importance to the wildland fire community. LANDFIRE provides spatial layers that represent both [Anderson 13](https://landfire.gov/fuel/fbfm13) and [Scott and Burgan 40](https://landfire.gov/fuel/fbfm40) Surface Fire Behavior Fuel Models (FBFM) in each delivered version. In addition, spatial layers of [Forest Canopy Bulk Density](https://landfire.gov/fuel/cbd) and [Forest Canopy Base Height](https://landfire.gov/fuel/cbh) are also provided. Refer to the links to learn how each of these layers is created.
 
 # How are LANDFIRE Fuels data created and updated?
 
@@ -28,11 +28,11 @@ As with all LANDFIRE current time period spatial products, fuels layers are only
 
 Capable fuels are updated to represent conditions of the year of delivery of the data. LF 2016 fuels products in disturbed areas were revised to forecast 2019 or 2020 vegetation conditions for disturbances that occurred between 2009-2016 or 2010-2016, respectively, making the fuels products [2019 or 2020 capable](https://landfire.gov/data/lf2016). LF 2016 capable fuels layers better represent current wildfire behavior on the landscape for the year of delivery. The fuel products with the capable fuels functionality were Fuel Disturbance, Canopy Height, Canopy Cover/Base Density/Base Height, Fire Behavior Fuel Model 13 and 40, Fuel Vegetation Cover/Type/Height, and Fuel Characteristic Classification System.
 
-# Some key LANDFIRE Fuels Products
+# Some key LANDFIRE Fuels products
 
 ## Mod-FIS Seasonally Adjusted Fuels
 
-Standard LANDFIRE surface fuel products assume a typical weather year and are constant. However, wildland fuels are not necessarily static. They can vary across a year due to weather patterns, excessive rain, drought, etc. LANDFIRE initiated the Modeling Dynamic Fuel with an Index System ([MoD-FIS](https://www.landfire.gov/fuel/lfmodfis)) to adjust the most recently released Scott and Burgan 40 Fire Behavior Fuel Model (FBFM40) product to reflect drought or seasonable moisture conditions in some areas of the Continental US. This product can improve the accuracy of fire behavior predictions if the local weather has been different from normal. MoD-FIS products are created for two specific regional fuel situations (1) drought conditions in the Southeast and parts of the Northeast United States (U.S.) and (2) greater than normal abundance of annual herbaceous fuel loading in the Great Basin and Southwest U.S. LANDFIRE is currently considering renaming this product, so be aware that it could change in the future.
+Standard LANDFIRE surface fuel products assume a typical weather year and are constant. However, wildland fuels are not necessarily static. They can vary across a year due to weather patterns, excessive rain, drought, etc. LANDFIRE initiated the Modeling Dynamic Fuel with an Index System ([MoD-FIS](https://www.landfire.gov/fuel/lfmodfis)) to adjust the most recently released Scott and Burgan 40 Fire Behavior Fuel Model (FBFM40) product to reflect drought or seasonal moisture conditions in some areas of the Continental US. This product can improve the accuracy of fire behavior predictions if the local weather has been different from normal. MoD-FIS products are created for two specific regional fuel situations (1) drought conditions in the Southeast and parts of the Northeast United States (U.S.) and (2) greater than normal abundance of annual herbaceous fuel loading in the Great Basin and Southwest U.S. LANDFIRE is currently considering renaming this product, so be aware that it could change in the future.
 
 ## LANDFIRE Total Fuels Change Tool
 
@@ -58,9 +58,13 @@ Here you will find general information about some of the products mentioned abov
 In a [later section of this site](../../../Get_Data/1-ways-to-get-data.qmd), you will learn more about the differences between these download methods and how to access data via each method.
 :::
 
-## Screenshots of Data Access and Resources on the Succession Class page
+## Screenshots of Data Access and Resources on the Fuels page
 
 ![Screenshot of where to locate the Fuels data on the LANDFIRE Program website](images/Fuels_lfgov.bmp){fig-alt="Arrow labeled 1 pointing to the Fuels link on the top navigation bar of the LANDFIRE Program website main and an arrow labeled 2 pointing to three sections of that page - Surface Fuel, Canopy Fuel, and Fuel Vegetation - beneath which are all the LANDFIRE fuels datasets."}
+
+# Common mistakes with fuels data
+
+LANDFIRE Fuels products serve as a foundational resource, providing analysts with essential raster data for input into fire modeling software. These products require adjustments tailored to the specific year and local conditions of the area being modeled. Some analysts expect fuels products to operate 'out-of-the-box,' which can lead to the perception that LF fuels products are not accurate. Before dismissing these products as inaccurate, we recommend that users try fine-tuning your raster details to better align with local conditions.
 
 # Helpful Resources
 

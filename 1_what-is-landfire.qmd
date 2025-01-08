@@ -7,17 +7,17 @@ format: html
 
 # What does LANDFIRE provide?
 
-The LANDFIRE Program produces current, consistent, and comprehensive geospatial data sets and databases that describe vegetation, wildland fuels, and fire regimes for the entire United States, including Alaska, Hawai'i, and Puerto Rico and the US Virgin Islands. Most LANDFIRE products are delivered as geospatial data layers with 30-meter cell resolution, although not all products are spatial layers. Read the [LANDFIRE Technical Documentation}(https://pubs.usgs.gov/publication/ofr20231045) to learn how LANDFIRE creates these products. Use the [LANDFIRE Data Dictionary](https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf) to help understand and locate LANDFIRE product information. 
+The LANDFIRE Program produces current, consistent, and comprehensive geospatial data sets and databases that describe vegetation, wildland fuels, and fire regimes for the entire United States, including Alaska, Hawai'i, and Puerto Rico and the US Virgin Islands. Most LANDFIRE products are delivered as geospatial data layers with 30-meter cell resolution, although not all products are spatial layers. Read the \[LANDFIRE Technical Documentation](https://pubs.usgs.gov/publication/ofr20231045) to learn how LANDFIRE creates these products. Use the [LANDFIRE Data Dictionary](https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf) to help understand and locate LANDFIRE product information.
 
 ## LANDFIRE data products by category
 
 The table below shows a comprehensive list of all the datasets LANDFIRE provides in each of six categories, with links to where you can learn more about each dataset, explore attribute tables, and download data.
 
 | [Vegetation](https://landfire.gov/vegetation) | [Historical Fire Regime](https://landfire.gov/fire-regime) | [Fuel](https://landfire.gov/fuel) | [Disturbance](https://landfire.gov/disturbance) | [Topographic](https://landfire.gov/topographic) | [Reference](https://landfire.gov/reference) |
-|-------------|------------|------------|-----------|------------|------------|
+|----|----|----|----|----|----|
 | [Biophysical Settings](https://landfire.gov/vegetation/bps) | [Fire Regime Groups](https://landfire.gov/fire-regime/frg) | [13 Anderson Fire Behavior Fuel Models](https://landfire.gov/fuel/fbfm13) | [Annual Disturbance](https://landfire.gov/disturbance/annualdisturbance) | [Aspect](https://landfire.gov/topographic/aspect) | [Public Events Geodatabase](https://landfire.gov/reference/publicevents) |
 | [Environmental Site Potential](https://landfire.gov/vegetation/esp) | [Fire Return Interval](https://landfire.gov/fire-regime/fri) | [40 Scott and Burgan Fire Behavior Fuel Models](https://landfire.gov/fuel/fbfm40) | [Fuel Disturbance](https://landfire.gov/fuel/fdist) | [Elevation](https://landfire.gov/topographic/elevation) | [Public Reference Database (LFRDB)](https://landfire.gov/reference/lfrdb) |
-| [Existing Vegetation Cover](https://landfire.gov/vegetation/evc) | [Percent of Low-severity Fire](https://landfire.gov/fire-regime/pls) | [Canadian Forest Fire Danger Rating System](https://landfire.gov/fuel/cffdrs) | [Historical Disturbance](https://landfire.gov/disturbance/hdist) | [Slope](https://landfire.gov/topographic/slope) |  |
+| [Existing Vegetation Cover](https://landfire.gov/vegetation/evc) | [Percent of Low-severity Fire](https://landfire.gov/fire-regime/pls) | [Canadian Forest Fire Danger Rating System](https://landfire.gov/fuel/cffdrs) | [Historical Disturbance](https://landfire.gov/disturbance/hdist) | [Slope]([Slope](https://landfire.gov/topographic/slope)) |  |
 | [Existing Vegetation Height](https://landfire.gov/vegetation/evh) | [Percent of Mixed-severity Fire](https://landfire.gov/fire-regime/pms) | [Fuel Characteristic Classification System Fuelbed](https://landfire.gov/fuel/fccs) | [Vegetation Disturbance](https://landfire.gov/disturbance/vdist) |  |  |
 | [Existing Vegetation Type](https://landfire.gov/vegetation/evt) | [Percent of Replacement-severity Fire](https://landfire.gov/fire-regime/prs) | [Fuel Disturbance](https://landfire.gov/fuel/fdist) | [Public Events Geodatabase](https://landfire.gov/reference/publicevents) |  |  |
 | [Succession Class](https://landfire.gov/vegetation/sclass) |  | [Fuel Loading Models](https://landfire.gov/fuel/flm) | [Forest Transitions Database](https://landfire.gov/disturbance/lf_transitiontbls) |  |  |
@@ -28,6 +28,7 @@ The table below shows a comprehensive list of all the datasets LANDFIRE provides
 |  |  | [Fuel Vegetation Cover](https://landfire.gov/fuel/fvc) |  |  |  |
 |  |  | [Fuel Vegetation Height](https://landfire.gov/fuel/fvh) |  |  |  |
 |  |  | [Fuel Vegetation Type](https://landfire.gov/fuel/fvt) |  |  |  |
+
 
 # LANDFIRE versions
 
@@ -52,7 +53,7 @@ LANDFIRE data is currently available for the following extents, although not all
 LANDFIRE provides national, regional, and large landscape-scale products for landscape assessment, analysis, and management. This information supports efforts such as identification of areas with similar characteristics, prioritization exercises, modeling capacity and potential, and improving collaboration between landowners with common data sets and analytics. These products are extensively utilized by land managers for setting priorities, formulating management strategies, and devising action plans. Their applications extend beyond fire management to encompass climate change research, carbon sequestration planning, and habitat analysis. Key applications that use LANDFIRE products are the [Wildland Fire Decision Support System](https://wfdss.usgs.gov/) (WFDSS), [Interagency Fuels Treatment Decision Support System](https://iftdss.firenet.gov/landing_page/) (IFTDSS), [Terrestrial Condition Assessment](https://terrestrial-condition-assessment-usfs.hub.arcgis.com/), and [Watershed Condition Class](https://www.fs.usda.gov/naturalresources/watershed/condition_framework.shtml).
 
 ::: callout-note
-**A note on application scale** 
+**A note on application scale**
 
 Application scale in LANDFIRE refers to the minimum area size that the data creators aimed to represent accurately for specific applications. It’s not about detail or spatial resolution, but about the usefulness of the product when zoomed in. LANDFIRE provides data for the entire United States, but its application scale is large landscape, regional, and national. This means the data is accurate for large geographies but may not be precise for specific small areas within that geography. Therefore, understanding application scale is crucial when using LANDFIRE products, as it ensures the data represents the overall landscape faithfully for planning or analysis.
 

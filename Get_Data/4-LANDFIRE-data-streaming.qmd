@@ -15,7 +15,7 @@ format: html
 
 -   Helpful resources for accessing and using the LANDFIRE data streams
 
-# Accessing Data with LANDFIRE Data Streaming
+# Accessing data with LANDFIRE Data Streaming
 
 The LANDFIRE Data Streams are a practical option for those who don’t want to (or need to) download datasets and just want to use data for display. This option can also be used to stream data into ArcGIS Pro or ArcGIS Online for analysis. There are several ways you can access data via data stream, all of which are found on the [Data page](https://landfire.gov/data) of the LANDFIRE Program website under the ‘Stream Data’ heading.
 
@@ -23,7 +23,7 @@ We discuss each of these options in more depth below, and you can also find more
 
 ![](images/LF_datastream.bmp){fig-alt="An arrow points to the Stream Data section of the data page of the LANDFIRE Program Website."}
 
-# Accessing Data with LANDFIRE Products Service
+# Accessing data with LANDFIRE Products Service
 
 The LANDFIRE Products Service (LFPS) is a powerful tool that allows users to download various landscape data products. Here’s a quick overview to get you started:
 
