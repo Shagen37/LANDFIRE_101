@@ -71,3 +71,17 @@ body {
   }
 }
 
+
+/* Larger screens like laptops and monitors */
+@media (min-width: 1025px) {
+  .vegetation, .fireregime, .fuel, .disturbance, .reference {
+    flex: 1 1 18%; /* Five items in one row */
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+  }
+  
+  .header {
+    min-height: 90px; /* Set a minimum height for headers */
+  }
+}
+

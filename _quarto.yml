@@ -5,6 +5,7 @@ project:
 website:
   title: "LANDFIRE 101"
   page-navigation: true
+  google-analytics: G-7HYRRL98N6
   sidebar: 
     style: "docked"
     search: true
