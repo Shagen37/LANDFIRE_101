@@ -39,9 +39,10 @@ body {
   flex: 1 1 auto; /* Ensure content takes up remaining space */
 }
 
-.content ul {
+.datalist li {
   list-style-type: none;
   margin-left: 0;
+  margin-bottom: 10px;
   padding-left: 0;
 }
 
